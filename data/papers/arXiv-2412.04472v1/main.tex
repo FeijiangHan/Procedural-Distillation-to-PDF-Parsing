@@ -1,0 +1,102 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+% \usepackage{cvpr}              
+% \usepackage[review]{cvpr}      
+\usepackage[pagenumbers]{cvpr} 
+
+% Import additional packages in the preamble file, before hyperref
+\input{preamble}
+
+\newcommand{\notsosmall}{\fontsize{10pt}{12pt}\selectfont}
+
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+%%%%%%%%% TITLE 
+\title{Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching \\ Even Where Either Stereo or Mono Fail}
+
+%%%%%%%%% AUTHORS
+\author{Luca Bartolomei$^{*,\dagger}$ \hspace{0.7cm} Fabio Tosi$^\dagger$ \hspace{0.7cm} Matteo Poggi$^{*,\dagger}$  \hspace{0.7cm} Stefano Mattoccia$^{*,\dagger}$ \\
+\notsosmall $^*$Advanced Research Center on Electronic System (ARCES) \\ 
+\notsosmall $^\dagger$Department of Computer Science and Engineering (DISI) \\
+\notsosmall University of Bologna, Italy \\
+{\tt\small\{luca.bartolomei5, fabio.tosi5, m.poggi, stefano.mattoccia\}@unibo.it} \\
+\small\url{https://stereoanywhere.github.io/}
+}
+
+\begin{document}
+
+
+\twocolumn[{
+\renewcommand\twocolumn[1][]{#1}%
+\maketitle
+\vspace{-2.5em}
+\centering
+    \begin{tabular}{c@{\hskip 1pt}c@{\hskip 4pt}c@{\hskip 4pt}c@{\hskip 4pt}c@{\hskip 4pt}}
+        
+        & \small RGB
+        & \small Depth Anything v2 \cite{depth_anything_v2} 
+        & \small RAFT-Stereo \cite{lipson2021raft} 
+        & \small Stereo Anywhere (Ours) \\
+
+        \rotatebox[origin=c]{90}{\raisebox{0.08\textwidth}{\parbox[c][0.10\textwidth][c]{0.10\textwidth}{\centering\small Middlebury}}}\hspace{-3.5em} &
+        \includegraphics[width=0.2\textwidth]{imgs/middlebury/rgb/2.jpg} &
+        \begin{overpic}[width=0.2\textwidth]{imgs/middlebury/mono/2.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic}&
+        \begin{overpic}
+        [width=0.2\textwidth]{imgs/middlebury/stereo/2.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic}&
+        \begin{overpic}[width=0.2\textwidth]{imgs/middlebury/ours/2.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic} \vspace{0.12cm}\\
+
+        \rotatebox[origin=c]{90}{\raisebox{0.08\textwidth}{\parbox[c][0.10\textwidth][c]{0.10\textwidth}{\centering\small Booster }}}\hspace{-3.5em}  &
+        \includegraphics[clip,trim=0cm 4cm 0cm 0cm,width=0.2\textwidth]{imgs/booster/rgb/26.jpg} &
+        \begin{overpic}[clip,trim=0cm 4cm 0cm 0cm,width=0.2\textwidth]{imgs/booster/mono/26.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic}&
+        \begin{overpic}
+        [clip,trim=0cm 4cm 0cm 0cm,width=0.2\textwidth]{imgs/booster/stereo/26.jpg}
+        \put(85,-5){\Huge\textbf{\color{red}\ding{55}}}
+        \end{overpic}&
+        \begin{overpic}[clip,trim=0cm 4cm 0cm 0cm,width=0.2\textwidth]{imgs/booster/ours/26.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic} \vspace{0.12cm}\\
+
+        \rotatebox[origin=c]{90}{\raisebox{0.08\textwidth}{\parbox[c][0.10\textwidth][c]{0.10\textwidth}{\centering\small MonoTrap }}}\hspace{-3.5em}  &
+        \includegraphics[width=0.2\textwidth]{imgs/monotrap/rgb/20.jpg} &
+        \begin{overpic}[width=0.2\textwidth]{imgs/monotrap/mono/20.jpg}
+        \put(85,-5){\Huge\textbf{\color{red}\ding{55}}}
+        \end{overpic}&
+        \begin{overpic}
+        [width=0.2\textwidth]{imgs/monotrap/stereo/20.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic}&
+        \begin{overpic}[width=0.2\textwidth]{imgs/monotrap/ours/20.jpg}
+        \put(85,-5){\Huge\textbf{\color{green}\ding{51}}}
+        \end{overpic} \vspace{0.12cm}\\      
+    \end{tabular}
+   \vspace{-0.3cm}
+   \captionof{figure}{\textbf{\method: Combining Monocular and Stereo Strenghts for Robust Depth Estimation.} Our model achieves accurate results on standard conditions (on Middlebury \cite{scharstein2014high}), while effectively handling non-Lambertian surfaces where stereo networks fail (on Booster \cite{zamaramirez2022booster}) and perspective illusions that deceive monocular depth foundation models (on \dataset, our novel dataset).
+   }\vspace{0.3cm}
+  \label{fig:teaser}  
+}]
+
+\input{sec/0_abstract}    
+\input{sec/1_intro}
+\input{sec/2_related}
+\input{sec/3_method}
+\input{sec/4_experiments}
+\input{sec/5_conclusion}
+
+{
+    \small
+    \bibliographystyle{ieeenat_fullname}
+    \bibliography{references}
+}
+
+\input{sec/X_suppl}
+
+\end{document}

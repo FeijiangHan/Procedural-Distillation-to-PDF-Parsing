@@ -1,0 +1,43 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "43-tablecap*",
+      "label": "TableCaption",
+      "points": [
+        [
+          71.13188171386719,
+          100.49037170410156
+        ],
+        [
+          526.3759765625,
+          122.49037170410156
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "44-table*",
+      "label": "Table",
+      "points": [
+        [
+          71.13188171386719,
+          122.49037170410156
+        ],
+        [
+          526.3759765625,
+          744.6376800537109
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+
+\begin{table*}[t]
+\caption{Performances of state-of-the-art baselines and LLMs. Higher values indicate better performances.}
+\label{exp_results}
+\centering
+\scalebox{0.65}{
+\begin{tabular}{clcccccccccc}
+\hline
+\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Row}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Model}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Actor}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Action}}} & \multicolumn{2}{c|}{\textbf{Constraint}}              & \multicolumn{3}{c|}{\textbf{Gateway}}                                            & \multicolumn{3}{c}{\textbf{Flow}}                            \\ \cline{5-12} 
+\multicolumn{1}{c|}{}                              & \multicolumn{1}{c|}{}                                & \multicolumn{1}{c|}{}                                & \multicolumn{1}{c|}{}                                 & \textbf{Data}  & \multicolumn{1}{c|}{\textbf{Action}} & \textbf{Exclusive} & \textbf{Inclusive} & \multicolumn{1}{c|}{\textbf{Parallel}} & \textbf{Sequence} & \textbf{Condition} & \textbf{Constraint} \\ \hline
+\multicolumn{1}{c|}{1}                             & \multicolumn{1}{l|}{\citet{sonbol2023machine}}               & \multicolumn{1}{c|}{0.028}                           & \multicolumn{1}{c|}{0.308}                            & 0.213          & \multicolumn{1}{c|}{-}               & 0.485              & -                  & \multicolumn{1}{c|}{0.279}             & 0.056             & 0.047              & 0.017               \\ \cline{2-12} 
+\multicolumn{1}{c|}{2}                             & \multicolumn{1}{l|}{\citet{neuberger2023beyond}}             & \multicolumn{1}{c|}{0.027}                           & \multicolumn{1}{c|}{0.276}                            & -              & \multicolumn{1}{c|}{-}               & 0.469              & -                  & \multicolumn{1}{c|}{0.337}             & 0.074             & 0.061              & -                   \\ \cline{2-12} 
+\multicolumn{1}{c|}{3}                             & \multicolumn{1}{l|}{\citet{sholiq2022generating}}            & \multicolumn{1}{c|}{-}                               & \multicolumn{1}{c|}{0.387}                            & -              & \multicolumn{1}{c|}{-}               & 0.463              & -                  & \multicolumn{1}{c|}{0.198}             & 0.091             & 0.022              & -                   \\ \cline{2-12} 
+\multicolumn{1}{c|}{4}                             & \multicolumn{1}{l|}{PET~\cite{bellan2023pet}}                             & \multicolumn{1}{c|}{0.085}                           & \multicolumn{1}{c|}{0.430}                            & 0.069          & \multicolumn{1}{c|}{-}               & \underline{0.493}              & -                  & \multicolumn{1}{c|}{-}                 & 0.164             & 0.026              & 0.000                    \\ \cline{2-12} 
+\multicolumn{1}{c|}{5}                            & \multicolumn{1}{l|}{CIS~\cite{bellan2022leveraging}}                             & \multicolumn{1}{c|}{0.633}                           & \multicolumn{1}{c|}{0.639}                            & -              & \multicolumn{1}{c|}{-}               & 0.455              & -                  & \multicolumn{1}{c|}{-}                 & 0.203             & 0.157              & -                   \\ \hline
+\multicolumn{1}{l|}{}                              & \multicolumn{1}{l|}{Flan-T5~\cite{chung2022scaling}}                         & \multicolumn{1}{c|}{}                                & \multicolumn{1}{c|}{}                                 &                & \multicolumn{1}{c|}{}                &                    &                    & \multicolumn{1}{c|}{}                  &                   &                    &                     \\
+\multicolumn{1}{c|}{6}                             & \multicolumn{1}{l|}{\quad + Few-shot In-context Learning}               & \multicolumn{1}{c|}{0.206}                           & \multicolumn{1}{c|}{0.362}                            & -              & \multicolumn{1}{c|}{-}               & 0.376              & -                  & \multicolumn{1}{c|}{-}                 & 0.084             & 0.013              & -                   \\
+\multicolumn{1}{c|}{7}                             & \multicolumn{1}{l|}{\quad + Supervised Fine-tuning}                     & \multicolumn{1}{c|}{\underline{0.659}}                           & \multicolumn{1}{c|}{\underline{0.684}}                            & 0.589          & \multicolumn{1}{c|}{\underline{0.366}}           & 0.419              & 0.045              & \multicolumn{1}{c|}{\underline{0.393}}             & 0.395             & \underline{0.168}              & 0.363               \\ \hline
+\multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{ChatGPT~\cite{ouyang2022training}}                         &  \multicolumn{1}{c|}{}                                 & \multicolumn{1}{c|}{}                                 &                & \multicolumn{1}{c|}{}                &                    &                    & \multicolumn{1}{c|}{}                  &                   &                    &                     \\
+
+\multicolumn{1}{c|}{8}                             & \multicolumn{1}{l|}{\quad + Few-shot In-context Learning} &\multicolumn{1}{c|}{0.625}                           & \multicolumn{1}{c|}{0.681}                            & \underline{0.687}          & \multicolumn{1}{c|}{0.286}           & 0.477              & \textbf{0.173}     & \multicolumn{1}{c|}{0.388}             & \underline{0.408}             & 0.158              & 0.\underline{444}               \\ \hline
+\multicolumn{1}{l|}{}                              & \multicolumn{1}{l|}{Llama2~\cite{touvron2023llama}}                          & \multicolumn{1}{c|}{}                                & \multicolumn{1}{c|}{}                                 &                & \multicolumn{1}{c|}{}                &                    &                    & \multicolumn{1}{c|}{}                  &                   &                    &                     \\
+\multicolumn{1}{c|}{9}                             & \multicolumn{1}{l|}{\quad + Few-shot In-context Learning}               & \multicolumn{1}{c|}{0.502}                           & \multicolumn{1}{c|}{0.573}                            & 0.357          & \multicolumn{1}{c|}{0.049}           & 0.446              & 0.067              & \multicolumn{1}{c|}{0.128}             & 0.193             & 0.107              & 0.201               \\
+\multicolumn{1}{c|}{10}                            & \multicolumn{1}{l|}{\quad + Supervised Fine-tuning}                     & \multicolumn{1}{c|}{\textbf{0.674}}                  & \multicolumn{1}{c|}{\textbf{0.744}}                   & \textbf{0.779} & \multicolumn{1}{c|}{\textbf{0.499}}  & \textbf{0.554}     & \underline{0.090}              & \multicolumn{1}{c|}{\textbf{0.398}}    & \textbf{0.478}    & \textbf{0.319}     & \textbf{0.467}      \\ \hline
+\multicolumn{12}{l}{\small * The best results are marked in bold, and the second-best results are marked with underlines.}                                                                                                                                                                                                                                                                                                                 
+\end{tabular}
+}
+\vspace{5pt}
+\end{table*}
+
+% ~\citet{sonbol2023machine}
+% ~\citet{neuberger2023beyond}
+% ~\citet{bellan2022leveraging}
+% PET~\citet{bellan2023pet}
+% CIS~\citet{bellan2022leveraging}
+
+
+% \begin{table*}[t]
+% \caption{Performances of state-of-the-art baselines and LLMs. Higher values indicate better performances.}
+% \label{exp_results}
+% \centering
+% \scalebox{0.68}{
+% \begin{tabular}{l|c|c|cc|ccc|cccll}
+% \cline{1-11}
+% \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Model}}}                                                             & \multirow{2}{*}{\textbf{Actor}}             & \multirow{2}{*}{\textbf{Action}}            & \multicolumn{2}{c|}{\textbf{Constraint}}                                                                                           & \multicolumn{3}{c|}{\textbf{Gateway}}                                                                                   & \multicolumn{3}{c}{\textbf{Flow}}                                                                                                                                                                           & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\ \cline{4-11}
+% \multicolumn{1}{c|}{}                                                                                   &                                    &                                    & \textbf{\makecell{Data}} & \textbf{\makecell{Action}} & \textbf{Exclusive} & \textbf{Inclusive} & \textbf{Parallel} & \textbf{\makecell{Sequence}} & \textbf{\makecell{Condition}} & \textbf{\makecell{Constraint}} &                      &                      \\  \cline{1-11}
+% [1] \citet{sonbol2023machine}                                                                         & 0.028                              & 0.308                              & 0.213                                                      & -                                                          & 0.485                               & -                                 & 0.279                              & 0.056                                                          & 0.047                                                           & 0.017                                                            &                      &                      \\
+% \cline{1-11}
+% [2] \citet{neuberger2023beyond}                                                                              & 0.027                              & 0.276                              & -                                                        & -                                                          & 0.469                               & -                                 & 0.337                              & 0.074                                                          & 0.061                                                           & -                                                              &                      &                      \\ 
+% \cline{1-11}
+% [3] \citet{sholiq2022generating}                                                                               & -                                & 0.387                              & -                                                        & -                                                          & 0.463                               & -                                 & 0.198                              & 0.091                                                          & 0.022                                                           & -                                                              &                      &                      \\
+% \cline{1-11}
+% [4] CIS~\cite{bellan2022leveraging}                                                                                      & 0.633                              & 0.639                              & -                                                        & -                                                          & 0.455                               & -                                 & -                                & 0.203                                                          & 0.157                                                           & -                                                              &                      &                      \\
+% \cline{1-11}
+% [5] PET~\cite{bellan2023pet}                                                                                      & 0.085                              & 0.430                              & 0.069                                                      & -                                                          & \underline{0.493}  & -                                 & -                                & 0.164                                                          & 0.026                                                           & -                                                              &                      &                      \\ 
+% \cline{1-11}
+% \cline{1-11}
+
+% Flan-T5~\cite{chung2022scaling} &&&&&&&&&&& & \\
+ 
+% [6] \quad + Few-shot Learning& 0.206 & 0.362 & - & - & 0.376 & - & - & 0.084 & 0.013 & - &                    &                      \\ 
+
+% [7] \quad + Fine-tuning& \underline{0.659} & \underline{0.684} & 0.589                                                      & \underline{0.366}                           & 0.419                               & 0.045                               & \underline{0.393} & 0.395                                                          & \underline{0.168}                              & 0.363                                                            &                      &                      \\ 
+%  \cline{1-11}
+% [8] ChatGPT~\cite{ouyang2022training}                                                                                 & 0.625                              & 0.681                              & \underline{0.687}                         & 0.286                                                        & 0.477                               & \textbf{0.173}     & 0.388                              & \underline{0.408}                             & 0.158                                                           & \underline{0.444}                               &                      &                      \\
+%  \cline{1-11}
+%  Llama2~\cite{touvron2023llama}&&&&&&&&&&& & \\
+
+% [9] \quad + Few-shot Learning& 0.502                              & 0.573                              & 0.357                                                      & 0.049                                                        & 0.446                               & 0.067                               & 0.128                              & 0.193                                                          & 0.107                                                           & 0.201                                                            &                      &                      \\
+
+% [10] \quad + Fine-tuning                                                                     & \textbf{0.674}    & \textbf{0.744}    & \textbf{0.779}                            & \textbf{0.499}                              & \textbf{0.554}     & \underline{0.090}  & \textbf{0.398}    & \textbf{0.478}                                & \textbf{0.319}                                 & \textbf{0.467}                                  &                      &                      \\ 
+% \cline{1-11}
+% \multicolumn{11}{l}{\small * The best results are marked in bold, and the second-best results are marked with underlines.} &&\\
+% \end{tabular}}
+% \end{table*}
+
+% \begin{table*}[!th]
+% \caption{Experimental results of the baseline models. The best results are represented in bold, and the second best results are highlighted with an underline. For simplicity, we use ``XOR'', ``OR'' and ``AND'' as abbreviations for exclusive, inclusive and parallel gateways respectively.}
+% \label{exp_results}
+% \centering
+% \scalebox{0.72}{
+% \begin{tabular}{l|c|ccc|cc|ccc|c}
+% \hline
+% \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Model}}} & \multirow{3}{*}{\textbf{Action}} & \multicolumn{3}{c|}{\textbf{Gateway}}               & \multicolumn{2}{c|}{\textbf{Constraint}}            & \multicolumn{3}{c|}{\textbf{Flow}}                                       & \multirow{3}{*}{\textbf{Actor}} \\ \cline{3-10}
+% \multicolumn{1}{c|}{}                                &                                  & \textbf{XOR}    & \textbf{OR}     & \textbf{AND}    & \textbf{\makecell{Data\\Constraint}} & \textbf{\makecell{Action\\Constraint}} & \textbf{\makecell{Sequence\\Flow}} & \textbf{\makecell{Condition\\Flow}} & \textbf{\makecell{Constraint\\Flow}} &                                 \\ \hline
+% \uppercase\expandafter{\romannumeral1}. Pipeline Based                                       &                                  &                 &                 &                 &                         &                           & \textbf{}             & \textbf{}              &                         &                                 \\
+% \ Translation Like                                     & 0.308                           & 0.485          &---              & 0.279          & 0.213                  &---                         & 0.056                & 0.047                 & 0.017                  & 0.028                          \\
+% \ Beyond Rule                                          & 0.276                           & 0.469          &---              & 0.337          &---                      &---                        & 0.074                & 0.061                 &---                      & 0.027                          \\ \hline
+% \uppercase\expandafter{\romannumeral2}. Elements Linking                                     &                                  &                 &                 &                 &                         &                           &                       &                        &                         &                                 \\
+% \ Fact Types                                           & 0.387                           & 0.463          &---              & 0.198          &---                      &---                        & 0.091                & 0.022                &---                      &---                              \\
+% \ PET                                                  & 0.430                           & \underline{0.493}          &---              &---              & 0.069                  &---                        & 0.164                & 0.026                 &---                      & 0.085                          \\
+% \ CIS                                                  & 0.639                           & 0.455          &---              &---              &---                      &---                        & 0.203                & 0.157                 &---                      & 0.633                          \\ \hline
+% \uppercase\expandafter{\romannumeral3}. End to End                                           &                                  &                 &                 &                 &                         &                           &                       &                        &                         &                                 \\
+% \ Flan-T5 fine-tuned                                   & \underline{0.684}                           & 0.419          & 0.045          & \underline{0.393}          & 0.589                  & \underline{0.366}                    & 0.395                & \underline{0.168}                 & 0.363                  & \underline{0.659}                          \\
+% \ ChatGPT                                              & 0.681                           & 0.477          & \textbf{0.173} & 0.388          & \underline{0.687}                  & 0.286                    & \underline{0.408}                & 0.158                 & \underline{0.444}                  & 0.625                          \\
+% \ Llama2 few-shot                                      & 0.573                           & 0.446          & 0.067          & 0.128          & 0.357                  & 0.049                    & 0.193                & 0.107                 & 0.201                  & 0.502                          \\
+% \ Llama2 fine-tuned                                    & \textbf{0.744}                  & \textbf{0.554} & \underline{0.090}          & \textbf{0.398} & \textbf{0.779}         & \textbf{0.499}           & \textbf{0.478}       & \textbf{0.319}        & \textbf{0.467}         & \textbf{0.674} \\ \hline          
+% \end{tabular}
+% }
+% \end{table*}
+% \begin{table*}[!th]
+% \caption{Experimental results of the baseline models. The best results are represented in bold, and the second best results are highlighted with an underline. For simplicity, we use ``XOR'', ``OR'' and ``AND'' as abbreviations for exclusive, inclusive and parallel gateways respectively.}
+% \label{exp_results}
+% \centering
+% \scalebox{0.72}{
+% \begin{tabular}{l|c|ccc|cc|ccc|c}
+% \hline
+% \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Model}}} & \multirow{3}{*}{\textbf{Action}} & \multicolumn{3}{c|}{\textbf{Gateway}}               & \multicolumn{2}{c|}{\textbf{Constraint}}            & \multicolumn{3}{c|}{\textbf{Flow}}                                       & \multirow{3}{*}{\textbf{Actor}} \\ \cline{3-10}
+% \multicolumn{1}{c|}{}                                &                                  & \textbf{XOR}    & \textbf{OR}     & \textbf{AND}    & \textbf{\makecell{Data\\Constraint}} & \textbf{\makecell{Action\\Constraint}} & \textbf{\makecell{Sequence\\Flow}} & \textbf{\makecell{Condition\\Flow}} & \textbf{\makecell{Constraint\\Flow}} &                                 \\ \hline
+% \uppercase\expandafter{\romannumeral1}. Pipeline Based                                       &                                  &                 &                 &                 &                         &                           & \textbf{}             & \textbf{}              &                         &                                 \\
+% Translation Like                                     & 0.3079                           & 0.4848          &---              & 0.2786          & 0.2133                  &---                        & 0.0558                & 0.0468                 & 0.0172                  & 0.0276                          \\
+% Beyond Rule                                          & 0.2757                           & 0.4685          &---              & 0.3369          &---                      &---                        & 0.0744                & 0.0611                 &---                      & 0.0266                          \\ \hline
+% \uppercase\expandafter{\romannumeral2}. Elements Linking                                     &                                  &                 &                 &                 &                         &                           &                       &                        &                         &                                 \\
+% Fact Types                                           & 0.3874                           & 0.4633          &---              & 0.1983          &---                      &---                        & 0.0910                & 0.0223                 &---                      &---                              \\
+% PET                                                  & 0.4297                           & \underline{0.4932}          &---              &---              & 0.0689                  &---                        & 0.1640                & 0.0257                 &---                      & 0.0846                          \\
+% CIS                                                  & 0.6393                           & 0.4549          &---              &---              &---                      &---                         & 0.2034                & 0.1574                 &---                      & 0.6326                          \\ \hline
+% \uppercase\expandafter{\romannumeral3}. End to End                                           &                                  &                 &                 &                 &                         &                           &                       &                        &                         &                                 \\
+% Flan-T5 fine-tuned                                   & \underline{0.6843}                           & 0.4188          & 0.0449          & \underline{0.3932}          & 0.5887                  & \underline{0.3661}                    & 0.3952                & \underline{0.1678}                 & 0.3626                  & \underline{0.6589}                          \\
+% ChatGPT                                              & 0.6812                           & 0.4768          & \textbf{0.1729} & 0.3878          & \underline{0.6873}                  & 0.2859                    & \underline{0.4078}                & 0.1581                 & \underline{0.4442}                  & 0.6245                          \\
+% Llama2 few-shot                                      & 0.5725                           & 0.4459          & 0.0672          & 0.1284          & 0.3571                  & 0.0492                    & 0.1927                & 0.1074                 & 0.2005                  & 0.5020                          \\
+% Llama2 fine-tuned                                    & \textbf{0.7439}                  & \textbf{0.5539} & \underline{0.0900}          & \textbf{0.3979} & \textbf{0.7788}         & \textbf{0.4991}           & \textbf{0.4777}       & \textbf{0.3190}        & \textbf{0.4669}         & \textbf{0.6742}                
+% \end{tabular}
+% }
+% \end{table*}
+
+% \uppercase\expandafter{\romannumeral1}
+

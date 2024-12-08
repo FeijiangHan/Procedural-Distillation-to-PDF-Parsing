@@ -1,0 +1,138 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "24-header",
+      "label": "Heading",
+      "points": [
+        [
+          71.13188171386719,
+          292.4667510986328
+        ],
+        [
+          271.44956970214844,
+          310.8153533935547
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "25-header",
+      "label": "Heading",
+      "points": [
+        [
+          71.13188171386719,
+          605.2101593017578
+        ],
+        [
+          238.84036254882812,
+          623.5587615966797
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "26-figure",
+      "label": "Figure",
+      "points": [
+        [
+          307.28985595703125,
+          67.97505187988281
+        ],
+        [
+          526.3759918212891,
+          193.4194793701172
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "27-figurecap",
+      "label": "FigureCaption",
+      "points": [
+        [
+          307.28985595703125,
+          193.4194793701172
+        ],
+        [
+          526.3759918212891,
+          227.4194793701172
+        ]
+      ],
+      "group_id": 4,
+      "parent_id": null,
+      "shape_id": "S_4",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "28-figure",
+      "label": "Figure",
+      "points": [
+        [
+          307.28985595703125,
+          240.08935546875
+        ],
+        [
+          526.3759918212891,
+          365.5337829589844
+        ]
+      ],
+      "group_id": 5,
+      "parent_id": null,
+      "shape_id": "S_5",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "29-figurecap",
+      "label": "FigureCaption",
+      "points": [
+        [
+          307.28985595703125,
+          365.5337829589844
+        ],
+        [
+          526.3759918212891,
+          399.5337829589844
+        ]
+      ],
+      "group_id": 6,
+      "parent_id": null,
+      "shape_id": "S_6",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "30-header",
+      "label": "Heading",
+      "points": [
+        [
+          307.28985595703125,
+          522.4033050537109
+        ],
+        [
+          510.03797912597656,
+          539.6457672119141
+        ]
+      ],
+      "group_id": 7,
+      "parent_id": null,
+      "shape_id": "S_7",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

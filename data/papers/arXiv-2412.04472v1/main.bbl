@@ -1,0 +1,695 @@
+\begin{thebibliography}{137}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aleotti et~al.(2020)Aleotti, Tosi, Zhang, Poggi, and Mattoccia]{aleotti2020reversing}
+Filippo Aleotti, Fabio Tosi, Li Zhang, Matteo Poggi, and Stefano Mattoccia.
+\newblock Reversing the cycle: self-supervised deep stereo through enhanced monocular distillation.
+\newblock In \emph{Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XI 16}, pages 614--632. Springer, 2020.
+
+\bibitem[Aleotti et~al.(2021)Aleotti, Tosi, Ramirez, Poggi, Salti, Mattoccia, and Di~Stefano]{aleotti2021neural}
+Filippo Aleotti, Fabio Tosi, Pierluigi~Zama Ramirez, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Neural disparity refinement for arbitrary resolution stereo.
+\newblock In \emph{2021 International Conference on 3D Vision (3DV)}, pages 207--217. IEEE, 2021.
+
+\bibitem[Arampatzakis et~al.(2023)Arampatzakis, Pavlidis, Mitianoudis, and Papamarkos]{arampatzakis2023monocular}
+Vasileios Arampatzakis, George Pavlidis, Nikolaos Mitianoudis, and Nikos Papamarkos.
+\newblock Monocular depth estimation: A thorough review.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 2023.
+
+\bibitem[Bangunharcana et~al.(2021)Bangunharcana, Cho, Lee, Kweon, Kim, and Kim]{bangunharcana2021correlate}
+Antyanta Bangunharcana, Jae~Won Cho, Seokju Lee, In~So Kweon, Kyung-Soo Kim, and Soohyun Kim.
+\newblock Correlate-and-excite: Real-time stereo matching via guided cost volume excitation.
+\newblock In \emph{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2021.
+
+\bibitem[Bartolomei et~al.(2023)Bartolomei, Poggi, Tosi, Conti, and Mattoccia]{bartolomei2023active}
+Luca Bartolomei, Matteo Poggi, Fabio Tosi, Andrea Conti, and Stefano Mattoccia.
+\newblock Active stereo without pattern projector.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, pages 18470--18482, 2023.
+
+\bibitem[Bochkovskii et~al.(2024)Bochkovskii, Delaunoy, Germain, Santos, Zhou, Richter, and Koltun]{depthpro}
+Aleksei Bochkovskii, Ama\"{e}l Delaunoy, Hugo Germain, Marcel Santos, Yichao Zhou, Stephan~R. Richter, and Vladlen Koltun.
+\newblock Depth pro: Sharp monocular metric depth in less than a second.
+\newblock \emph{arXiv}, 2024.
+
+\bibitem[Cai et~al.(2020)Cai, Poggi, Mattoccia, and Mordohai]{cai2020matchingspace}
+Changjiang Cai, Matteo Poggi, Stefano Mattoccia, and Philippos Mordohai.
+\newblock Matching-space stereo networks for cross-domain generalization.
+\newblock In \emph{2020 International Conference on 3D Vision (3DV)}, pages 364--373, 2020.
+
+\bibitem[Chang and Chen(2018)]{chang2018pyramid}
+Jia-Ren Chang and Yong-Sheng Chen.
+\newblock Pyramid stereo matching network.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages 5410--5418, 2018.
+
+\bibitem[Chen et~al.(2023)Chen, Wang, and Mordohai]{chen2023learning}
+Liyan Chen, Weihan Wang, and Philippos Mordohai.
+\newblock Learning the distribution of errors in stereo matching for joint disparity and uncertainty estimation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 17235--17244, 2023.
+
+\bibitem[Chen et~al.(2016)Chen, Fu, Yang, and Deng]{chen2016single}
+Weifeng Chen, Zhao Fu, Dawei Yang, and Jia Deng.
+\newblock Single-image depth perception in the wild.
+\newblock In \emph{Proceedings of the 30th International Conference on Neural Information Processing Systems}, page 730–738, Red Hook, NY, USA, 2016. Curran Associates Inc.
+
+\bibitem[Chen et~al.(2022)Chen, Xiong, Cheng, Peng, Zhang, and Zha]{Chen_2022_CVPR}
+Xihao Chen, Zhiwei Xiong, Zhen Cheng, Jiayong Peng, Yueyi Zhang, and Zheng-Jun Zha.
+\newblock Degradation-agnostic correspondence from resolution-asymmetric stereo.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 12962--12971, 2022.
+
+\bibitem[Chen et~al.(2021)Chen, Ye, Yang, Xu, Tan, Zou, Ding, Zhang, and Huang]{Chen_2021_ICCV}
+Zhi Chen, Xiaoqing Ye, Wei Yang, Zhenbo Xu, Xiao Tan, Zhikang Zou, Errui Ding, Xinming Zhang, and Liusheng Huang.
+\newblock Revealing the reciprocal relations between self-supervised stereo and monocular depth estimation.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, pages 15529--15538, 2021.
+
+\bibitem[Chen et~al.(2024)Chen, Long, Yao, Zhang, Wang, Qin, and Wu]{chen2024mocha}
+Ziyang Chen, Wei Long, He Yao, Yongjun Zhang, Bingshu Wang, Yongbin Qin, and Jia Wu.
+\newblock Mocha-stereo: Motif channel attention network for stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024.
+
+\bibitem[Cheng et~al.(2022)Cheng, Wu, and Healey]{cheng2022revisiting}
+Kelvin Cheng, Tianfu Wu, and Christopher Healey.
+\newblock Revisiting non-parametric matching cost volumes for robust and generalizable stereo matching.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 16305--16318, 2022.
+
+\bibitem[Cho et~al.(2021)Cho, Min, Kim, and Sohn]{Cho2021}
+Jaehoon Cho, Dongbo Min, Youngjung Kim, and Kwanghoon Sohn.
+\newblock Diml/cvl rgb-d dataset: 2m rgb-d images of natural indoor and outdoor scenes.
+\newblock \emph{arXiv preprint arXiv:2110.11590}, 2021.
+
+\bibitem[Chuah et~al.(2022)Chuah, Tennakoon, Hoseinnezhad, Bab-Hadiashar, and Suter]{Chuah_2022_CVPR}
+WeiQin Chuah, Ruwan Tennakoon, Reza Hoseinnezhad, Alireza Bab-Hadiashar, and David Suter.
+\newblock Itsa: An information-theoretic approach to automatic shortcut avoidance and domain generalization in stereo matching networks.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 13022--13032, 2022.
+
+\bibitem[Costanzino et~al.(2023)Costanzino, Ramirez, Poggi, Tosi, Mattoccia, and Di~Stefano]{costanzino2023learning}
+Alex Costanzino, Pierluigi~Zama Ramirez, Matteo Poggi, Fabio Tosi, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Learning depth estimation for transparent and mirror surfaces.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, pages 9244--9255, 2023.
+
+\bibitem[Duan et~al.(2023)Duan, Guo, and Zhu]{Duan2023}
+Yiqun Duan, Xianda Guo, and Zheng Zhu.
+\newblock {DiffusionDepth}: Diffusion denoising approach for monocular depth estimation.
+\newblock \emph{arXiv preprint arXiv:2303.05021}, 2023.
+
+\bibitem[Eftekhar et~al.(2021)Eftekhar, Sax, Malik, and Zamir]{Eftekhar2021}
+Ainaz Eftekhar, Alexander Sax, Jitendra Malik, and Amir Zamir.
+\newblock Omnidata: A scalable pipeline for making multi-task mid-level vision datasets from 3d scans.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, pages 10786--10796, 2021.
+
+\bibitem[Eigen et~al.(2014)Eigen, Puhrsch, and Fergus]{eigen2014depth}
+David Eigen, Christian Puhrsch, and Rob Fergus.
+\newblock Depth map prediction from a single image using a multi-scale deep network.
+\newblock In \emph{Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2}, page 2366–2374, Cambridge, MA, USA, 2014. MIT Press.
+
+\bibitem[Fu et~al.(2024)Fu, Yin, Hu, Wang, Ma, Tan, Shen, Lin, and Long]{fu2024geowizard}
+Xiao Fu, Wei Yin, Mu Hu, Kaixuan Wang, Yuexin Ma, Ping Tan, Shaojie Shen, Dahua Lin, and Xiaoxiao Long.
+\newblock Geowizard: Unleashing the diffusion priors for 3d geometry estimation from a single image.
+\newblock \emph{arXiv preprint arXiv:2403.12013}, 2024.
+
+\bibitem[Geiger et~al.(2012)Geiger, Lenz, and Urtasun]{geiger2012we}
+Andreas Geiger, Philip Lenz, and Raquel Urtasun.
+\newblock Are we ready for autonomous driving? the kitti vision benchmark suite.
+\newblock In \emph{2012 IEEE conference on computer vision and pattern recognition}, pages 3354--3361. IEEE, 2012.
+
+\bibitem[Gjerde et~al.(2024)Gjerde, Slez{\'a}k, Haurum, and Moeslund]{gjerde2024nerf}
+Magnus~Kaufmann Gjerde, Filip Slez{\'a}k, Joakim~Bruslund Haurum, and Thomas~B Moeslund.
+\newblock From nerf to 3dgs: A leap in stereo dataset quality?
+\newblock In \emph{Synthetic Data for Computer Vision Workshop@ CVPR 2024}, 2024.
+
+\bibitem[Godard et~al.(2017)Godard, Mac~Aodha, and Brostow]{godard2017unsupervised}
+Cl{\'e}ment Godard, Oisin Mac~Aodha, and Gabriel~J Brostow.
+\newblock Unsupervised monocular depth estimation with left-right consistency.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 270--279, 2017.
+
+\bibitem[Godard et~al.(2019)Godard, Mac~Aodha, Firman, and Brostow]{godard2019monodepth2}
+Cl{\'e}ment Godard, Oisin Mac~Aodha, Michael Firman, and Gabriel~J Brostow.
+\newblock Digging into self-supervised monocular depth estimation.
+\newblock In \emph{ICCV}, pages 3828--3838, 2019.
+
+\bibitem[Gong et~al.(2024)Gong, Liu, Gu, Yang, and Cheng]{gong2024learning}
+Rui Gong, Weide Liu, Zaiwang Gu, Xulei Yang, and Jun Cheng.
+\newblock Learning intra-view and cross-view geometric knowledge for stereo matching.
+\newblock \emph{arXiv preprint arXiv:2402.19270}, 2024.
+
+\bibitem[Guan et~al.(2024)Guan, Wang, and Liu]{guan2024neural}
+Tongfan Guan, Chen Wang, and Yun-Hui Liu.
+\newblock Neural markov random field for stereo matching, 2024.
+
+\bibitem[Guizilini et~al.(2020)Guizilini, Hou, Li, Ambrus, and Gaidon]{guizilini2020semantically}
+Vitor Guizilini, Rui Hou, Jie Li, Rares Ambrus, and Adrien Gaidon.
+\newblock Semantically-guided representation learning for self-supervised monocular depth.
+\newblock \emph{arXiv preprint arXiv:2002.12319}, 2020.
+
+\bibitem[Guizilini et~al.(2023)Guizilini, Vasiljevic, Chen, Ambruș, and Gaidon]{Guizilini2023}
+Vitor Guizilini, Igor Vasiljevic, Dian Chen, Rareș Ambruș, and Adrien Gaidon.
+\newblock Towards zero-shot scale-aware monocular depth estimation.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Guo et~al.(2022)Guo, Li, Yang, Wang, Taylor, Unberath, Yuille, and Li]{guo2022context_CEST}
+Weiyu Guo, Zhaoshuo Li, Yongkui Yang, Zheng Wang, Russell~H Taylor, Mathias Unberath, Alan Yuille, and Yingwei Li.
+\newblock Context-enhanced stereo transformer.
+\newblock In \emph{European Conference on Computer Vision}, pages 263--279. Springer, 2022.
+
+\bibitem[Guo et~al.(2019)Guo, Yang, Yang, Wang, and Li]{guo2019group}
+Xiaoyang Guo, Kai Yang, Wukui Yang, Xiaogang Wang, and Hongsheng Li.
+\newblock Group-wise correlation stereo network.
+\newblock In \emph{CVPR}, 2019.
+
+\bibitem[He et~al.(2024)He, Li, Yin, Liang, Li, Zhou, Liu, Liu, and Chen]{he2024lotus}
+Jing He, Haodong Li, Wei Yin, Yixun Liang, Leheng Li, Kaiqiang Zhou, Hongbo Liu, Bingbing Liu, and Ying-Cong Chen.
+\newblock Lotus: Diffusion-based visual foundation model for high-quality dense prediction.
+\newblock \emph{arXiv preprint arXiv:2409.18124}, 2024.
+
+\bibitem[Hornauer and Belagiannis(2022)]{hornauer2022gradient}
+Julia Hornauer and Vasileios Belagiannis.
+\newblock Gradient-based uncertainty for monocular depth estimation.
+\newblock In \emph{European Conference on Computer Vision}, pages 613--630. Springer, 2022.
+
+\bibitem[Hu et~al.(2024{\natexlab{a}})Hu, Yin, Zhang, Cai, Long, Chen, Wang, Yu, Shen, and Shen]{hu2024metric3dv2}
+Mu Hu, Wei Yin, Chi Zhang, Zhipeng Cai, Xiaoxiao Long, Hao Chen, Kaixuan Wang, Gang Yu, Chunhua Shen, and Shaojie Shen.
+\newblock Metric3d v2: A versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation.
+\newblock \emph{arXiv preprint arXiv:2404.15506}, 2024{\natexlab{a}}.
+
+\bibitem[Hu et~al.(2024{\natexlab{b}})Hu, Gao, Li, Zhao, Cun, Zhang, Quan, and Shan]{hu2024depthcrafter}
+Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, and Ying Shan.
+\newblock Depthcrafter: Generating consistent long depth sequences for open-world videos.
+\newblock \emph{arXiv preprint arXiv:2409.02095}, 2024{\natexlab{b}}.
+
+\bibitem[Ji et~al.(2023)Ji, Chen, Xie, Hong, Liu, Liu, Lu, Li, and Luo]{Ji2023}
+Yuanfeng Ji, Zhe Chen, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, and Ping Luo.
+\newblock {DDP}: Diffusion model for dense visual prediction.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Jing et~al.(2023)Jing, Li, Xiong, Liu, Liu, Guo, Deng, Xu, Jiang, and Sigal]{Jing_2023_ICCV}
+Junpeng Jing, Jiankun Li, Pengfei Xiong, Jiangyu Liu, Shuaicheng Liu, Yichen Guo, Xin Deng, Mai Xu, Lai Jiang, and Leonid Sigal.
+\newblock Uncertainty guided adaptive warping for robust and efficient stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, pages 3318--3327, 2023.
+
+\bibitem[Jing et~al.(2024)Jing, Mao, and Mikolajczyk]{jing2024match}
+Junpeng Jing, Ye Mao, and Krystian Mikolajczyk.
+\newblock Match-stereo-videos: Bidirectional alignment for consistent dynamic stereo matching.
+\newblock In \emph{Proceedings of the European Conference on Computer Vision (ECCV)}, 2024.
+
+\bibitem[Karaev et~al.(2023)Karaev, Rocco, Graham, Neverova, Vedaldi, and Rupprecht]{Karaev_2023_CVPR}
+Nikita Karaev, Ignacio Rocco, Benjamin Graham, Natalia Neverova, Andrea Vedaldi, and Christian Rupprecht.
+\newblock Dynamicstereo: Consistent dynamic depth from stereo videos.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 13229--13239, 2023.
+
+\bibitem[Ke et~al.(2024)Ke, Obukhov, Huang, Metzger, Daudt, and Schindler]{ke2023repurposing}
+Bingxin Ke, Anton Obukhov, Shengyu Huang, Nando Metzger, Rodrigo~Caye Daudt, and Konrad Schindler.
+\newblock Repurposing diffusion-based image generators for monocular depth estimation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 2024.
+
+\bibitem[Kendall et~al.(2017)Kendall, Martirosyan, Dasgupta, Henry, Kennedy, Bachrach, and Bry]{kendall2017end_GC-NET}
+Alex Kendall, Hayk Martirosyan, Saumitro Dasgupta, Peter Henry, Ryan Kennedy, Abraham Bachrach, and Adam Bry.
+\newblock End-to-end learning of geometry and context for deep stereo regression.
+\newblock In \emph{Proceedings of the IEEE international conference on computer vision}, pages 66--75, 2017.
+
+\bibitem[Kim et~al.(2022)Kim, Park, Lee, Min, and Sohn]{kim2022pointfix}
+Kwonyoung Kim, Jungin Park, Jiyoung Lee, Dongbo Min, and Kwanghoon Sohn.
+\newblock Pointfix: Learning to fix domain bias for robust online stereo adaptation.
+\newblock In \emph{European Conference on Computer Vision}, pages 568--585. Springer, 2022.
+
+\bibitem[Klingner et~al.(2020)Klingner, Term{\"o}hlen, Mikolajczyk, and Fingscheidt]{klingner2020self}
+Marvin Klingner, Jan-Aike Term{\"o}hlen, Jonas Mikolajczyk, and Tim Fingscheidt.
+\newblock Self-supervised monocular depth estimation: Solving the dynamic object problem by semantic guidance.
+\newblock In \emph{Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XX 16}, pages 582--600. Springer, 2020.
+
+\bibitem[Laga et~al.(2020)Laga, Jospin, Boussaid, and Bennamoun]{laga2020survey}
+Hamid Laga, Laurent~Valentin Jospin, Farid Boussaid, and Mohammed Bennamoun.
+\newblock A survey on deep learning techniques for stereo-based depth estimation.
+\newblock \emph{IEEE transactions on pattern analysis and machine intelligence}, 44\penalty0 (4):\penalty0 1738--1764, 2020.
+
+\bibitem[Laina et~al.(2016)Laina, Rupprecht, Belagiannis, Tombari, and Navab]{laina2016deeper}
+Iro Laina, Christian Rupprecht, Vasileios Belagiannis, Federico Tombari, and Nassir Navab.
+\newblock Deeper depth prediction with fully convolutional residual networks.
+\newblock In \emph{2016 Fourth international conference on 3D vision (3DV)}, pages 239--248. IEEE, 2016.
+
+\bibitem[Li et~al.(2024)Li, Hu, Xi, Yu, and Zou]{li2024stereo}
+Ang Li, Anning Hu, Wei Xi, Wenxian Yu, and Danping Zou.
+\newblock Stereo-lidar depth estimation with deformable propagation and learned disparity-depth conversion.
+\newblock \emph{arXiv preprint arXiv:2404.07545}, 2024.
+
+\bibitem[Li et~al.(2022)Li, Wang, Xiong, Cai, Yan, Yang, Liu, Fan, and Liu]{li2022practical}
+Jiankun Li, Peisen Wang, Pengfei Xiong, Tao Cai, Ziwei Yan, Lei Yang, Jiangyu Liu, Haoqiang Fan, and Shuaicheng Liu.
+\newblock Practical stereo matching via cascaded recurrent network with adaptive correlation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 16263--16272, 2022.
+
+\bibitem[Li and Snavely(2018)]{li2018megadepth}
+Zhengqi Li and Noah Snavely.
+\newblock Megadepth: Learning single-view depth prediction from internet photos.
+\newblock In \emph{CVPR}, pages 2041--2050, 2018.
+
+\bibitem[Li et~al.(2021)Li, Liu, Drenkow, Ding, Creighton, Taylor, and Unberath]{Li_2021_ICCV_STTR}
+Zhaoshuo Li, Xingtong Liu, Nathan Drenkow, Andy Ding, Francis~X. Creighton, Russell~H. Taylor, and Mathias Unberath.
+\newblock Revisiting stereo depth estimation from a sequence-to-sequence perspective with transformers.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, pages 6197--6206, 2021.
+
+\bibitem[Liang et~al.(2018)Liang, Feng, Guo, Liu, Chen, Qiao, Zhou, and Zhang]{liang2018learning_iResNet}
+Zhengfa Liang, Yiliu Feng, Yulan Guo, Hengzhu Liu, Wei Chen, Linbo Qiao, Li Zhou, and Jianfeng Zhang.
+\newblock Learning for disparity estimation through feature constancy.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 2811--2820, 2018.
+
+\bibitem[Ling et~al.(2024)Ling, Sun, Sun, Tsang, and Zheng]{ling2024self}
+Han Ling, Yinghui Sun, Quansen Sun, Ivor Tsang, and Yuhui Zheng.
+\newblock Self-assessed generation: Trustworthy label generation for optical flow and stereo matching in real-world.
+\newblock \emph{arXiv preprint arXiv:2410.10453}, 2024.
+
+\bibitem[Lipson et~al.(2021)Lipson, Teed, and Deng]{lipson2021raft}
+Lahav Lipson, Zachary Teed, and Jia Deng.
+\newblock Raft-stereo: Multilevel recurrent field transforms for stereo matching.
+\newblock In \emph{International Conference on 3D Vision (3DV)}, 2021.
+
+\bibitem[Liu et~al.(2022)Liu, Yu, and Qi]{Liu_2022_CVPR}
+Biyang Liu, Huimin Yu, and Guodong Qi.
+\newblock Graftnet: Towards domain generalized stereo matching with a broad-spectrum and task-oriented feature.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 13012--13021, 2022.
+
+\bibitem[Liu et~al.(2020{\natexlab{a}})Liu, King, Lyu, and Xu]{Liu_2020_CVPR_Flow2Stereo}
+Pengpeng Liu, Irwin King, Michael~R. Lyu, and Jia Xu.
+\newblock Flow2stereo: Effective self-supervised learning of optical flow and stereo matching.
+\newblock In \emph{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 2020{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2020{\natexlab{b}})Liu, Ren, Zhang, Liu, and Lin]{liu2020visually}
+Yicun Liu, Jimmy Ren, Jiawei Zhang, Jianbo Liu, and Mude Lin.
+\newblock Visually imbalanced stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 2029--2038, 2020{\natexlab{b}}.
+
+\bibitem[Lou et~al.(2023)Lou, Liu, Chen, Liu, and Cheng]{lou2023elfnet}
+Jieming Lou, Weide Liu, Zhuo Chen, Fayao Liu, and Jun Cheng.
+\newblock Elfnet: Evidential local-global fusion for stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, pages 17784--17793, 2023.
+
+\bibitem[Mahjourian et~al.(2018)Mahjourian, Wicke, and Angelova]{mahjourian2018unsupervised}
+Reza Mahjourian, Martin Wicke, and Anelia Angelova.
+\newblock Unsupervised learning of depth and ego-motion from monocular video using 3d geometric constraints.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 5667--5675, 2018.
+
+\bibitem[Mayer et~al.(2016)Mayer, Ilg, Hausser, Fischer, Cremers, Dosovitskiy, and Brox]{mayer2016large}
+Nikolaus Mayer, Eddy Ilg, Philip Hausser, Philipp Fischer, Daniel Cremers, Alexey Dosovitskiy, and Thomas Brox.
+\newblock A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 4040--4048, 2016.
+
+\bibitem[Menze and Geiger(2015)]{menze2015object}
+Moritz Menze and Andreas Geiger.
+\newblock Object scene flow for autonomous vehicles.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 3061--3070, 2015.
+
+\bibitem[Moon et~al.(2023)Moon, Bello, Kwon, and Kim]{moon2023ground}
+Jaeho Moon, Juan Luis~Gonzalez Bello, Byeongjun Kwon, and Munchurl Kim.
+\newblock From-ground-to-objects: Coarse-to-fine self-supervised monocular depth estimation of dynamic objects with ground contact prior.
+\newblock \emph{arXiv preprint arXiv:2312.10118}, 2023.
+
+\bibitem[Nathan~Silberman and Fergus(2012)]{Silberman2012}
+Pushmeet~Kohli Nathan~Silberman, Derek~Hoiem and Rob Fergus.
+\newblock Indoor segmentation and support inference from rgbd images.
+\newblock In \emph{ECCV}, 2012.
+
+\bibitem[Pan et~al.(2021)Pan, Sun, Weed, and Scharstein]{middlebury2021}
+Guanghan Pan, Tiansheng Sun, Toby Weed, and Daniel Scharstein.
+\newblock 2021 {M}obile stereo datasets with ground truth.
+\newblock \url{https://vision.middlebury.edu/stereo/data/scenes2021/}, 2021.
+
+\bibitem[Pilzer et~al.(2023)Pilzer, Hou, Loppi, Solin, and Kannala]{Pilzer_2023_WACV}
+Andrea Pilzer, Yuxin Hou, Niki Loppi, Arno Solin, and Juho Kannala.
+\newblock Expansion of visual hints for improved generalization in stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, pages 5840--5849, 2023.
+
+\bibitem[Poggi and Tosi(2024)]{Poggi_2024_CVPR}
+Matteo Poggi and Fabio Tosi.
+\newblock Federated online adaptation for deep stereo.
+\newblock In \emph{CVPR}, 2024.
+
+\bibitem[Poggi et~al.(2018)Poggi, Tosi, and Mattoccia]{poggi2018learning}
+Matteo Poggi, Fabio Tosi, and Stefano Mattoccia.
+\newblock Learning monocular depth estimation with unsupervised trinocular assumptions.
+\newblock In \emph{2018 International conference on 3d vision (3DV)}, pages 324--333. IEEE, 2018.
+
+\bibitem[Poggi et~al.(2019)Poggi, Pallotti, Tosi, and Mattoccia]{poggi2019guided}
+Matteo Poggi, Davide Pallotti, Fabio Tosi, and Stefano Mattoccia.
+\newblock Guided stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 979--988, 2019.
+
+\bibitem[Poggi et~al.(2020)Poggi, Aleotti, Tosi, and Mattoccia]{poggi2020uncertainty}
+Matteo Poggi, Filippo Aleotti, Fabio Tosi, and Stefano Mattoccia.
+\newblock On the uncertainty of self-supervised monocular depth estimation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 3227--3237, 2020.
+
+\bibitem[Poggi et~al.(2021{\natexlab{a}})Poggi, Tonioni, Tosi, Mattoccia, and Di~Stefano]{poggi2021continual}
+Matteo Poggi, Alessio Tonioni, Fabio Tosi, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Continual adaptation for deep stereo.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 44\penalty0 (9):\penalty0 4713--4729, 2021{\natexlab{a}}.
+
+\bibitem[Poggi et~al.(2021{\natexlab{b}})Poggi, Tosi, Batsos, Mordohai, and Mattoccia]{poggi2021synergies}
+Matteo Poggi, Fabio Tosi, Konstantinos Batsos, Philippos Mordohai, and Stefano Mattoccia.
+\newblock On the synergies between machine learning and binocular stereo for depth estimation from images: a survey.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 44\penalty0 (9):\penalty0 5314--5334, 2021{\natexlab{b}}.
+
+\bibitem[Ramamonjisoa et~al.(2020)Ramamonjisoa, Du, and Lepetit]{Ramamonjisoa_2020_CVPR}
+Michael Ramamonjisoa, Yuming Du, and Vincent Lepetit.
+\newblock Predicting sharp and accurate occlusion boundaries in monocular depth estimation using displacement fields.
+\newblock In \emph{CVPR}, 2020.
+
+\bibitem[Ramirez et~al.(2022)Ramirez, Tosi, Poggi, Salti, Mattoccia, and Di~Stefano]{Ramirez_2022_CVPR}
+Pierluigi~Zama Ramirez, Fabio Tosi, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Open challenges in deep stereo: The booster dataset.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 21168--21178, 2022.
+
+\bibitem[Ramirez et~al.(2023)Ramirez, Tosi, Di~Stefano, Timofte, Costanzino, Poggi, Salti, Mattoccia, Shi, Zhang, A, Jin, Li, Li, Liu, Zhang, Wang, and Yin]{Ramirez_2023_CVPR}
+Pierluigi~Zama Ramirez, Fabio Tosi, Luigi Di~Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi, Samuele Salti, Stefano Mattoccia, Jun Shi, Dafeng Zhang, Yong A, Yixiang Jin, Dingzhe Li, Chao Li, Zhiwen Liu, Qi Zhang, Yixing Wang, and Shi Yin.
+\newblock Ntire 2023 challenge on hr depth from images of specular and transparent surfaces.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}, 2023.
+\newblock CVPRW.
+
+\bibitem[Ramirez et~al.(2024)Ramirez, Costanzino, Tosi, Poggi, Salti, Mattoccia, and Stefano]{zamaramirez2024booster}
+Pierluigi~Zama Ramirez, Alex Costanzino, Fabio Tosi, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi~Di Stefano.
+\newblock Booster: A benchmark for depth from images of specular and transparent surfaces.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 46\penalty0 (1):\penalty0 85--102, 2024.
+
+\bibitem[Ranftl et~al.(2021)Ranftl, Bochkovskiy, and Koltun]{Ranftl2021}
+Ren\'{e} Ranftl, Alexey Bochkovskiy, and Vladlen Koltun.
+\newblock Vision transformers for dense prediction.
+\newblock \emph{ICCV}, 2021.
+
+\bibitem[Ranftl et~al.(2022)Ranftl, Lasinger, Hafner, Schindler, and Koltun]{Ranftl2022}
+Ren\'{e} Ranftl, Katrin Lasinger, David Hafner, Konrad Schindler, and Vladlen Koltun.
+\newblock Towards robust monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 44\penalty0 (3), 2022.
+
+\bibitem[Ranjan et~al.(2019)Ranjan, Jampani, Balles, Kim, Sun, Wulff, and Black]{ranjan2019competitive}
+Anurag Ranjan, Varun Jampani, Lukas Balles, Kihwan Kim, Deqing Sun, Jonas Wulff, and Michael~J Black.
+\newblock Competitive collaboration: Joint unsupervised learning of depth, camera motion, optical flow and motion segmentation.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 12240--12249, 2019.
+
+\bibitem[Rao et~al.(2023)Rao, Xiong, He, Dai, He, Shen, and Li]{Rao_2023_CVPR}
+Zhibo Rao, Bangshu Xiong, Mingyi He, Yuchao Dai, Renjie He, Zhelun Shen, and Xing Li.
+\newblock Masked representation learning for domain generalized stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 5435--5444, 2023.
+
+\bibitem[Roberts et~al.(2021)Roberts, Ramapuram, Ranjan, Kumar, Bautista, Paczan, Webb, and Susskind]{roberts2021}
+Mike Roberts, Jason Ramapuram, Anurag Ranjan, Atulit Kumar, Miguel~Angel Bautista, Nathan Paczan, Russ Webb, and Joshua~M. Susskind.
+\newblock {Hypersim}: {A} photorealistic synthetic dataset for holistic indoor scene understanding.
+\newblock In \emph{International Conference on Computer Vision (ICCV) 2021}, 2021.
+
+\bibitem[Saxena et~al.(2008)Saxena, Sun, and Ng]{Saxena2008}
+Ashutosh Saxena, Min Sun, and Andrew~Y. Ng.
+\newblock Make3d: Depth perception from a single still image.
+\newblock In \emph{Proc. AAAI}, 2008.
+
+\bibitem[Saxena et~al.(2023{\natexlab{a}})Saxena, Herrmann, Hur, Kar, Norouzi, Sun, and Fleet]{Saxena2023b}
+Saurabh Saxena, Charles Herrmann, Junhwa Hur, Abhishek Kar, Mohammad Norouzi, Deqing Sun, and David~J. Fleet.
+\newblock The surprising effectiveness of diffusion models for optical flow and monocular depth estimation.
+\newblock \emph{arXiv preprint arXiv:2306.01923}, 2023{\natexlab{a}}.
+
+\bibitem[Saxena et~al.(2023{\natexlab{b}})Saxena, Kar, Norouzi, and Fleet]{Saxena2023}
+Saurabh Saxena, Abhishek Kar, Mohammad Norouzi, and David~J Fleet.
+\newblock Monocular depth estimation using diffusion models.
+\newblock \emph{arXiv preprint arXiv:2302.14816}, 2023{\natexlab{b}}.
+
+\bibitem[Scharstein and Szeliski(2002)]{scharstein2002taxonomy}
+Daniel Scharstein and Richard Szeliski.
+\newblock A taxonomy and evaluation of dense two-frame stereo correspondence algorithms.
+\newblock \emph{International journal of computer vision}, 47:\penalty0 7--42, 2002.
+
+\bibitem[Scharstein et~al.(2014)Scharstein, Hirschm{\"u}ller, Kitajima, Krathwohl, Ne{\v{s}}i{\'c}, Wang, and Westling]{scharstein2014high}
+Daniel Scharstein, Heiko Hirschm{\"u}ller, York Kitajima, Greg Krathwohl, Nera Ne{\v{s}}i{\'c}, Xi Wang, and Porter Westling.
+\newblock High-resolution stereo datasets with subpixel-accurate ground truth.
+\newblock In \emph{Pattern Recognition: 36th German Conference, GCPR 2014, M{\"u}nster, Germany, September 2-5, 2014, Proceedings 36}, pages 31--42. Springer, 2014.
+
+\bibitem[Schops et~al.(2017)Schops, Schonberger, Galliani, Sattler, Schindler, Pollefeys, and Geiger]{schops2017multi}
+Thomas Schops, Johannes~L Schonberger, Silvano Galliani, Torsten Sattler, Konrad Schindler, Marc Pollefeys, and Andreas Geiger.
+\newblock A multi-view stereo benchmark with high-resolution images and multi-camera videos.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 3260--3269, 2017.
+
+\bibitem[Seki and Pollefeys(2017)]{seki2017sgm}
+Akihito Seki and Marc Pollefeys.
+\newblock Sgm-nets: Semi-global matching with neural networks.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 231--240, 2017.
+
+\bibitem[Shao et~al.(2024)Shao, Yang, Zhou, Zhang, Shen, Poggi, and Liao]{shao2024learning}
+Jiahao Shao, Yuanbo Yang, Hongyu Zhou, Youmin Zhang, Yujun Shen, Matteo Poggi, and Yiyi Liao.
+\newblock Learning temporally consistent video depth from video diffusion priors.
+\newblock \emph{arXiv preprint arXiv:2406.01493}, 2024.
+
+\bibitem[Shen et~al.(2021)Shen, Dai, and Rao]{shen2021cfnet}
+Zhelun Shen, Yuchao Dai, and Zhibo Rao.
+\newblock Cfnet: Cascade and fused cost volume for robust stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 13906--13915, 2021.
+
+\bibitem[Shen et~al.(2022)Shen, Dai, Song, Rao, Zhou, and Zhang]{shen2022pcw}
+Zhelun Shen, Yuchao Dai, Xibin Song, Zhibo Rao, Dingfu Zhou, and Liangjun Zhang.
+\newblock Pcw-net: Pyramid combination and warping cost volume for stereo matching.
+\newblock In \emph{European Conference on Computer Vision}, pages 280--297. Springer, 2022.
+
+\bibitem[Song et~al.(2019)Song, Zhao, Hu, and Fang]{song2019edgestereo}
+Xiao Song, Xu Zhao, Hanwen Hu, and Liangji Fang.
+\newblock Edgestereo: A context integrated residual pyramid network for stereo matching.
+\newblock In \emph{Computer Vision--ACCV 2018: 14th Asian Conference on Computer Vision, Perth, Australia, December 2--6, 2018, Revised Selected Papers, Part V 14}, pages 20--35. Springer, 2019.
+
+\bibitem[Song et~al.(2021)Song, Yang, Zhu, Zhou, Wang, and Shi]{Song_2021_CVPR}
+Xiao Song, Guorun Yang, Xinge Zhu, Hui Zhou, Zhe Wang, and Jianping Shi.
+\newblock Adastereo: A simple and efficient approach for adaptive stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 10328--10337, 2021.
+
+\bibitem[Spencer et~al.(2023)Spencer, Russell, Hadfield, and Bowden]{Spencer2023c}
+Jaime Spencer, Chris Russell, Simon Hadfield, and Richard Bowden.
+\newblock Kick back \& relax: Learning to reconstruct the world by watching slowtv.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, pages 15768--15779, 2023.
+
+\bibitem[Spencer et~al.(2024)Spencer, Russell, Hadfield, and Bowden]{Spencer2024}
+Jaime Spencer, Chris Russell, Simon Hadfield, and Richard Bowden.
+\newblock Kick back \& relax++: Scaling beyond ground-truth depth with slowtv \& cribstv.
+\newblock \emph{arXiv preprint arXiv:2403.01569}, 2024.
+
+\bibitem[Spyropoulos et~al.(2014)Spyropoulos, Komodakis, and Mordohai]{spyropoulos2014learning}
+Aristotle Spyropoulos, Nikos Komodakis, and Philippos Mordohai.
+\newblock Learning to detect ground control points for improving the accuracy of stereo matching.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1621--1628, 2014.
+
+\bibitem[Su and Ji(2022)]{Su_2022_CVPR_Chitransformer}
+Qing Su and Shihao Ji.
+\newblock Chitransformer: Towards reliable stereo from cues.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 1939--1949, 2022.
+
+\bibitem[Sun and Hariharan(2023)]{sun2023dynamodepth}
+Yihong Sun and Bharath Hariharan.
+\newblock Dynamo-depth: Fixing unsupervised depth estimation for dynamical scenes.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+
+\bibitem[Teed and Deng(2020)]{teed2020raft}
+Zachary Teed and Jia Deng.
+\newblock Raft: Recurrent all-pairs field transforms for optical flow.
+\newblock In \emph{Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part II 16}, pages 402--419. Springer, 2020.
+
+\bibitem[Tonioni et~al.(2017)Tonioni, Poggi, Mattoccia, and Di~Stefano]{tonioni2017unsupervised}
+Alessio Tonioni, Matteo Poggi, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Unsupervised adaptation for deep stereo.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer Vision}, pages 1605--1613, 2017.
+
+\bibitem[Tonioni et~al.(2019)Tonioni, Tosi, Poggi, Mattoccia, and Stefano]{tonioni2019real}
+Alessio Tonioni, Fabio Tosi, Matteo Poggi, Stefano Mattoccia, and Luigi~Di Stefano.
+\newblock Real-time self-adaptive deep stereo.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 195--204, 2019.
+
+\bibitem[Tosi et~al.(2020)Tosi, Aleotti, Ramirez, Poggi, Salti, Stefano, and Mattoccia]{tosi2020distilled}
+Fabio Tosi, Filippo Aleotti, Pierluigi~Zama Ramirez, Matteo Poggi, Samuele Salti, Luigi~Di Stefano, and Stefano Mattoccia.
+\newblock Distilled semantics for comprehensive scene understanding from videos.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 4654--4665, 2020.
+
+\bibitem[Tosi et~al.(2021)Tosi, Liao, Schmitt, and Geiger]{Tosi2021CVPR_SMD}
+Fabio Tosi, Yiyi Liao, Carolin Schmitt, and Andreas Geiger.
+\newblock Smd-nets: Stereo mixture density networks.
+\newblock In \emph{Conference on Computer Vision and Pattern Recognition (CVPR)}, 2021.
+
+\bibitem[Tosi et~al.(2023)Tosi, Tonioni, De~Gregorio, and Poggi]{Tosi_2023_CVPR}
+Fabio Tosi, Alessio Tonioni, Daniele De~Gregorio, and Matteo Poggi.
+\newblock Nerf-supervised deep stereo.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 855--866, 2023.
+
+\bibitem[Tosi et~al.(2024{\natexlab{a}})Tosi, Aleotti, Ramirez, Poggi, Salti, Mattoccia, and Di~Stefano]{tosi2024neural}
+Fabio Tosi, Filippo Aleotti, Pierluigi~Zama Ramirez, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Neural disparity refinement.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 2024{\natexlab{a}}.
+
+\bibitem[Tosi et~al.(2024{\natexlab{b}})Tosi, Bartolomei, and Poggi]{tosi2024survey}
+Fabio Tosi, Luca Bartolomei, and Matteo Poggi.
+\newblock A survey on deep stereo matching in the twenties.
+\newblock \emph{arXiv preprint arXiv:2407.07816}, 2024{\natexlab{b}}.
+\newblock Extended version of CVPR 2024 Tutorial "Deep Stereo Matching in the Twenties" (https://sites.google.com/view/stereo-twenties).
+
+\bibitem[Tosi et~al.(2024{\natexlab{c}})Tosi, {Zama Ramirez}, and Poggi]{tosi2024diffusion}
+Fabio Tosi, Pierluigi {Zama Ramirez}, and Matteo Poggi.
+\newblock Diffusion models for monocular depth estimation: {Overcoming} challenging conditions.
+\newblock In \emph{European Conference on Computer Vision ({ECCV})}, 2024{\natexlab{c}}.
+
+\bibitem[Wang et~al.(2020)Wang, Zhang, Wang, Lu, and Ruan]{wang2020cliffnet}
+Lijun Wang, Jianming Zhang, Yifan Wang, Huchuan Lu, and Xiang Ruan.
+\newblock {CLIFFNet} for monocular depth estimation with hierarchical embedding loss.
+\newblock In \emph{ECCV}. Springer, 2020.
+
+\bibitem[Wang et~al.(2024{\natexlab{a}})Wang, Xu, Dai, Xiang, Deng, Tong, and Yang]{wang2024moge}
+Ruicheng Wang, Sicheng Xu, Cassie Dai, Jianfeng Xiang, Yu Deng, Xin Tong, and Jiaolong Yang.
+\newblock Moge: Unlocking accurate monocular geometry estimation for open-domain images with optimal training supervision, 2024{\natexlab{a}}.
+
+\bibitem[Wang et~al.(2024{\natexlab{b}})Wang, Xu, Jia, and Yang]{wang2024selective}
+Xianqi Wang, Gangwei Xu, Hao Jia, and Xin Yang.
+\newblock Selective-stereo: Adaptive frequency information selection for stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024{\natexlab{b}}.
+
+\bibitem[Watson et~al.(2019)Watson, Firman, Brostow, and Turmukhambetov]{watson2019depthhints}
+Jamie Watson, Michael Firman, Gabriel~J. Brostow, and Daniyar Turmukhambetov.
+\newblock Self-supervised monocular depth hints.
+\newblock In \emph{ICCV}, 2019.
+
+\bibitem[Watson et~al.(2020)Watson, Aodha, Turmukhambetov, Brostow, and Firman]{watson2020learning}
+Jamie Watson, Oisin~Mac Aodha, Daniyar Turmukhambetov, Gabriel~J Brostow, and Michael Firman.
+\newblock Learning stereo from single images.
+\newblock In \emph{Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part I 16}, pages 722--740. Springer, 2020.
+
+\bibitem[Weinzaepfel et~al.(2023)Weinzaepfel, Lucas, Leroy, Cabon, Arora, Br{\'e}gier, Csurka, Antsfeld, Chidlovskii, and Revaud]{croco_v2}
+Philippe Weinzaepfel, Thomas Lucas, Vincent Leroy, Yohann Cabon, Vaibhav Arora, Romain Br{\'e}gier, Gabriela Csurka, Leonid Antsfeld, Boris Chidlovskii, and J{\'e}r{\^o}me Revaud.
+\newblock {CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow}.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Wen et~al.(2024)Wen, Liang, and Deng]{wen2024layeredflow}
+Hongyu Wen, Erich Liang, and Jia Deng.
+\newblock Layeredflow: A real-world benchmark for non-lambertian multi-layer optical flow.
+\newblock \emph{arXiv preprint arXiv:2409.05688}, 2024.
+\newblock Accepted to ECCV 2024.
+
+\bibitem[Xu et~al.(2023{\natexlab{a}})Xu, Wang, Ding, and Yang]{xu2023iterative}
+Gangwei Xu, Xianqi Wang, Xiaohuan Ding, and Xin Yang.
+\newblock Iterative geometry encoding volume for stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 21919--21928, 2023{\natexlab{a}}.
+
+\bibitem[Xu et~al.(2023{\natexlab{b}})Xu, Zhang, Cai, Rezatofighi, Yu, Tao, and Geiger]{xu2023unifying}
+Haofei Xu, Jing Zhang, Jianfei Cai, Hamid Rezatofighi, Fisher Yu, Dacheng Tao, and Andreas Geiger.
+\newblock Unifying flow, stereo and depth estimation.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 2023{\natexlab{b}}.
+
+\bibitem[Xu et~al.(2024)Xu, Xiang, Qiao, Fu, and Zhao]{Xu_CVPR_2024_ADL}
+Peng Xu, Zhiyu Xiang, Chenyu Qiao, Jingyun Fu, and Xijun Zhao.
+\newblock Adaptive multi-modal cross-entropy loss for stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024.
+
+\bibitem[Yang et~al.(2019)Yang, Manela, Happold, and Ramanan]{yang2019hierarchical}
+Gengshan Yang, Joshua Manela, Michael Happold, and Deva Ramanan.
+\newblock Hierarchical deep stereo matching on high-resolution images.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 5515--5524, 2019.
+
+\bibitem[Yang et~al.(2024{\natexlab{a}})Yang, Kang, Huang, Xu, Feng, and Zhao]{depth_anything_v1}
+Lihe Yang, Bingyi Kang, Zilong Huang, Xiaogang Xu, Jiashi Feng, and Hengshuang Zhao.
+\newblock Depth anything: Unleashing the power of large-scale unlabeled data.
+\newblock In \emph{CVPR}, 2024{\natexlab{a}}.
+
+\bibitem[Yang et~al.(2024{\natexlab{b}})Yang, Kang, Huang, Zhao, Xu, Feng, and Zhao]{depth_anything_v2}
+Lihe Yang, Bingyi Kang, Zilong Huang, Zhen Zhao, Xiaogang Xu, Jiashi Feng, and Hengshuang Zhao.
+\newblock Depth anything v2.
+\newblock \emph{arXiv:2406.09414}, 2024{\natexlab{b}}.
+
+\bibitem[Yin et~al.(2020)Yin, Wang, Shen, Liu, Tian, Xu, Sun, and Renyin]{Yin2020}
+Wei Yin, Xinlong Wang, Chunhua Shen, Yifan Liu, Zhi Tian, Songcen Xu, Changming Sun, and Dou Renyin.
+\newblock Diversedepth: Affine-invariant depth prediction using diverse data.
+\newblock \emph{arXiv preprint arXiv:2002.00569}, 2020.
+
+\bibitem[Yin et~al.(2023)Yin, Zhang, Chen, Cai, Yu, Wang, Chen, and Shen]{Yin2023}
+Wei Yin, Chi Zhang, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, and Chunhua Shen.
+\newblock {Metric3D}: Towards zero-shot metric 3d prediction from a single image.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Yin and Shi(2018)]{yin2018geonet}
+Zhichao Yin and Jianping Shi.
+\newblock Geonet: Unsupervised learning of dense depth, optical flow and camera pose.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1983--1992, 2018.
+
+\bibitem[Yin et~al.(2019)Yin, Darrell, and Yu]{yin2019hierarchical}
+Zhichao Yin, Trevor Darrell, and Fisher Yu.
+\newblock Hierarchical discrete distribution decomposition for match density estimation.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 6044--6053, 2019.
+
+\bibitem[Zama~Ramirez et~al.(2019)Zama~Ramirez, Poggi, Tosi, Mattoccia, and Di~Stefano]{zama2019geometry}
+Pierluigi Zama~Ramirez, Matteo Poggi, Fabio Tosi, Stefano Mattoccia, and Luigi Di~Stefano.
+\newblock Geometry meets semantics for semi-supervised monocular depth estimation.
+\newblock In \emph{Computer Vision--ACCV 2018: 14th Asian Conference on Computer Vision, Perth, Australia, December 2--6, 2018, Revised Selected Papers, Part III 14}, pages 298--313. Springer, 2019.
+
+\bibitem[Zama~Ramirez et~al.(2022)Zama~Ramirez, Tosi, Poggi, Salti, Di~Stefano, and Mattoccia]{zamaramirez2022booster}
+Pierluigi Zama~Ramirez, Fabio Tosi, Matteo Poggi, Samuele Salti, Luigi Di~Stefano, and Stefano Mattoccia.
+\newblock Open challenges in deep stereo: the booster dataset.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, 2022.
+\newblock CVPR.
+
+\bibitem[Zama~Ramirez et~al.(2024{\natexlab{a}})Zama~Ramirez, Costanzino, Tosi, Poggi, Di~Stefano, Weibel, Bauer, Antensteiner, Vincze, Li, Huang, Zhang, Wang, Zheng, Shen, Cao, Song, Wang, Zhu, Zhang, Li, Wu, Li, Zhu, Sun, Zhang, Sun, Yao, Zhao, Jiang, Jiang, Lavreniuk, and Wang]{zamaramirez2024tricky}
+Pierluigi Zama~Ramirez, Alex Costanzino, Fabio Tosi, Matteo Poggi, Luigi Di~Stefano, Jean-Baptiste Weibel, Dominik Bauer, Doris Antensteiner, Markus Vincze, Jiaqi Li, Yachuan Huang, Junrui Zhang, Yiran Wang, Jinghong Zheng, Liao Shen, Zhiguo Cao, Ziyang Song, Zerong Wang, Ruijie Zhu, Hao Zhang, Rui Li, Jiang Wu, Xian Li, Yu Zhu, Jinqiu Sun, Yanning Zhang, Pihai Sun, Yuanqi Yao, Wenbo Zhao, Kui Jiang, Junjun Jiang, Mykola Lavreniuk, and Jui-Lin Wang.
+\newblock Tricky 2024 challenge on monocular depth from images of specular and transparent surfaces.
+\newblock In \emph{European Conference on Computer Vision Workshops (ECCVW}, 2024{\natexlab{a}}.
+
+\bibitem[Zama~Ramirez et~al.(2024{\natexlab{b}})Zama~Ramirez, Tosi, Di~Stefano, Timofte, Costanzino, Poggi, et~al.]{Ramirez2024}
+Pierluigi Zama~Ramirez, Fabio Tosi, Luigi Di~Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi, et~al.
+\newblock {NTIRE} 2024 challenge on {HR} depth from images of specular and transparent surfaces.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}, 2024{\natexlab{b}}.
+
+\bibitem[{\v{Z}}bontar and LeCun(2015)]{zbontar2015computing}
+Jure {\v{Z}}bontar and Yann LeCun.
+\newblock Computing the stereo matching cost with a convolutional neural network.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1592--1599, 2015.
+
+\bibitem[{\v{Z}}bontar and LeCun(2016)]{vzbontar2016stereo_MC-CNN}
+Jure {\v{Z}}bontar and Yann LeCun.
+\newblock Stereo matching by training a convolutional neural network to compare image patches.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0 (65):\penalty0 1--32, 2016.
+
+\bibitem[Zeng et~al.(2023)Zeng, Yao, Yu, Wu, and Jia]{Zeng_2023_ICCV}
+Jiaxi Zeng, Chengtang Yao, Lidong Yu, Yuwei Wu, and Yunde Jia.
+\newblock Parameterized cost volume for stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, pages 18347--18357, 2023.
+
+\bibitem[Zeng et~al.(2024)Zeng, Yao, Wu, and Jia]{zeng2024temporally}
+Jiaxi Zeng, Chengtang Yao, Yuwei Wu, and Yunde Jia.
+\newblock Temporally consistent stereo matching.
+\newblock In \emph{Proceedings of the European Conference on Computer Vision (ECCV)}, 2024.
+
+\bibitem[Zhang et~al.(2019)Zhang, Prisacariu, Yang, and Torr]{zhang2019ga}
+Feihu Zhang, Victor Prisacariu, Ruigang Yang, and Philip~HS Torr.
+\newblock Ga-net: Guided aggregation net for end-to-end stereo matching.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 185--194, 2019.
+
+\bibitem[Zhang et~al.(2020)Zhang, Qi, Yang, Prisacariu, Wah, and Torr]{zhang2019domaininvariant}
+Feihu Zhang, Xiaojuan Qi, Ruigang Yang, Victor Prisacariu, Benjamin Wah, and Philip Torr.
+\newblock Domain-invariant stereo matching networks.
+\newblock In \emph{Europe Conference on Computer Vision (ECCV)}, 2020.
+
+\bibitem[Zhang et~al.(2023)Zhang, Poggi, and Mattoccia]{Zhang2023TemporalStereo}
+Youmin Zhang, Matteo Poggi, and Stefano Mattoccia.
+\newblock Temporalstereo: Efficient spatial-temporal stereo matching network.
+\newblock In \emph{IROS}, 2023.
+
+\bibitem[Zhang et~al.(2024)Zhang, Wang, Li, Wang, and Guo]{zhang2024learning}
+Yongjian Zhang, Longguang Wang, Kunhong Li, Yun Wang, and Yulan Guo.
+\newblock Learning representations from foundation models for domain generalized stereo matching.
+\newblock In \emph{Proceedings of the European Conference on Computer Vision (ECCV)}, 2024.
+
+\bibitem[Zhao et~al.(2022)Zhao, Zhang, Poggi, Tosi, Guo, Zhu, Huang, Tang, and Mattoccia]{zhao2022monovit}
+Chaoqiang Zhao, Youmin Zhang, Matteo Poggi, Fabio Tosi, Xianda Guo, Zheng Zhu, Guan Huang, Yang Tang, and Stefano Mattoccia.
+\newblock Monovit: Self-supervised monocular depth estimation with a vision transformer.
+\newblock In \emph{2022 international conference on 3D vision (3DV)}, pages 668--678. IEEE, 2022.
+
+\bibitem[Zhao et~al.(2023)Zhao, Zhou, Zhang, Chen, Yang, and Zhao]{zhao2023high}
+Haoliang Zhao, Huizhou Zhou, Yongjun Zhang, Jie Chen, Yitong Yang, and Yong Zhao.
+\newblock High-frequency stereo matching network.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 1327--1336, 2023.
+
+\bibitem[Zhou et~al.(2017)Zhou, Brown, Snavely, and Lowe]{zhou2017unsupervised}
+Tinghui Zhou, Matthew Brown, Noah Snavely, and David~G Lowe.
+\newblock Unsupervised learning of depth and ego-motion from video.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1851--1858, 2017.
+
+\bibitem[Zou et~al.(2018)Zou, Luo, and Huang]{zou2018df}
+Yuliang Zou, Zelun Luo, and Jia-Bin Huang.
+\newblock Df-net: Unsupervised joint learning of depth and flow using cross-task consistency.
+\newblock In \emph{Proceedings of the European conference on computer vision (ECCV)}, pages 36--53, 2018.
+
+\end{thebibliography}

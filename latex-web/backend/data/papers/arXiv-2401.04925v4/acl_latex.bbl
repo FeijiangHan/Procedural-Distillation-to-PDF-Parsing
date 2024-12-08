@@ -1,0 +1,124 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell et~al.}]{brown2020language}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et~al. 2020.
+\newblock Language models are few-shot learners.
+\newblock \emph{Advances in neural information processing systems}, 33:1877--1901.
+
+\bibitem[{Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser, Plappert, Tworek, Hilton, Nakano et~al.}]{cobbe2021training}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et~al. 2021.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}.
+
+\bibitem[{Fu et~al.(2023)Fu, Peng, Sabharwal, Clark, and Khot}]{fu2023complexitybased}
+Yao Fu, Hao Peng, Ashish Sabharwal, Peter Clark, and Tushar Khot. 2023.
+\newblock \href {https://arxiv.org/abs/2210.00720} {Complexity-based prompting for multi-step reasoning}.
+\newblock \emph{Preprint}, arXiv:2210.00720.
+
+\bibitem[{Geva et~al.(2021)Geva, Khashabi, Segal, Khot, Roth, and Berant}]{geva2021did}
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan Berant. 2021.
+\newblock Did aristotle use a laptop? a question answering benchmark with implicit reasoning strategies.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 9:346--361.
+
+\bibitem[{Jin et~al.(2024)Jin, Yu, Huang, Zeng, Wang, Hua, Zhao, Mei, Meng, Ding, Yang, Du, and Zhang}]{jin2024exploring}
+Mingyu Jin, Qinkai Yu, Jingyuan Huang, Qingcheng Zeng, Zhenting Wang, Wenyue Hua, Haiyan Zhao, Kai Mei, Yanda Meng, Kaize Ding, Fan Yang, Mengnan Du, and Yongfeng Zhang. 2024.
+\newblock \href {https://arxiv.org/abs/2404.07066} {Exploring concept depth: How large language models acquire knowledge at different layers?}
+\newblock \emph{Preprint}, arXiv:2404.07066.
+
+\bibitem[{Kojima et~al.(2023)Kojima, Gu, Reid, Matsuo, and Iwasawa}]{kojima2023large}
+Takeshi Kojima, Shixiang~Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. 2023.
+\newblock \href {https://arxiv.org/abs/2205.11916} {Large language models are zero-shot reasoners}.
+\newblock \emph{Preprint}, arXiv:2205.11916.
+
+\bibitem[{Koncel-Kedziorski et~al.(2015)Koncel-Kedziorski, Hajishirzi, Sabharwal, Etzioni, and Ang}]{koncel2015parsing}
+Rik Koncel-Kedziorski, Hannaneh Hajishirzi, Ashish Sabharwal, Oren Etzioni, and Siena~Dumas Ang. 2015.
+\newblock Parsing algebraic word problems into equations.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 3:585--597.
+
+\bibitem[{Li et~al.(2023)Li, Sreenivasan, Giannou, Papailiopoulos, and Oymak}]{li2023dissecting}
+Yingcong Li, Kartik Sreenivasan, Angeliki Giannou, Dimitris Papailiopoulos, and Samet Oymak. 2023.
+\newblock Dissecting chain-of-thought: A study on compositional in-context learning of mlps.
+\newblock \emph{arXiv preprint arXiv:2305.18869}.
+
+\bibitem[{Ling et~al.(2017)Ling, Yogatama, Dyer, and Blunsom}]{ling2017program}
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. 2017.
+\newblock Program induction by rationale generation: Learning to solve and explain algebraic word problems.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 158--167.
+
+\bibitem[{Lyu et~al.(2023)Lyu, Havaldar, Stein, Zhang, Rao, Wong, Apidianaki, and Callison-Burch}]{lyu2023faithful}
+Qing Lyu, Shreya Havaldar, Adam Stein, Li~Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, and Chris Callison-Burch. 2023.
+\newblock \href {https://arxiv.org/abs/2301.13379} {Faithful chain-of-thought reasoning}.
+\newblock \emph{Preprint}, arXiv:2301.13379.
+
+\bibitem[{Madaan and Yazdanbakhsh(2022)}]{madaan2022text}
+Aman Madaan and Amir Yazdanbakhsh. 2022.
+\newblock Text and patterns: For effective chain of thought, it takes two to tango.
+\newblock \emph{arXiv preprint arXiv:2209.07686}.
+
+\bibitem[{Merrill and Sabharwal(2023)}]{merrill2023expressive}
+William Merrill and Ashish Sabharwal. 2023.
+\newblock \href {https://arxiv.org/abs/2310.07923} {The expressive power of transformers with chain of thought}.
+\newblock \emph{Preprint}, arXiv:2310.07923.
+
+\bibitem[{OpenAI(2023)}]{openai2023gpt}
+R~OpenAI. 2023.
+\newblock Gpt-4 technical report. arxiv 2303.08774.
+\newblock \emph{View in Article}, 2:13.
+
+\bibitem[{Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin, Zhang, Agarwal, Slama, Ray et~al.}]{ouyang2022training}
+Long Ouyang, Jeffrey Wu, Xu~Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et~al. 2022.
+\newblock Training language models to follow instructions with human feedback.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:27730--27744.
+
+\bibitem[{Patel et~al.(2021)Patel, Bhattamishra, and Goyal}]{patel2021nlp}
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. 2021.
+\newblock Are nlp models really able to solve simple math word problems?
+\newblock In \emph{Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, pages 2080--2094.
+
+\bibitem[{Roy and Roth(2015)}]{roy2015solving}
+Subhro Roy and Dan Roth. 2015.
+\newblock Solving general arithmetic word problems.
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing}. Association for Computational Linguistics.
+
+\bibitem[{Schaeffer et~al.(2023)Schaeffer, Miranda, and Koyejo}]{schaeffer2023emergent}
+Rylan Schaeffer, Brando Miranda, and Sanmi Koyejo. 2023.
+\newblock Are emergent abilities of large language models a mirage?
+\newblock \emph{arXiv preprint arXiv:2304.15004}.
+
+\bibitem[{Shao et~al.(2023)Shao, Gong, Shen, Huang, Duan, and Chen}]{shao2023synthetic}
+Zhihong Shao, Yeyun Gong, Yelong Shen, Minlie Huang, Nan Duan, and Weizhu Chen. 2023.
+\newblock \href {https://arxiv.org/abs/2302.00618} {Synthetic prompting: Generating chain-of-thought demonstrations for large language models}.
+\newblock \emph{Preprint}, arXiv:2302.00618.
+
+\bibitem[{Tang et~al.(2023)Tang, Zheng, Li, Meng, Zhu, Liang, and Zhang}]{tang2023large}
+Xiaojuan Tang, Zilong Zheng, Jiaqi Li, Fanxu Meng, Song-Chun Zhu, Yitao Liang, and Muhan Zhang. 2023.
+\newblock Large language models are in-context semantic reasoners rather than symbolic reasoners.
+\newblock \emph{arXiv preprint arXiv:2305.14825}.
+
+\bibitem[{Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery, and Zhou}]{wang2023selfconsistency}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. 2023.
+\newblock \href {https://arxiv.org/abs/2203.11171} {Self-consistency improves chain of thought reasoning in language models}.
+\newblock \emph{Preprint}, arXiv:2203.11171.
+
+\bibitem[{Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou et~al.}]{wei2022chain}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed~Chi, Quoc~V Le, Denny Zhou, et~al. 2022.
+\newblock Chain-of-thought prompting elicits reasoning in large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:24824--24837.
+
+\bibitem[{Wu et~al.(2023)Wu, Shen, Badrinath, Ma, and Lakkaraju}]{wu2023analyzing}
+Skyler Wu, Eric~Meng Shen, Charumathi Badrinath, Jiaqi Ma, and Himabindu Lakkaraju. 2023.
+\newblock Analyzing chain-of-thought prompting in large language models via gradient-based feature attributions.
+\newblock \emph{arXiv preprint arXiv:2307.13339}.
+
+\bibitem[{Yao et~al.(2023)Yao, Yu, Zhao, Shafran, Griffiths, Cao, and Narasimhan}]{yao2023tree}
+Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas~L. Griffiths, Yuan Cao, and Karthik Narasimhan. 2023.
+\newblock \href {https://arxiv.org/abs/2305.10601} {Tree of thoughts: Deliberate problem solving with large language models}.
+\newblock \emph{Preprint}, arXiv:2305.10601.
+
+\bibitem[{Zhang et~al.(2022)Zhang, Zhang, Li, and Smola}]{zhang2022automatic}
+Zhuosheng Zhang, Aston Zhang, Mu~Li, and Alex Smola. 2022.
+\newblock Automatic chain of thought prompting in large language models.
+\newblock \emph{arXiv preprint arXiv:2210.03493}.
+
+\end{thebibliography}

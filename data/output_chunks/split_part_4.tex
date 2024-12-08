@@ -1,0 +1,63 @@
+\section{Analyzing Methods}\label{sec:methods}
+In this section, we propose an analysis to examine the relationship between the reasoning steps and the chain-of-thought (CoT) prompting performance. Our central hypothesis is that the reasoning steps are the most critical component of CoT prompts, enabling language models to apply more logical reasoning when generating responses.
+To test this, we design experiments that expand and compress the rationale reasoning steps within CoT demonstrations, while keeping all other factors constant. Specifically, we systematically vary only the number of reasoning steps, without introducing new reasoning content or removing existing reasoning content. We evaluate both zero-shot and few-shot CoT prompts in the following sections. The overall experimental procedure is illustrated in ~\autoref{fig:intro}. Through this controlled analysis, we aim to shed light on how CoT influences the LLM's ability to produce logically sound responses.
+
+\subsection{Preliminary}
+Zero-Shot-CoT \cite{kojima2023large} is a template-based zero-shot prompt for chain-of-thought reasoning. The core idea is to add \textit{``Let's think step by step''} or other similar text. Compared to Zero-Shot-CoT, Few-Shot-CoT provides more examples in the prompt for chain-of-thought reasoning. Among them, Manual-CoT \cite{wei2022chain}, Auto-CoT \cite{zhang2022automatic} are two popular methods.
+
+\noindent
+\textbf{Manual-CoT}: Manual-CoT prompting relies on a few manually designed demonstrations, each composed of a question and a reasoning chain leading to an answer, to improve language models' reasoning performance.
+
+\noindent
+\textbf{Auto-CoT}: Auto-CoT eliminates the need for manual demonstration design by automatically constructing demonstrations through clustering test questions to select diverse examples and generating reasoning chains using the language model's own zero-shot reasoning capability.
+
+\subsection{Analyzing Zero-shot CoT}
+\begin{table*}[t]
+\small
+  \caption{Case of Think About The Word, select a few words and ask the model to think about the meaning in text.}
+  \label{Think}
+  \begin{tabularx}{\textwidth}{X}
+    \toprule
+    \multicolumn{1}{c}{\textbf{Think About The Word}} \\
+    \midrule
+    \textbf{Prompt}: \\
+    Q: Could someone in Tokyo take a taxi to the Metropolitan Museum of Art?\\
+    A: Let's think step by step. The stem of the sentence is Tokyo, take a taxi, Metropolitan Museum of Art. \textcolor{red}{Think about Tokyo... Think about taking a taxi... Think about Metropolitan Museum of Art...} Inference: Tokyo is in Japan and the Metropolitan Museum of Art is in New York. The two places are separated by the sea, so you can't take a taxi there. The answer is no. \\
+    \midrule
+    Q: Could a chipmunk fit 100 chocolate chips in his mouth?\\
+    \textbf{Answer}:\\
+    A: Based on this question, the stem of the sentence is chipmunk, fit, 100 chocolate chips, mouth. \textcolor{red}{Think about chipmunk... Think about fit... Think about chocolate chips...} Inference: Chipmunks are small animals with relatively small mouths, so it's unlikely that a chipmunk would be able to fit 100 chocolate chips in its mouth at once. The answer is no.\\
+    \textbf{Prediction}: no\\
+    \textbf{Ground Truth}: no\\
+    \bottomrule
+  \end{tabularx}
+\end{table*}
+
+In the zero-shot scenario, we modified the initial prompt from ``Let's think step by step" to ``Let's think step by step, you must think more steps." This change was implemented because, unlike the Few-shot CoT context, we cannot introduce additional reasoning steps in the example. By altering the initial prompt, we guide the LLM to engage in more extensive thinking. This approach is crucial as it enhances the model's accuracy without the need for incremental training or additional example-driven adjustments typical in few-shot CoT scenarios. This refined strategy ensures a more comprehensive and detailed reasoning process, thereby significantly improving the model's performance in zero-shot settings.
+
+\subsection{Analyzing Few-shot CoT}
+In this section, we aim to modify the reasoning chains within CoT rationales, either by adding or compressing reasoning steps. The goal is to examine how changes in reasoning structure influence LLM decision-making. During rationale expansion, we will avoid introducing any new task-relevant information. This isolates reasoning steps as the only variable under study.
+
+To this end, we plan to investigate the following strategies to expand the reasoning steps for different LLM applications.
+There are usually fixed patterns in the way people think about a problem, for example, by repeating the question over and over again to gain a deeper understanding, by creating mathematical equations to reduce the burden on memory, by analyzing the meaning of words in the question to help understand the topic, by summarizing the current state to simplify the description of the topic.
+Based on the inspiration of Zero-Shot-CoT and Auto-CoT, we expected the process of CoT to become a standardized pattern, and lead to the right result by restriction on the direction of CoT thinking in the prompt section.
+The core of our approach is to simulate the process of human thinking and reshape the chain of thought. We give five general prompt strategies in \autoref{wide_table1} in the Appendix.
+
+\begin{itemize}[leftmargin=*]\setlength\itemsep{-0.3em}
+\item
+\textbf{Think About The Word}: This strategy is to ask the model to interpret the word and rebuild the knowledge base. Typically a word has multiple different meanings, and the effect of this is to get the model to think outside the box and reinterpret the words in the problem based on the generated interpretations. This process does not introduce new information. In the prompt, we give examples of the words that the model is thinking about, and the model automatically picks words for this process based on the new question.
+
+\item
+\textbf{Read the question again}: Read the questions repeatedly to reduce the interference of other texts on the chain of thought. In short, we let the model remember the questions.
+
+\item
+\textbf{Repeat State}: Similar to repeated readings, we include a small summary of the current state after a long chain of reasoning, aiming to help the model simplify its memory and reduce the interference of other texts in the CoT.
+
+\item
+\textbf{Self-Verification}: Humans will check if their answers are correct when answering questions. Therefore, before the model gets the answer, we add a self-verification process to judge whether the answer is reasonable based on some basic information.
+
+\item
+\textbf{Make Equation}: For mathematical problems, Make Equations can help humans summarize and simplify memory. And for some problems that require the assumption of an unknown number $x$, establishing an equation is an essential process. We simulated this process and let the model try to make equations in mathematical problems.
+\end{itemize}
+
+Overall, our prompt strategies all saw corresponding patterns in the model's responses. We give an example in ~\autoref{Think}, examples of the other four strategies can be found in the appendix. In Section 4 we will perform a quantitative analysis to validate the effectiveness of our strategies. We assume that each additional strategy is equivalent to increasing the reasoning step length by one.

@@ -1,0 +1,62 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "1-header",
+      "label": "Heading",
+      "points": [
+        [
+          71.13188171386719,
+          697.0517120361328
+        ],
+        [
+          154.25515747070312,
+          716.7933807373047
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "2-figure",
+      "label": "Figure",
+      "points": [
+        [
+          307.28985595703125,
+          217.5751190185547
+        ],
+        [
+          526.3759918212891,
+          376.637939453125
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "3-figurecap",
+      "label": "FigureCaption",
+      "points": [
+        [
+          307.28985595703125,
+          376.637939453125
+        ],
+        [
+          526.3759918212891,
+          434.637939453125
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

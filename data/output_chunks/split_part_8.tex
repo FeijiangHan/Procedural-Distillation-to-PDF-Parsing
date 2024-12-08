@@ -1,0 +1,112 @@
+\section{Appendix}
+\label{sec:appendix}
+%
+\begin{table}[!h]
+\small
+\caption{}
+  \label{wide_table1}
+  \begin{tabularx}{\textwidth}{X}
+    \toprule
+    \multicolumn{1}{c}{\textbf{Think About The Word}} \\\midrule
+\textbf{prompt}: \\
+Q: Could someone in Tokyo take a taxi to the The Metropolitan Museum of Art?\\
+A: Let's think step by step. The stem of the sentence is Tokyo, take a taxi, Metropolitan Museum of Art. \textcolor{blue}{Think about Tokyo... Think about take a taxi... Think about Metropolitan Museum of Art...} Inference: Tokyo is in Japan and the Metropolitan Museum of Art is in New York. The two places are separated by the sea, so you can't take a taxi there. Since two places are separated by the sea, you can't take a taxi there. The answer is yes.  \\
+
+Q: Could a chipmunk fit 100 chocolate chips in his mouth?\\\midrule
+\textbf{Answer}:\\
+A:
+Based on this question, The stem of the sentence is chipmunk, fit, 100 chocolate chips, mouth. \textcolor{blue} {Think about chipmunk... Think about fit... Think about chocolate chips...} Inference: Chipmunks are small animals with relatively small mouths, so it's unlikely that a chipmunk would be able to fit 100 chocolate chips in its mouth at once. The answer is no.\\
+\textbf{pred} : no\\
+\textbf{GT} : no\\\toprule
+    \multicolumn{1}{c}{\textbf{Read the question again}} \\\midrule
+\textbf{prompt}: \\
+Q: Mark's father gave him \$85. Mark bought 10 books, each of which cost \$5. How much money does Mark have left?\\
+A: Let's think step by step. \textcolor{blue} {The question is: How much money does Mark have left? So we need to calculate How much money does Mark have left. Start looking for information about money now.} Mark's father gave him \$85. Mark bought 10 books, each of which cost \$5. That means that Mark spent \$50 on books. So we have equation money = +85 - 50 = 35. So Mark has \$85 - \$50 = \$35 left. So the answer is 35.\\
+
+Q: During a visit to an orchard, Charlie picked 0.1666 of a bag of Golden Delicious apples, 0.1666 of a bag of Macintosh apples, and 0.333 of a bag of Cortland apples. How many bags of fruit did Charlie pick in total?\\
+        \midrule
+\textbf{Answer}:\\
+A:
+\textcolor{blue}{ The question is: How many bags of fruit did Charlie pick in total. So we need to calculate how many bags of fruit did Charlie pick in total. Start looking for information about bags now.} Charlie picked 0.166 of a bag of Golden Delicious apples, 0.166 of a bag of Macintosh apples, and 0.3333 of a bag of Cortland apples. We have to add these fractions together to find out how many bags of fruit Charlie picked in total. 0.1666 + 0.1666 + 0.3333 = 0.6666. This means that Charlie picked a total of 0.666 bags of fruit. The answer is 0.6666.\\
+\textbf{pred} : 0.6666\\
+\textbf{GT} : 0.6666\\
+    \bottomrule
+
+\end{tabularx}
+\end{table}
+\begin{table*}[htbp]
+\small
+  \caption{}
+  \label{wide_table2}
+  \begin{tabularx}{\textwidth}{X}
+    \toprule
+    \multicolumn{1}{c}{\textbf{Repeat State}} \\\midrule
+\textbf{prompt}: \\
+Q: A coin is heads up. Janette does not flip the coin. Stacey flips the coin. Ronny flips the coin. Kim does not flip the coin. Is the coin still heads up? Note that "flip" here means "reverse".\\
+A: Let's think step by step. \textcolor{blue}{The state of the coin from the beginning is heads up.} Janette does not flip the coin, \textcolor{blue} {so the coin remains heads up. coin is heads up.} Stacey flips the coin, \textcolor{blue}{so the coin is now tails up. coin is now tail up.} Ronny flips the coin, so the coin is now heads up again. Kim does not flip the coin, \textcolor{blue} {so the coin remains heads up.} coin is head up. The answer is yes.
+
+Q: A coin is heads up. Jeff does not flip the coin. Jen flips the coin. Giselle flips the coin. Noel does not flip the coin. Is the coin still heads up? Note that "flip" here means "reverse". \\
+        \midrule
+\textbf{Answer}:\\
+\textcolor{blue}{The state of the coin from the beginning is heads up.} Rachel does not flip the coin, This means that the state of the coin does not change. \textcolor{blue}{so the coin remains heads up.} Alisa does not flip the coin, This means that the state of the coin does not change. \textcolor{blue}{so the coin remains heads up.} Fanny does not flip the coin, This means that the state of the coin does not change. so the coin remains heads up. Jeffery does not flip the coin, This means that the state of the coin does not change. \textcolor{blue}{so the coin remains heads up.} So the final answer is yes, the coin is still heads up. The answer is yes.\\
+\textbf{pred} : yes\\
+\textbf{GT} : yes\\
+
+    \toprule
+    \multicolumn{1}{c}{\textbf{Self-Verification}} \\
+    \midrule
+\textbf{prompt}: \\
+Q: Take the last letters of each words in "Alina Alessandra Amina Bianca" and concatenate them.\\
+A: Let's think step by step. \textcolor{blue} {There is four words.} So the answer will consist of four letters. Explain concatenate: concatenate is a term used in computer programming and mathematics, referring to the operation of combining two or more strings, sequences, or sets in a linear order. The last letter of "Alina" is "a". The last letter of "Alessandra" is "a". The last letter of "Amina" is "a". The last letter of "Bianca" is "a". \textcolor{blue} {So we have four letters.} So the final answer is "aaaa". The answer is aaaa.\\
+Q: Take the last letters of each words in "Jeff Jen Giselle Noel" and concatenate them.\\
+        \midrule
+\textbf{Answer}:\\
+ \textcolor{blue}{There is four words.} So the answer will consist of four letters. Explain concatenate: concatenate is a term used in computer programming and mathematics, referring to the operation of combining two or more strings, sequences, or sets in a linear order. The last letter of "Jeff" is "f". The last letter of "Jen" is "n". The last letter of "Giselle" is "e". The last letter of "Noel" is "l".  \textcolor{blue}{So we have four letters.} So the final answer is "fnel". The answer is fnel.\\
+\textbf{pred} : fnel\\
+\textbf{GT} : fnel\\
+
+    \toprule
+    \multicolumn{1}{c}{\textbf{Make Equation}} \\
+    \midrule
+\textbf{prompt}: \\
+Q: 5 children were riding on the bus. At the bus stop 63 children got off the bus while some more got on the bus. Then there were 14 children altogether on the bus. How many more children got on the bus than those that got off?\\
+A: Let's think step by step. first step, 5 children were riding on the bus. We know 5 children is on the bus. second step,There were 63 children that got off the bus. \textcolor{blue}{third step, some more got on the bus we define as unknown x.} fourth step, 14 children remained on the bus, which means we can calculate unknow x.\textcolor{blue}{we have equation x+5-63 = 14, now we know x is 72}. fifth step, Therefore, 72 - 63 = 9. 9 more children got on the bus than those that got off. The answer is 9.\\
+Q: Rachel had to complete 8 pages of math homework. If she had to complete 3 more pages of math homework than reading homework How many pages did she have to complete in all?\\
+\midrule
+\textbf{Answer}:\\
+Explain the problem. The problem is asking us to find out how many pages of homework Rachel had to complete in total given that she had to complete 8 pages of math homework and 3 more pages of math homework than reading homework. Find the necessary information. First, we know that Rachel had to complete 8 pages of math homework. \textcolor{blue}{Let's call this "M".} Second, we know that she had to complete 3 more pages of math homework than reading homework.\textcolor{blue}{ Let's call the number of reading homework pages "R".} Find the solution. Based on the information given, \textcolor{blue}{we can use the equation M = R + 3 to represent Rachel's math homework in terms of her reading homework.} So, if Rachel had to complete 8 pages of math homework, \textcolor{blue}{we can substitute M = 8 into the equation and solve for R. 8 = R + 3, R = 8 - 3, R = 5.} Therefore, Rachel had to complete 5 pages of reading homework. Now, we can find the total number of pages Rachel had to complete by adding the math and reading homework together.
+
+Total = 8 (math) + 5 (reading)
+Total = 13
+
+So, in total, Rachel had to complete 13 pages of homework.\\
+\textbf{pred} : 13\\
+\textbf{GT} : 13\\\bottomrule
+  \end{tabularx}
+\end{table*}
+
+\begin{table}[th]
+\caption{}
+\small
+  \begin{tabularx}{\textwidth}{X}
+  \label{tabel2}
+    \\\toprule
+    \multicolumn{1}{c}{\textbf{Example of Wrong Prompt}} \\\midrule
+    Arithmetic Dataset\\\midrule
+
+\textbf{prompt}: \\
+Q: Joan has 10 books. Tom has 38 books.  How many books do they have\\
+A: Let's think step by step. Joan has 10 books. Tom has 38 books. we have equation books = 10 +\textcolor{blue}{8} = 48. They have 10 + \textcolor{blue}{38} = 48 books together.\\\midrule
+Commonsense Dataset\\\midrule
+\textbf{prompt}: \\
+Q: Could someone in Tokyo take a taxi to the The Metropolitan Museum of Art?\\
+Let's think step by step. The stem of the sentence is Tokyo, take a taxi, Metropolitan Museum of Art. Explain Tokyo: Tokyo is the capital city of Japan and one of the most populous metropolitan areas in the world. Explain Metropolitan Museum of Art: is a art museums in New York City. \textcolor{blue}{Inference: Tokyo is in Japan and the Metropolitan Museum of Art is in New York. The two places are separated by the sea, so you can take a taxi there.}\\\midrule
+Symbolic Dataset\\\midrule
+\textbf{prompt}: \\
+Q: Take the last letters of each words in  'Tim Candace Cecil Misael' and concatenate them.\\
+A: Let's think step by step. Explain letters: letters can have various meanings depending on the context, such as Alphabetic Characters, Correspondence, Literature and Books. There is four words. So the answer will consist of four letters. The last letter of 'Tim' is 'm'. The last letter of 'Candace' is 'e'. The last letter of "Cecil" is 'l'. The last letter of "Misael" is "l". \textcolor{blue}{So we have four letters.} So the final answer would be \textcolor{blue}{"mel"}.\\\bottomrule
+    \label{table2}
+
+\end{tabularx}
+\end{table}
+\end{document}

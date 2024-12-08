@@ -1,0 +1,282 @@
+\begin{thebibliography}{56}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Ackermann et~al.(2021)Ackermann, Neuberger, and Jablonski}]{ackermann2021data}
+Lars Ackermann, Julian Neuberger, and Stefan Jablonski. 2021.
+\newblock Data-driven annotation of textual process descriptions based on formal meaning representations.
+\newblock In \emph{International Conference on Advanced Information Systems Engineering}, pages 75--90. Springer.
+
+\bibitem[{Bellan et~al.(2022)Bellan, Dragoni, and Ghidini}]{bellan2022leveraging}
+Patrizio Bellan, Mauro Dragoni, and Chiara Ghidini. 2022.
+\newblock Leveraging pre-trained language models for conversational information seeking from text.
+\newblock \emph{arXiv e-prints}, pages arXiv--2204.
+
+\bibitem[{Bellan et~al.(2023)Bellan, van~der Aa, Dragoni, Ghidini, and Ponzetto}]{bellan2023pet}
+Patrizio Bellan, Han van~der Aa, Mauro Dragoni, Chiara Ghidini, and Simone~Paolo Ponzetto. 2023.
+\newblock Pet: An annotated dataset for process extraction from natural language text tasks.
+\newblock \emph{LECTURE NOTES IN BUSINESS INFORMATION PROCESSING}, 460:315--321.
+
+\bibitem[{Bin et~al.(2023)Bin, Shi, Ji, Zhang, Ding, and Yang}]{bin2023non}
+Yi~Bin, Wenhao Shi, Bin Ji, Jipeng Zhang, Yujuan Ding, and Yang Yang. 2023.
+\newblock Non-autoregressive sentence ordering.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2023}, pages 4198--4214.
+
+\bibitem[{Bolotova et~al.(2023)Bolotova, Blinov, Filippova, Scholer, and Sanderson}]{bolotova2023wikihowqa}
+Valeriia Bolotova, Vladislav Blinov, Sofya Filippova, Falk Scholer, and Mark Sanderson. 2023.
+\newblock Wikihowqa: A comprehensive benchmark for multi-document non-factoid question answering.
+\newblock In \emph{Proceedings of the 61th Conference of the Association for Computational Linguistics}.
+
+\bibitem[{Castelli et~al.(2020)Castelli, Chakravarti, Dana, Ferritto, Florian, Franz, Garg, Khandelwal, McCarley, McCawley et~al.}]{castelli2020techqa}
+Vittorio Castelli, Rishav Chakravarti, Saswati Dana, Anthony Ferritto, Radu Florian, Martin Franz, Dinesh Garg, Dinesh Khandelwal, J~Scott McCarley, Michael McCawley, et~al. 2020.
+\newblock The techqa dataset.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 1269--1278.
+
+\bibitem[{Chui(2023)}]{chui2023chatgpt}
+Ho~Chui Chui. 2023.
+\newblock Chatgpt as a tool for developing paraphrasing skills among esl learners.
+\newblock \emph{Journal of Creative Practices in Language Learning and Teaching (CPLT)}, 11(2).
+
+\bibitem[{Chung et~al.(2022)Chung, Hou, Longpre, Zoph, Tay, Fedus, Li, Wang, Dehghani, Brahma et~al.}]{chung2022scaling}
+Hyung~Won Chung, Le~Hou, Shayne Longpre, Barret Zoph, Yi~Tay, William Fedus, Yunxuan Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, et~al. 2022.
+\newblock Scaling instruction-finetuned language models.
+\newblock \emph{arXiv preprint arXiv:2210.11416}.
+
+\bibitem[{Dumas et~al.(2018)Dumas, La~Rosa, Mendling, Reijers et~al.}]{dumas2018fundamentals}
+Marlon Dumas, Marcello La~Rosa, Jan Mendling, Hajo~A Reijers, et~al. 2018.
+\newblock \emph{Fundamentals of business process management}, volume~2.
+\newblock Springer.
+
+\bibitem[{Duong et~al.(2023)Duong, Lumbreras, Gartrell, and Gallinari}]{duong2023learning}
+Song Duong, Alberto Lumbreras, Mike Gartrell, and Patrick Gallinari. 2023.
+\newblock Learning from multiple sources for data-to-text and text-to-data.
+\newblock In \emph{International Conference on Artificial Intelligence and Statistics}, pages 3733--3753. PMLR.
+
+\bibitem[{Du{\v{s}}ek and Kasner(2020)}]{duvsek2020evaluating}
+Ond{\v{r}}ej Du{\v{s}}ek and Zden{\v{e}}k Kasner. 2020.
+\newblock Evaluating semantic accuracy of data-to-text generation with natural language inference.
+\newblock In \emph{Proceedings of the 13th International Conference on Natural Language Generation}, pages 131--137.
+
+\bibitem[{Epure et~al.(2015)Epure, Mart{\'\i}n-Rodilla, Hug, Deneck{\`e}re, and Salinesi}]{epure2015automatic}
+Elena~Viorica Epure, Patricia Mart{\'\i}n-Rodilla, Charlotte Hug, Rebecca Deneck{\`e}re, and Camille Salinesi. 2015.
+\newblock Automatic process model discovery from textual methodologies.
+\newblock In \emph{2015 IEEE 9th International Conference on Research Challenges in Information Science (RCIS)}, pages 19--30. IEEE.
+
+\bibitem[{Faille et~al.(2021)Faille, Gatt, and Gardent}]{faille2021entity}
+Juliette Faille, Albert Gatt, and Claire Gardent. 2021.
+\newblock Entity-based semantic adequacy for data-to-text generation.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2021}, pages 1530--1540.
+
+\bibitem[{Ferreira et~al.(2017)Ferreira, Thom, and Fantinato}]{ferreira2017semi}
+Renato C{\'e}sar~Borges Ferreira, Lucin{\'e}ia~Heloisa Thom, and Marcelo Fantinato. 2017.
+\newblock A semi-automatic approach to identify business process elements in natural language texts.
+\newblock In \emph{International Conference on Enterprise Information Systems}, volume~2, pages 250--261. SCITEPRESS.
+
+\bibitem[{Friedrich et~al.(2011)Friedrich, Mendling, and Puhlmann}]{friedrich2011process}
+Fabian Friedrich, Jan Mendling, and Frank Puhlmann. 2011.
+\newblock Process model generation from natural language text.
+\newblock In \emph{Advanced Information Systems Engineering: 23rd International Conference, CAiSE 2011, London, UK, June 20-24, 2011. Proceedings 23}, pages 482--496. Springer.
+
+\bibitem[{Fu et~al.(2020)Fu, Shi, Lam, Bing, and Liu}]{fu2020partially}
+Zihao Fu, Bei Shi, Wai Lam, Lidong Bing, and Zhiyuan Liu. 2020.
+\newblock Partially-aligned data-to-text generation with distant supervision.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, pages 9183--9193.
+
+\bibitem[{Futrelle(1999)}]{futrelle1999summarization}
+Robert~P Futrelle. 1999.
+\newblock Summarization of diagrams in documents.
+\newblock \emph{Advances in Automated Text Summarization}, pages 403--421.
+
+\bibitem[{Futrelle(2004)}]{futrelle2004handling}
+Robert~P Futrelle. 2004.
+\newblock Handling figures in document summarization.
+\newblock In \emph{Text Summarization Branches Out}, pages 61--65.
+
+\bibitem[{Gansner et~al.(2006)Gansner, Koutsofios, and North}]{gansner2006drawing}
+Emden Gansner, Eleftherios Koutsofios, and Stephen North. 2006.
+\newblock Drawing graphs with dot.
+
+\bibitem[{Herbst and Karagiannis(1999)}]{herbst1999inductive}
+Joachim Herbst and D~Karagiannis. 1999.
+\newblock An inductive approach to the acquisition and adaptation of workflow models.
+\newblock In \emph{Proceedings of the IJCAI}, volume~99, pages 52--57. Citeseer.
+
+\bibitem[{Honkisz et~al.(2018)Honkisz, Kluza, and Wi{\'s}niewski}]{honkisz2018concept}
+Krzysztof Honkisz, Krzysztof Kluza, and Piotr Wi{\'s}niewski. 2018.
+\newblock A concept for generating business process models from natural language description.
+\newblock In \emph{Knowledge Science, Engineering and Management: 11th International Conference, KSEM 2018, Changchun, China, August 17--19, 2018, Proceedings, Part I 11}, pages 91--103. Springer.
+
+\bibitem[{Hu et~al.(2021)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and Chen}]{hu2021lora}
+Edward~J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu~Wang, and Weizhu Chen. 2021.
+\newblock Lora: Low-rank adaptation of large language models.
+\newblock \emph{arXiv preprint arXiv:2106.09685}.
+
+\bibitem[{Kasner and Du{\v{s}}ek(2022)}]{kasner2022neural}
+Zden{\v{e}}k Kasner and Ond{\v{r}}ej Du{\v{s}}ek. 2022.
+\newblock Neural pipeline for zero-shot data-to-text generation.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 3914--3932.
+
+\bibitem[{Koo and Li(2016)}]{koo2016guideline}
+Terry~K Koo and Mae~Y Li. 2016.
+\newblock A guideline of selecting and reporting intraclass correlation coefficients for reliability research.
+\newblock \emph{Journal of chiropractic medicine}, 15(2):155--163.
+
+\bibitem[{Korf(1985)}]{10.1016/0004-3702(85)90084-0}
+Richard~E. Korf. 1985.
+\newblock \href {https://doi.org/10.1016/0004-3702(85)90084-0} {Depth-first iterative-deepening: an optimal admissible tree search}.
+\newblock \emph{Artif. Intell.}, 27(1):97–109.
+
+\bibitem[{Liang et~al.(2023)Liang, Liu, Du, Jin, Lei, Wen, and Lv}]{liang2023knowing}
+Hongru Liang, Jia Liu, Weihong Du, Dingnan Jin, Wenqiang Lei, Zujie Wen, and Jiancheng Lv. 2023.
+\newblock Knowing-how \& knowing-that: A new task for machine comprehension of user manuals.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2023}, pages 10550--10564.
+
+\bibitem[{Lin et~al.(2023)Lin, Ruan, Liu, and Wang}]{lin2023survey}
+Yupian Lin, Tong Ruan, Jingping Liu, and Haofen Wang. 2023.
+\newblock A survey on neural data-to-text generation.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering}.
+
+\bibitem[{Liu et~al.(2019)Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis, Zettlemoyer, and Stoyanov}]{liu2019roberta}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019.
+\newblock Roberta: A robustly optimized bert pretraining approach.
+\newblock \emph{arXiv preprint arXiv:1907.11692}.
+
+\bibitem[{L{\'o}pez et~al.(2021)L{\'o}pez, Str{\o}msted, Niyodusenga, and Marquard}]{lopez2021declarative}
+Hugo~A L{\'o}pez, Rasmus Str{\o}msted, Jean-Marie Niyodusenga, and Morten Marquard. 2021.
+\newblock Declarative process discovery: Linking process and textual views.
+\newblock In \emph{International Conference on Advanced Information Systems Engineering}, pages 109--117. Springer.
+
+\bibitem[{Lyu et~al.(2021)Lyu, Zhang, and Callison-Burch}]{lyu2021goal}
+Qing Lyu, Li~Zhang, and Chris Callison-Burch. 2021.
+\newblock Goal-oriented script construction.
+\newblock In \emph{Proceedings of the 14th International Conference on Natural Language Generation}, pages 184--200.
+
+\bibitem[{Madaan et~al.(2023)Madaan, Tandon, Gupta, Hallinan, Gao, Wiegreffe, Alon, Dziri, Prabhumoye, Yang et~al.}]{madaan2023self}
+Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et~al. 2023.
+\newblock Self-refine: Iterative refinement with self-feedback.
+\newblock \emph{arXiv preprint arXiv:2303.17651}.
+
+\bibitem[{Maqbool et~al.(2019)Maqbool, Azam, Anwar, Butt, Zeb, Zafar, Nazir, and Umair}]{maqbool2019comprehensive}
+Bilal Maqbool, Farooque Azam, Muhammad~Waseem Anwar, Wasi~Haider Butt, Jahan Zeb, Iqra Zafar, Aiman~Khan Nazir, and Zuneera Umair. 2019.
+\newblock A comprehensive investigation of bpmn models generation from textual requirements—techniques, tools and trends.
+\newblock In \emph{Information Science and Applications 2018: ICISA 2018}, pages 543--557. Springer.
+
+\bibitem[{Mendling et~al.(2019)Mendling, Leopold, Thom, and van~der Aa}]{mendling2019natural}
+Jan Mendling, Henrik Leopold, Lucineia~Heloisa Thom, and Han van~der Aa. 2019.
+\newblock Natural language processing with process models (nlp4re report paper).
+\newblock In \emph{REFSQ Workshops}.
+
+\bibitem[{Miller(1979)}]{miller1979humanistic}
+Carolyn~R Miller. 1979.
+\newblock A humanistic rationale for technical writing.
+\newblock \emph{College English}, 40(6):610--617.
+
+\bibitem[{Momouchi(1980)}]{momouchi1980control}
+Yoshio Momouchi. 1980.
+\newblock Control structures for actions in procedural texts and pt-chart.
+\newblock In \emph{COLING 1980 Volume 1: The 8th International Conference on Computational Linguistics}.
+
+\bibitem[{Nandy et~al.(2021)Nandy, Sharma, Maddhashiya, Sachdeva, Goyal, and Ganguly}]{nandy2021question}
+Abhilash Nandy, Soumya Sharma, Shubham Maddhashiya, Kapil Sachdeva, Pawan Goyal, and Niloy Ganguly. 2021.
+\newblock Question answering over electronic devices: A new benchmark dataset and a multi-task learning based qa framework.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2021}, pages 4600--4609.
+
+\bibitem[{Neuberger et~al.(2023)Neuberger, Ackermann, and Jablonski}]{neuberger2023beyond}
+Julian Neuberger, Lars Ackermann, and Stefan Jablonski. 2023.
+\newblock Beyond rule-based named entity recognition and relation extraction for process model generation from natural language text.
+\newblock \emph{arXiv preprint arXiv:2305.03960}.
+
+\bibitem[{Nye et~al.(2021)Nye, Tessler, Tenenbaum, and Lake}]{nye2021improving}
+Maxwell Nye, Michael Tessler, Josh Tenenbaum, and Brenden~M Lake. 2021.
+\newblock Improving coherence and consistency in neural sequence models with dual-system, neuro-symbolic reasoning.
+\newblock \emph{Advances in Neural Information Processing Systems}, 34:25192--25204.
+
+\bibitem[{Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin, Zhang, Agarwal, Slama, Ray et~al.}]{ouyang2022training}
+Long Ouyang, Jeffrey Wu, Xu~Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et~al. 2022.
+\newblock Training language models to follow instructions with human feedback.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:27730--27744.
+
+\bibitem[{Pal et~al.(2021)Pal, Kashihara, Banerjee, Mishra, Wang, and Baral}]{pal2021constructing}
+Kuntal~Kumar Pal, Kazuaki Kashihara, Pratyay Banerjee, Swaroop Mishra, Ruoyu Wang, and Chitta Baral. 2021.
+\newblock Constructing flow graphs from procedural cybersecurity texts.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021}, pages 3945--3957.
+
+\bibitem[{Qian et~al.(2020)Qian, Wen, Kumar, Lin, Lin, Zong, Li, and Wang}]{qian2020approach}
+Chen Qian, Lijie Wen, Akhil Kumar, Leilei Lin, Li~Lin, Zan Zong, Shu’ang Li, and Jianmin Wang. 2020.
+\newblock An approach for process model extraction by multi-grained text classification.
+\newblock In \emph{Advanced Information Systems Engineering: 32nd International Conference, CAiSE 2020, Grenoble, France, June 8--12, 2020, Proceedings 32}, pages 268--282. Springer.
+
+\bibitem[{Quishpi et~al.(2020)Quishpi, Carmona, and Padr{\'o}}]{quishpi2020extracting}
+Luis Quishpi, Josep Carmona, and Llu{\'\i}s Padr{\'o}. 2020.
+\newblock Extracting annotations from textual descriptions of processes.
+\newblock In \emph{International Conference on Business Process Management}, pages 184--201.
+
+\bibitem[{Raschka(2018)}]{raschka2018model}
+Sebastian Raschka. 2018.
+\newblock Model evaluation, model selection, and algorithm selection in machine learning.
+\newblock \emph{arXiv preprint arXiv:1811.12808}.
+
+\bibitem[{Ren et~al.(2023)Ren, Zeng, Cai, Zhou, and Lian}]{ren2023constructing}
+Haopeng Ren, Yushi Zeng, Yi~Cai, Bihan Zhou, and Zetao Lian. 2023.
+\newblock Constructing procedural graphs with multiple dependency relations: A new dataset and baseline.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2023}, pages 8474--8486.
+
+\bibitem[{Sakaguchi et~al.(2021)Sakaguchi, Bhagavatula, Le~Bras, Tandon, Clark, and Choi}]{sakaguchi2021proscript}
+Keisuke Sakaguchi, Chandra Bhagavatula, Ronan Le~Bras, Niket Tandon, Peter Clark, and Yejin Choi. 2021.
+\newblock proscript: Partially ordered scripts generation.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2021}, pages 2138--2149.
+
+\bibitem[{Sholiq et~al.(2022)Sholiq, Sarno, and Astuti}]{sholiq2022generating}
+Sholiq Sholiq, Riyanarto Sarno, and Endang~Siti Astuti. 2022.
+\newblock Generating bpmn diagram from textual requirements.
+\newblock \emph{Journal of King Saud University-Computer and Information Sciences}, 34(10):10079--10093.
+
+\bibitem[{Shrout and Fleiss(1979)}]{shrout1979intraclass}
+Patrick~E Shrout and Joseph~L Fleiss. 1979.
+\newblock Intraclass correlations: uses in assessing rater reliability.
+\newblock \emph{Psychological bulletin}, 86(2):420.
+
+\bibitem[{Sonbol et~al.(2023)Sonbol, Rebdawi, and Ghneim}]{sonbol2023machine}
+Riad Sonbol, Ghaida Rebdawi, and Nada Ghneim. 2023.
+\newblock A machine translation like approach to generate business process model from textual description.
+\newblock \emph{SN Computer Science}, 4(3):291.
+
+\bibitem[{Su et~al.(2021)Su, Meng, Baker, and Collier}]{su2021few}
+Yixuan Su, Zaiqiao Meng, Simon Baker, and Nigel Collier. 2021.
+\newblock Few-shot table-to-text generation with prototype memory.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2021}, pages 910--917.
+
+\bibitem[{Tandon et~al.(2020)Tandon, Sakaguchi, Dalvi, Rajagopal, Clark, Guerquin, Richardson, and Hovy}]{tandon-etal-2020-dataset}
+Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson, and Eduard Hovy. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-main.520} {A dataset for tracking entities in open domain procedural text}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, pages 6408--6417, Online. Association for Computational Linguistics.
+
+\bibitem[{Touvron et~al.(2023)Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale et~al.}]{touvron2023llama}
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et~al. 2023.
+\newblock Llama 2: Open foundation and fine-tuned chat models.
+\newblock \emph{arXiv preprint arXiv:2307.09288}.
+
+\bibitem[{von Rosing et~al.(2015)von Rosing, White, Cummins, and de~Man}]{von2015business}
+Mark von Rosing, Stephen White, Fred Cummins, and Henk de~Man. 2015.
+\newblock Business process model and notation-bpmn.
+
+\bibitem[{Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou et~al.}]{wei2022chain}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed~Chi, Quoc~V Le, Denny Zhou, et~al. 2022.
+\newblock Chain-of-thought prompting elicits reasoning in large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:24824--24837.
+
+\bibitem[{Ye et~al.(2019)Ye, Shi, Zhou, Wei, and Li}]{ye2019variational}
+Rong Ye, Wenxian Shi, Hao Zhou, Zhongyu Wei, and Lei Li. 2019.
+\newblock Variational template machine for data-to-text generation.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Zhang et~al.(2020)Zhang, Lyu, and Callison-Burch}]{zhang-etal-2020-reasoning}
+Li~Zhang, Qing Lyu, and Chris Callison-Burch. 2020.
+\newblock \href {https://www.aclweb.org/anthology/2020.emnlp-main.374} {Reasoning about goals, steps, and temporal ordering with {W}iki{H}ow}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, pages 4630--4639, Online. Association for Computational Linguistics.
+
+\bibitem[{Zhao et~al.(2023)Zhao, Zhou, Li, Tang, Wang, Hou, Min, Zhang, Zhang, Dong et~al.}]{zhao2023survey}
+Wayne~Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et~al. 2023.
+\newblock A survey of large language models.
+\newblock \emph{arXiv preprint arXiv:2303.18223}.
+
+\end{thebibliography}

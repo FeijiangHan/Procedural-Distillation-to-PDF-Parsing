@@ -1,0 +1,32 @@
+\input{tables/datasets}
+
+\zsavepos{header-1}
+
+\zsavepos{header-1}\section{Related Work\zsavepos{header-2\zsavepos{header-2}}
+\zsavepos{header-3}\zlabel{header}
+}\zsavepos{header-3}\zlabel{header}
+
+\zsavepos{header-1}\paragraph{Procedural Graph Extraction\zsavepos{header-2}}\zsavepos{header-3}\zlabel{header}
+
+Existing studies only meet part of the requirements for optimal procedural graph extraction.
+Earlier studies mainly focus on extracting sequential actions~\cite{pal2021constructing, lopez2021declarative, ren2023constructing}.
+While \citet{epure2015automatic, honkisz2018concept, bellan2023pet} explore non-sequential actions, they do not cover scenarios like \uppercase\expandafter{\romannumeral1}-2.1 \& \uppercase\expandafter{\romannumeral1}-2.2 in Figure~\ref{fig:task_b}. \citet{friedrich2011process} aids in data constraint extraction but overlooks action constraints.
+Besides, current studies heavily rely on hand-written rules and templates~\cite{epure2015automatic, honkisz2018concept}, resulting in poor generalization. \citet{bellan2023pet} trains a neural network model but only learns 45 samples, whose effectiveness remains questionable.
+Hence, we propose to construct a standard benchmark to reveal the performance of existing studies and highlight the challenges for the extraction of optimal procedural graphs.
+
+\zsavepos{header-1}\paragraph{Datasets\zsavepos{header-2}}\zsavepos{header-3}\zlabel{header}
+
+As shown in Table~\ref{datasets}, current datasets consist of a small group of cherry-picked instances.
+Some datasets are not publicly available~\cite{epure2015automatic, ferreira2017semi}.
+Some datasets only focus on sentence-level actions extraction, lacking both sequential and non-sequential actions~\cite{quishpi2020extracting, qian2020approach, ackermann2021data}. While other studies contain sequential actions~\citet{friedrich2011process, mendling2019natural, lopez2021declarative, bellan2023pet, liang2023knowing, ren2023constructing}, they do not cover all types of non-sequential actions. Moreover, almost all existing datasets ignore vital constraints related to the actions in procedural graphs. To this end, we construct a new procedural document-graph dataset that is nearly ten times larger than the previous largest datasets~\cite{ackermann2021data,qian2020approach}. Each sample consists of a high-quality procedural document and its procedural graph with complete sequential actions, non-sequential actions, and constraints.
+
+\zsavepos{header-1}\paragraph{Data2Text\zsavepos{header-2}}\zsavepos{header-3}\zlabel{header}
+
+Data2Text task aims at transferring structured data such as graphs into natural language text~\cite{duong2023learning, lin2023survey}.
+Current studies~\cite{su2021few, kasner2022neural} only focus on the transformation of factual knowledge --- knowledge about features of things, making it difficult to deal with procedural knowledge --- execution of sequential and non-sequential actions in the procedural graphs.
+Moreover, current studies can only manage discrete components~\cite{ye2019variational, fu2020partially}, while extracting procedural graphs requires handling complex logic of sequential action, non-sequential actions and their constraints. In this paper, we propose a three-stage pipeline to bridge the gap between complex graphs and lengthy documents, ensure logical descriptions of generated documents, and solve the issues of fluency and coherence in generated documents.
+
+\zsavepos{header-1}\paragraph{Large Language Models\zsavepos{header-2}}\zsavepos{header-3}\zlabel{header}
+
+The emerging LLMs have presented competitive results in a wide range of tasks~\cite{zhao2023survey}, but are barely used for procedural graph extraction.
+The only exception is \citet{bellan2022leveraging}, which makes a shallow attempt to extract sequential actions and deal with partial non-sequential actions with LLMs, and performs poorly for gateway extraction. It remains unanswered whether LLMs' ability to understand the inherent structure of long contexts can improve the procedural graphs extraction from documents. To this end, we involve Flan-T5~\cite{chung2022scaling}, ChatGPT~\cite{ouyang2022training} and Llama2~\cite{touvron2023llama} in our \benchmark and design a self-refine strategy to demonstrate the opportunities and gaps of LLMs in this task. We hope this can help to explore more possibilities that LLMs bring to this field.

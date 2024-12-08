@@ -1,0 +1,39 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table*}[t]
+\caption{Designed templates used to transfer the decomposed units into natural language procedural fragments. 
+Due to the fact that the gateways in the procedural graphs are paired, each pair of gateways includes a ``branch gateway'' representing the beginning of the non-sequential execution of actions and a ``merge gateway'' representing the end of the non-sequential execution. We use prefix ``B\_'' to indicate the branch gateway, and prefix ``M\_'' to indicate the merge gateway. 
+In addition, the ``Flow'' in a unit is used to connect different elements, while the ``condition'' in a unit represents that this Flow connects exclusive or inclusive gateways with other elements, so there exists specific condition on this Flow. 
+For simplicity, we use ``XOR'', ``OR'' and ``AND'' as abbreviations for exclusive, inclusive and parallel gateways respectively. 
+}
+\label{tab:triple_templates}
+
+\centering
+\scalebox{0.95}{
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Decomposed Unit}}             & \multicolumn{1}{c|}{\textbf{Template}}                      \\ \hline
+(Start, Flow, Action)                                  & In the beginning, \{Action\}.                               \\ \hline
+(Start, Flow, B\_Gateway)                              & In the beginning,                                           \\ \hline
+(Action1, Flow, Action2)                               & \{Action1\}, then \{Action2\}.                                                \\ \hline
+(Action, Flow, End)                                    & \{Action\}, and the procedure ends.                         \\ \hline
+(B\_XOR, condition, Action)                            & If \{condition\}, then \{Action\}.                          \\ \hline
+(B\_XOR, condition, B\_Gateway)                        & If \{condition\},                                           \\ \hline
+(B\_XOR, condition, M\_Gateway, Flow,   Action)        & If \{condition\}, then \{Action\}.                          \\ \hline
+(B\_XOR, condition, End)                               & If \{condition\}, then the procedure ends.                  \\ \hline
+(B\_OR, condition, Action)                             & If \{condition\}, then \{Action\}.                          \\ \hline
+(B\_OR, condition, B\_Gateway)                         & If \{condition\},                                           \\ \hline
+(B\_OR, condition, M\_Gateway, Flow,   Action)         & If \{condition\}, then \{Action\}.                          \\ \hline
+(B\_OR, condition, End)                                & If \{condition\}, then the procedure ends.                  \\ \hline
+\makecell[l]{(B\_AND, Flow, $*^1$)\\(B\_AND, Flow, $*^2$)}                   & \{$*^1$\}, at the same time, \{$*^2$\}.                           \\ \hline
+\makecell[l]{(B\_AND, Flow, $*^1$)\\(B\_AND, Flow, $*^2$)\\(B\_AND, Flow, $*^3$)} & \{$*^1$\}, at the same time, \{$*^2$\}, meanwhile, \{$*^3$\}.        \\ \hline
+(M\_Gateway, Flow, Action)                             & \{Action\}.   
+\\ \hline
+(M\_Gateway, Flow, End)                                & The procedure ends.                                         \\ \hline
+(Action, Flow, DataConstraint)                         & ``\{Action\}'' produce ``\{DataConstraint\}''.              \\ \hline
+(DataConstraint, Flow, Action)                         & ``\{Action\}'' require access to ``\{DataConstraint\}''.    \\ \hline
+(Action, Flow, ActionConstraint)                       & For \{Action\}, pay attention to that \{ActionConstraint\}. \\ \hline
+\end{tabular}
+}
+\vspace{10pt}
+\end{table*}

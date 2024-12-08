@@ -1,0 +1,93 @@
+% statistics
+\input{tables/datasets}
+
+\section{Related Work}
+\paragraph{Procedural Graph Extraction} 
+% 论述逻辑是跟着intro走，大部分工作只能表达sequential actions， xxx补充了constraint， xxx干了啥，但是没有meet all requirements的。 Besides，这些工作largely是规则，有一篇是定制的神经网路，是否真的有用存疑。
+Existing studies only meet part of the requirements for optimal procedural graph extraction. 
+Earlier studies mainly focus on extracting sequential actions~\cite{pal2021constructing, lopez2021declarative, ren2023constructing}. 
+While \citet{epure2015automatic, honkisz2018concept, bellan2022pet} explore non-sequential actions, they do not cover scenarios like \uppercase\expandafter{\romannumeral1}-2.1 \& \uppercase\expandafter{\romannumeral1}-2.2 in Figure~\ref{fig:task_b}. \citet{friedrich2011process} aids in data constraint extraction but overlooks action constraints. 
+Besides, current studies heavily rely on hand-written rules and templates~\cite{epure2015automatic, honkisz2018concept}, resulting in poor generalization. \citet{bellan2022pet} trains a neural network model but only learns 45 samples, whose effectiveness remains questionable. 
+% \liang{xxxxxxxxxxxxxxxx}% 需要补充结论，这些工作是否真的可以解决这个任务仍然存疑，所以我们要建立benchmark来探究下
+% Therefore, we propose our benchmark to reveal the performance 
+Hence, we propose to construct a standard benchmark to reveal the performance of existing studies and highlight the challenges for the extraction of optimal procedural graphs. 
+
+% refers to the automatic extraction of procedural graphs from procedural documents~\cite{bellan2020qualitative}. 
+% also Earlier works largely focus on designing more and more elaborate hand-written rules and templates~\cite{friedrich2011process, epure2015automatic, honkisz2018concept}. For example, \citet{epure2015automatic}. 
+% Note that, the procedural graphs in this paper are different from graphs defined in \citet{kiddon2015mise,liang2023knowing}, which aim to improve the 
+
+
+% Procedural graph extraction technologies are proposed to automatically extract the procedural graphs from natural language text~\cite{bellan2020qualitative}. Some studies try to extract procedural graphs through syntactic and semantic analysis of the text~\cite{friedrich2011process, epure2015automatic, honkisz2018concept}, but these studies heavily rely on hand-written rules and templates and are difficult to achieve good performance due to poor generalization ability. 
+% Other studies adopt artificial neural network to improve the model performance~\cite{pal2021constructing, bellan2022pet, ren2023constructing}. However, these studies fail to achieve good performance due to limited data resource and the lack of representational ability for complex non-sequential actions and constraints. Therefore, we propose a solid benchmark and a two-system based self-refine framework to facilitate the development of optimal procedural graphs extraction. 
+
+
+% \subsection{Actions Inference}
+% Earlier studies exploited how to induce procedures from structured data, such as process model mining from event-log~\cite{agrawal1998mining, van2004workflow, van2012process}. However, the fact that large amounts of data describing procedures is stored as unstructured information has posed a more severe challenge for extracting procedural knowledge from unstructured data (e.g. natural language procedural description)~\cite{bellan2020qualitative, bellan2022pet, grohs2023large}. 
+% Moreover, the emergence of large language models with powerful planning capabilities nowadays attracts researchers to explore the generation of structured procedures from scratch~\cite{brahman2023plasma, yuan2023distilling, qin2023tool}. 
+% Although these studies promote procedural knowledge to be applied in real-world tasks, their inference strategy of ordering actions sequentially hinders more complex application that requires parallel execution for non-linear actions ordering. 
+
+% \subsection{Actions Ordering}
+% To construct inferred actions into structured representation, reasoning about relationships between actions is needed to determine their execution order. Current studies are devoted to handle the pre- and post-conditions for actions ordering~\cite{kwon2020modeling, wu2022learning, qasemi2022paco}. However, such inference strategy can only determine the sequence of linear execution of actions, which does not allow for the discovery of parallel execution patterns between actions. 
+% Other studies directly model the partial order relationship between actions in end-to-end manners~\cite{sakaguchi2021proscript, brahman2023plasma, grohs2023large}. However, these approaches fail to proactively discover the potential parallel relationships between actions, resulting in poor performance for parallel orders reasoning. 
+
+% \subsection{Procedures Representation}
+% Existing studies formalize procedural knowledge in two types of structured representations, namely, action centered and entity centered. Action centered representations take action verbs as the core to represent ''what steps a procedure contain'' and show arguments and conditions modifying corresponding actions~\cite{zhang2012automatically, kiddon2015mise, zhou2022show}. Entity centered representations focus on the relationships between entities and the changes in entity status during the procedures~\cite{gupta2019tracking, gupta2019effective, li2023understand}. However, these studies treat actions and entities in procedures discretely and make it difficult to reach a unified representation, thereby hindering supporting a diverse range of applications that requires both declarative and procedural knowledge. In fact, procedures can be seen as a sequence of actions to reach a certain goal state from a certain starting state, according to~\cite{pareti2018representation}. Therefore, we can simultaneously model declarative and procedural knowledge through a unified representation for procedures reasoning. 
+
+
+% V1
+% To advance the development of automatic procedural graphs extraction from documents, many datasets have been proposed by existing studies. 
+% The first dataset with 47 procedural graph and document pairs was presented by \cite{friedrich2011process}. Subsequently, \cite{epure2015automatic} and \cite{ferreira2017semi} proposed their own datasets but are not publicly available. Later, \cite{mendling2019natural} proposed a dataset with 103 samples but containing only sequential actions. A dataset with 360 samples was presented by \cite{qian2020approach}, which contains no branches and only includes sentence-level annotation. 
+% \cite{ren2023constructing} constructs a procedural graph dataset but only focuses on sequential actions. 
+% The datasets proposed by \cite{quishpi2020extracting, ackermann2021data, lopez2021declarative, bellan2022pet} are subsets of datasets that have been proposed in earlier studies mentioned above. 
+% Consequently, as shown in Table~\ref{datasets}, despite the fact that many datasets have been proposed thus far, they fail to cover the research of optimal procedural graphs. And the lack of a solid benchmark for equitable comparison makes it difficult to advance the development of more effective models. 
+% Therefore, we propose our benchmark to reveal the limitations of existing studies and highlight the challenges for the extraction of procedural graphs from documents, which can help to promote future studies in this field. 
+
+
+% Table~\ref{datasets} displays the statistics of our constructed dataset in comparison to the existing datasets. 
+% Due to the problems including small scale, incomplete procedural and factual knowledge representation, and coarse-grained annotation, current studies fail to explore effective models that necessitate large amounts of high-quality data. 
+% We propose our benchmark to reveal the limitations of existing studies and highlight the challenges for the task of procedural graphs extraction from text, which can help to promote future studies in this field. 
+
+% Enlarging the amount of available data is a significant challenge that current studies must overcome, because large-scale and high-quality datasets are crucial for the exploration of optimal procedural graphs extraction but are costly to obtain~\cite{bellan2020qualitative}. 
+% As shown in Table~\ref{datasets}, 
+% the first available dataset was presented by \cite{friedrich2011process} but contains only 47 samples. 
+% Subsequently, \cite{epure2015automatic} and \cite{ferreira2017semi} proposed their datasets but are not publicly available. 
+% Later, \cite{mendling2019natural}, \cite{qian2020approach} and \cite{ren2023constructing} proposed their own datasets with 103, 360 and 283 samples respectively. However, these datasets only contain sequential actions and can hardly be seen as representative of the variety of optimal procedural graphs. 
+% Other datasets proposed by \cite{quishpi2020extracting, ackermann2021data, lopez2021declarative, bellan2022pet} are subsets of the above datasets. 
+
+% V2 
+\paragraph{Datasets}
+% 参考 acl findings related work dataset的写法，论述重点是表格里面的两点数据，比如number，比如对号叉号，总结着说，参考下托福或者雅思表格题是怎么总结的
+
+As shown in Table~\ref{datasets}, current datasets consist of a small group of cherry-picked instances. 
+Some datasets are not publicly available~\cite{epure2015automatic, ferreira2017semi}. 
+Some datasets only focus on sentence-level actions extraction, lacking both sequential and non-sequential actions~\cite{quishpi2020extracting, qian2020approach, ackermann2021data}. While other studies contain sequential actions~\citet{friedrich2011process, mendling2019natural, lopez2021declarative, bellan2022pet, liang2023knowing, ren2023constructing}, they do not cover all types of non-sequential actions. Moreover, almost all existing datasets ignore important constraints related to the actions in procedural graphs. To this end, we construct a new procedural document-graph dataset that is nearly ten times larger than the previous largest datasets~\cite{ackermann2021data,qian2020approach}. Each sample consists of a high-quality procedural document and its procedural graphs with complete sequential actions, non-sequential actions, and constraints.
+
+% which is nearly ten times larger than the previous largest datasets~\cite{ackermann2021data,qian2020approach}. 
+
+
+% To fill the blank of large-scale datasets for training and evaluating optimal procedural graph extraction model, we build a dataset based on a business management textbook~\cite{dumas2018fundamentals} that has gathered high-quality procedural graphs with complete sequential actions, non-sequential actions, and constraints. 
+% 通过总结，需要把表格中的所有论文都引一遍，不能漏，一共11个
+
+\paragraph{Data2Text}
+% 需要突出下procedural的不同，为啥我们要用三阶段来做，不能只说因为他们不没做我们做了
+Data2Text task aims at transferring structured data such as graphs into natural language text~\cite{duong2023learning, lin2023survey}. 
+Current studies~\cite{su2021few, kasner2022neural} only focus on the transformation of factual knowledge --- knowledge about features of things, making it difficult to deal with procedural knowledge --- execution of sequential and non-sequential actions in the procedural graphs. 
+\liang{Moreover, current studies can only manage small pieces of data~\cite{ye2019variational, fu2020partially}, but handling procedural graphs necessitates additional steps to integrate individual actions and constraints into a unified document. 
+Hence, we propose a three-stage pipeline to transfer individual actions and constraints into natural language spans and seamlessly incorporate them into coherent document, imitating how humans describe procedural graphs}. 
+
+% Some studies aim at transferring single structured data into natural language span~\cite{ye2019variational, fu2020partially}, but these studies are difficult to deal with numerous elements on the procedural graphs and transfer an entire procedural graph into document. 
+% Other studies are capable of simultaneously integrating multiple structured data into text spans~\cite{moryossef2019step, ferreira2019neural, su2021few, kasner2022neural}. However, these studies only focus on factual knowledge --- knowledge about features of things, making it difficult to deal with the actions and gateways involved in the procedural graphs. To address these defects, we propose a three-stage pipeline to generate procedural document for the existing procedural graphs. 
+
+
+\paragraph{Large Language Models}
+The emerging LLMs have shown competitive results in a wide range of tasks~\cite{zhao2023survey, min2023recent}. 
+However, the application of LLMs for procedural graph extraction nearly remains unexplored. 
+The only exception is \citet{bellan2022leveraging}, who just makes a shallow attempt to extract sequential actions and partial non-sequential actions with LLM, \liang{and totally ignore constraints}. 
+\liang{LLMs can utilize in-context learning~\cite{dong2022survey} strategy to solve many complex tasks, which remain unexplored on our task.} We then conduct a systematic study to reveal the opportunities brought by LLMs and find that they still struggle to extract non-sequential actions. 
+
+% \liang{The only exception is \citet{bellan2022leveraging}, who employ large language models to extract individual actions from documents but still depend on hand-written rules to construct the procedural graphs. 
+% Therefore, we investigate the performance of two on-trend LLMs~(ChatGPT~\cite{ouyang2022training} and Llama~\cite{touvron2023llama} to explore the opportunities brought by large language models.} 
+
+
+% llms还有在xxx方面又能力，也需要在我们任务上研究下
+% 我们研究了也提出了self-refine的策略，发现了潜力，也发现了不足

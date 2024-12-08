@@ -1,0 +1,138 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Abdin et~al.(2024)Abdin, Jacobs, Awan, Aneja, Awadallah, Awadalla, Bach, Bahree, Bakhtiari, Behl et~al.}]{abdin2024phi}
+Marah Abdin, Sam~Ade Jacobs, Ammar~Ahmad Awan, Jyoti Aneja, Ahmed Awadallah, Hany Awadalla, Nguyen Bach, Amit Bahree, Arash Bakhtiari, Harkirat Behl, et~al. 2024.
+\newblock Phi-3 technical report: A highly capable language model locally on your phone.
+\newblock \emph{arXiv preprint arXiv:2404.14219}.
+
+\bibitem[{Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat et~al.}]{achiam2023gpt}
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et~al. 2023.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}.
+
+\bibitem[{Ahmadian et~al.(2024)Ahmadian, Ermis, Goldfarb-Tarrant, Kreutzer, Fadaee, Hooker et~al.}]{ahmadian2024multilingual}
+Arash Ahmadian, Beyza Ermis, Seraphina Goldfarb-Tarrant, Julia Kreutzer, Marzieh Fadaee, Sara Hooker, et~al. 2024.
+\newblock The multilingual alignment prism: Aligning global and local preferences to reduce harm.
+\newblock \emph{arXiv preprint arXiv:2406.18682}.
+
+\bibitem[{Andriushchenko and Flammarion(2024)}]{andriushchenko2024does}
+Maksym Andriushchenko and Nicolas Flammarion. 2024.
+\newblock Does refusal training in llms generalize to the past tense?
+\newblock \emph{arXiv preprint arXiv:2407.11969}.
+
+\bibitem[{Anthropic(2024)}]{Anthropic}
+Anthropic. 2024.
+\newblock \href {https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf} {The claude 3 model family: Opus, sonnet, haiku}.
+
+\bibitem[{Aryabumi et~al.(2024)Aryabumi, Dang, Talupuru, Dash, Cairuz, Lin, Venkitesh, Smith, Marchisio, Ruder et~al.}]{aryabumi2024aya}
+Viraat Aryabumi, John Dang, Dwarak Talupuru, Saurabh Dash, David Cairuz, Hangyu Lin, Bharat Venkitesh, Madeline Smith, Kelly Marchisio, Sebastian Ruder, et~al. 2024.
+\newblock Aya 23: Open weight releases to further multilingual progress.
+\newblock \emph{arXiv preprint arXiv:2405.15032}.
+
+\bibitem[{Bai et~al.(2023)Bai, Bai, Chu, Cui, Dang, Deng, Fan, Ge, Han, Huang et~al.}]{bai2023qwen}
+Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, Kai Dang, Xiaodong Deng, Yang Fan, Wenbin Ge, Yu~Han, Fei Huang, et~al. 2023.
+\newblock Qwen technical report.
+\newblock \emph{arXiv preprint arXiv:2309.16609}.
+
+\bibitem[{Bhardwaj et~al.(2024)Bhardwaj, Anh, and Poria}]{bhardwaj2024language}
+Rishabh Bhardwaj, Do~Duc Anh, and Soujanya Poria. 2024.
+\newblock Language models are homer simpson! safety re-alignment of fine-tuned language models through task arithmetic.
+\newblock \emph{arXiv preprint arXiv:2402.11746}.
+
+\bibitem[{Butterly(2017)}]{butterly2017gemini}
+Adam Butterly. 2017.
+\newblock \emph{Gemini: Technical Report}.
+\newblock Ph.D. thesis, Dublin, National College of Ireland.
+
+\bibitem[{Chao et~al.(2023)Chao, Robey, Dobriban, Hassani, Pappas, and Wong}]{chao2023jailbreaking}
+Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George~J Pappas, and Eric Wong. 2023.
+\newblock Jailbreaking black box large language models in twenty queries.
+\newblock \emph{arXiv preprint arXiv:2310.08419}.
+
+\bibitem[{Ding et~al.(2023)Ding, Kuang, Ma, Cao, Xian, Chen, and Huang}]{ding2023wolf}
+Peng Ding, Jun Kuang, Dan Ma, Xuezhi Cao, Yunsen Xian, Jiajun Chen, and Shujian Huang. 2023.
+\newblock A wolf in sheep's clothing: Generalized nested jailbreak prompts can fool large language models easily.
+\newblock \emph{arXiv preprint arXiv:2311.08268}.
+
+\bibitem[{Dubey et~al.(2024)Dubey, Jauhri, Pandey, Kadian, Al-Dahle, Letman, Mathur, Schelten, Yang, Fan et~al.}]{dubey2024llama}
+Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Amy Yang, Angela Fan, et~al. 2024.
+\newblock The llama 3 herd of models.
+\newblock \emph{arXiv preprint arXiv:2407.21783}.
+
+\bibitem[{Foo and Khoo(2024)}]{foo2024lionguard}
+Jessica Foo and Shaun Khoo. 2024.
+\newblock Lionguard: Building a contextualized moderation classifier to tackle localized unsafe content.
+\newblock \emph{arXiv preprint arXiv:2407.10995}.
+
+\bibitem[{Inan et~al.(2023)Inan, Upasani, Chi, Rungta, Iyer, Mao, Tontchev, Hu, Fuller, Testuggine et~al.}]{inan2023llama}
+Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao, Michael Tontchev, Qing Hu, Brian Fuller, Davide Testuggine, et~al. 2023.
+\newblock Llama guard: Llm-based input-output safeguard for human-ai conversations.
+\newblock \emph{arXiv preprint arXiv:2312.06674}.
+
+\bibitem[{Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford, Chaplot, Casas, Bressand, Lengyel, Lample, Saulnier et~al.}]{jiang2023mistral}
+Albert~Q Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, Devendra~Singh Chaplot, Diego de~las Casas, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lucile Saulnier, et~al. 2023.
+\newblock Mistral 7b.
+\newblock \emph{arXiv preprint arXiv:2310.06825}.
+
+\bibitem[{Lhoest et~al.(2021)Lhoest, Villanova~del Moral, Jernite, Thakur, von Platen, Patil, Chaumond, Drame, Plu, Tunstall, Davison, {\v{S}}a{\v{s}}ko, Chhablani, Malik, Brandeis, Le~Scao, Sanh, Xu, Patry, McMillan-Major, Schmid, Gugger, Delangue, Matussi{\`e}re, Debut, Bekman, Cistac, Goehringer, Mustar, Lagunas, Rush, and Wolf}]{lhoest-etal-2021-datasets}
+Quentin Lhoest, Albert Villanova~del Moral, Yacine Jernite, Abhishek Thakur, Patrick von Platen, Suraj Patil, Julien Chaumond, Mariama Drame, Julien Plu, Lewis Tunstall, Joe Davison, Mario {\v{S}}a{\v{s}}ko, Gunjan Chhablani, Bhavitvya Malik, Simon Brandeis, Teven Le~Scao, Victor Sanh, Canwen Xu, Nicolas Patry, Angelina McMillan-Major, Philipp Schmid, Sylvain Gugger, Cl{\'e}ment Delangue, Th{\'e}o Matussi{\`e}re, Lysandre Debut, Stas Bekman, Pierric Cistac, Thibault Goehringer, Victor Mustar, Fran{\c{c}}ois Lagunas, Alexander Rush, and Thomas Wolf. 2021.
+\newblock \href {https://arxiv.org/abs/2109.02846} {Datasets: A community library for natural language processing}.
+\newblock In \emph{Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations}, pages 175--184, Online and Punta Cana, Dominican Republic. Association for Computational Linguistics.
+
+\bibitem[{Mazeika et~al.(2024)Mazeika, Phan, Yin, Zou, Wang, Mu, Sakhaee, Li, Basart, Li et~al.}]{mazeika2024harmbench}
+Mantas Mazeika, Long Phan, Xuwang Yin, Andy Zou, Zifan Wang, Norman Mu, Elham Sakhaee, Nathaniel Li, Steven Basart, Bo~Li, et~al. 2024.
+\newblock Harmbench: A standardized evaluation framework for automated red teaming and robust refusal.
+\newblock \emph{arXiv preprint arXiv:2402.04249}.
+
+\bibitem[{Qi et~al.(2023)Qi, Zeng, Xie, Chen, Jia, Mittal, and Henderson}]{qi2023fine}
+Xiangyu Qi, Yi~Zeng, Tinghao Xie, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, and Peter Henderson. 2023.
+\newblock Fine-tuning aligned language models compromises safety, even when users do not intend to!
+\newblock \emph{arXiv preprint arXiv:2310.03693}.
+
+\bibitem[{Ran et~al.(2024)Ran, Liu, Gong, Zheng, He, Cong, and Wang}]{ran2024jailbreakeval}
+Delong Ran, Jinyuan Liu, Yichen Gong, Jingyi Zheng, Xinlei He, Tianshuo Cong, and Anyu Wang. 2024.
+\newblock Jailbreakeval: An integrated toolkit for evaluating jailbreak attempts against large language models.
+\newblock \emph{arXiv preprint arXiv:2406.09321}.
+
+\bibitem[{R{\"o}ttger et~al.(2023)R{\"o}ttger, Kirk, Vidgen, Attanasio, Bianchi, and Hovy}]{rottger2023xstest}
+Paul R{\"o}ttger, Hannah~Rose Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy. 2023.
+\newblock Xstest: A test suite for identifying exaggerated safety behaviours in large language models.
+\newblock \emph{arXiv preprint arXiv:2308.01263}.
+
+\bibitem[{Team et~al.(2024)Team, Riviere, Pathak, Sessa, Hardin, Bhupatiraju, Hussenot, Mesnard, Shahriari, Ram{\'e} et~al.}]{team2024gemma}
+Gemma Team, Morgane Riviere, Shreya Pathak, Pier~Giuseppe Sessa, Cassidy Hardin, Surya Bhupatiraju, L{\'e}onard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre Ram{\'e}, et~al. 2024.
+\newblock Gemma 2: Improving open language models at a practical size.
+\newblock \emph{arXiv preprint arXiv:2408.00118}.
+
+\bibitem[{Touvron et~al.(2023)Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale et~al.}]{touvron2023llama}
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et~al. 2023.
+\newblock Llama 2: Open foundation and fine-tuned chat models.
+\newblock \emph{arXiv preprint arXiv:2307.09288}.
+
+\bibitem[{Vidgen et~al.(2024)Vidgen, Agrawal, Ahmed, Akinwande, Al-Nuaimi, Alfaraj, Alhajjar, Aroyo, Bavalatti, Blili-Hamelin et~al.}]{vidgen2024introducing}
+Bertie Vidgen, Adarsh Agrawal, Ahmed~M Ahmed, Victor Akinwande, Namir Al-Nuaimi, Najla Alfaraj, Elie Alhajjar, Lora Aroyo, Trupti Bavalatti, Borhane Blili-Hamelin, et~al. 2024.
+\newblock Introducing v0. 5 of the ai safety benchmark from mlcommons.
+\newblock \emph{arXiv preprint arXiv:2404.12241}.
+
+\bibitem[{Wolf et~al.(2019)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac, Rault, Louf, Funtowicz et~al.}]{wolf2019huggingface}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R{\'e}mi Louf, Morgan Funtowicz, et~al. 2019.
+\newblock Huggingface's transformers: State-of-the-art natural language processing.
+\newblock \emph{arXiv preprint arXiv:1910.03771}.
+
+\bibitem[{Zheng et~al.(2024)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li, Li, Xing et~al.}]{zheng2024judging}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric Xing, et~al. 2024.
+\newblock Judging llm-as-a-judge with mt-bench and chatbot arena.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36.
+
+\bibitem[{Zhou et~al.(2024)Zhou, Wang, Xiong, Xia, Gu, Chai, Zhu, Huang, Dou, Xi et~al.}]{zhou2024easyjailbreak}
+Weikang Zhou, Xiao Wang, Limao Xiong, Han Xia, Yingshuang Gu, Mingxu Chai, Fukang Zhu, Caishuang Huang, Shihan Dou, Zhiheng Xi, et~al. 2024.
+\newblock Easyjailbreak: A unified framework for jailbreaking large language models.
+\newblock \emph{arXiv preprint arXiv:2403.12171}.
+
+\bibitem[{Zou et~al.(2023)Zou, Wang, Kolter, and Fredrikson}]{zou2023universal}
+Andy Zou, Zifan Wang, J.~Zico Kolter, and Matt Fredrikson. 2023.
+\newblock \href {https://arxiv.org/abs/2307.15043} {Universal and transferable adversarial attacks on aligned language models}.
+\newblock \emph{Preprint}, arXiv:2307.15043.
+
+\end{thebibliography}

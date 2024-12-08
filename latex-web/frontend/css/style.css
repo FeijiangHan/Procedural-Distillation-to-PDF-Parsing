@@ -1,0 +1,544 @@
+/* 基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;  /* 防止整个页面滚动 */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.toolbar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+}
+
+.editor-panel {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+.viewer-panel {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+.CodeMirror {
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#errorToast {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: #ff4444;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+/* 工具栏 */
+.toolbar {
+    background: white;
+    padding: 20px 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 0 16px 24px 16px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+select, button {
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+select {
+    min-width: 500px;
+    color: #666;
+}
+
+select:hover, button:hover {
+    border-color: #1890ff;
+}
+
+button {
+    min-width: 120px;
+    background: #1890ff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #40a9ff;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #ccc;
+}
+
+/* 面板布局 */
+.panels {
+    display: grid;
+    grid-template-columns: minmax(600px, 1fr) minmax(600px, 1fr);
+    gap: 24px;
+    flex: 1;
+    min-height: 0;
+    padding: 0 16px;
+    height: calc(100vh - 140px);  /* 调整高度，为工具栏和padding留出空间 */
+    overflow: hidden;  /* 防止面板溢出 */
+}
+
+.panel {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;  /* 防止内容溢出 */
+}
+
+.panel h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #1890ff;
+    font-weight: 500;
+}
+
+/* 编辑器和���容器 */
+.editor-container,
+.viewer-container {
+    flex: 1;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: calc(100% - 42px);  /* 减去标题高度 */
+    display: flex;
+}
+
+/* Monaco编辑器样式 */
+.monaco-editor {
+    padding: 8px;
+    height: 100% !important;
+    overflow: auto;  /* 允许编辑器内容滚动 */
+}
+
+/* PDF查看器样式 */
+.marked-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;  /* 允许内容滚动 */
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  /* 改为顶部对齐 */
+    padding: 16px;
+}
+
+.marked-content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 加载指示器 */
+.loading-indicator {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.spinner {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #1890ff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.loading-text {
+    color: #666;
+    font-size: 14px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 错误提示 */
+.toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff4d4f;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 20px);
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* LaTeX代码查看器样式 */
+.editor-container {
+    background: white;
+    height: 100%;
+    overflow: hidden;
+}
+
+.editor-container pre {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    padding: 16px;
+    font-family: 'Fira Code', 'Consolas', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    background: white;
+}
+
+.editor-container code {
+    font-family: inherit;
+    background: white;
+}
+
+/* Prism.js 语法高亮 */
+.token.comment { color: #6a737d; font-style: italic; }
+.token.keyword { color: #d73a49; font-weight: bold; }
+.token.function { color: #6f42c1; }
+.token.string { color: #032f62; }
+.token.number { color: #005cc5; }
+.token.operator { color: #d73a49; }
+.token.punctuation { color: #24292e; }
+
+/* 统一的滚动条样式 */
+.editor-container pre::-webkit-scrollbar,
+.marked-content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.editor-container pre::-webkit-scrollbar-track,
+.marked-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.editor-container pre::-webkit-scrollbar-thumb,
+.marked-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.editor-container pre::-webkit-scrollbar-thumb:hover,
+.marked-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* 确保滚动条始终可见 */
+.editor-container pre,
+.marked-content {
+    scrollbar-width: thin;  /* Firefox */
+    scrollbar-color: #c1c1c1 #f1f1f1;  /* Firefox */
+    -webkit-overflow-scrolling: touch;  /* iOS 滚动优化 */
+}
+
+.toolbar button {
+    min-width: 120px;
+    background: #1890ff;
+    color: white;
+    border: none;
+    transition: all 0.3s;
+}
+
+.toolbar button:hover {
+    background: #40a9ff;
+}
+
+.toolbar button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#exportBtn {
+    background: #52c41a;  /* 使用不同的颜色区分 */
+}
+
+#exportBtn:hover {
+    background: #73d13d;
+}
+
+#exportBtn:disabled {
+    background: #ccc;
+}
+
+/* LaTeX代码查看器样式 */
+.editor-wrapper {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.virtual-scroller {
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.code-chunk {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #f8f9fa;
+}
+
+.code-chunk pre {
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+
+/* 优化滚动性能 */
+.virtual-scroller {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.code-chunk {
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+/* Prism.js 自定义样式 */
+.editor-container pre[class*="language-"] {
+    background: white;
+    margin: 0;
+}
+
+.editor-container code[class*="language-"] {
+    background: white;
+    text-shadow: none;
+}
+
+/* 处理步骤容器 */
+.processing-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);  /* 增强阴影效果 */
+    min-width: 350px;  /* 稍微加宽 */
+    backdrop-filter: blur(8px);  /* 添加毛玻璃效果 */
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* 单个步骤样式 */
+.step {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background: #fafafa;
+}
+
+.step-icon {
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 等待状态 */
+.step.pending {
+    opacity: 0.6;
+}
+
+.step.pending .step-icon {
+    color: #999;
+    border: 2px solid #d9d9d9;
+}
+
+/* 处理中状态 */
+.step.processing {
+    background: #e6f7ff;
+}
+
+.step.processing .step-icon {
+    color: white;
+    background: #1890ff;
+    border: none;
+    animation: processing 1.5s infinite;
+}
+
+/* 完成状态 */
+.step.completed {
+    background: #f6ffed;
+}
+
+.step.completed .step-icon {
+    color: white;
+    background: #52c41a;
+    border: none;
+    transform: scale(1.1);
+}
+
+/* 处理中动画 */
+@keyframes processing {
+    0% {
+        box-shadow: 0 0 0 0 rgba(24, 144, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(24, 144, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(24, 144, 255, 0);
+    }
+}
+
+/* 步骤名称样式 */
+.step-name {
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.step.pending .step-name {
+    color: #999;
+}
+
+.step.processing .step-name {
+    color: #1890ff;
+}
+
+.step.completed .step-name {
+    color: #52c41a;
+}
+
+/* 完成动画 */
+.step.completed .step-icon {
+    animation: complete 0.5s ease;
+}
+
+@keyframes complete {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/* 加载指示器位置调整 */
+.loading-indicator {
+    position: fixed;  /* 改为固定定位 */
+    left: 50%;       /* 水平居中 */
+    top: 100px;      /* 距离顶部固定距离 */
+    transform: translateX(-50%);  /* X轴偏移实现精确居中 */
+    z-index: 1000;
+}
+
+/* 添加淡入淡出动画 */
+.loading-indicator {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.loading-indicator:not(.hidden) {
+    opacity: 1;
+}
+
+/* 步骤容器标题 */
+.processing-steps::before {
+    content: 'Processing Steps';
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1890ff;
+    margin-bottom: 12px;
+    text-align: center;
+}
+ 

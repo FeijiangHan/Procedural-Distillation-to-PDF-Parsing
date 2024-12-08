@@ -1,0 +1,31 @@
+\section{Introduction}
+\label{sec:intro}
+
+Stereo is a fundamental task that computes depth from a synchronized, rectified image pair by finding pixel correspondences to measure their horizontal offset (\textit{disparity}). Due to its effectiveness and minimal hardware requirements, stereo has become prevalent in numerous applications, from autonomous navigation to augmented reality.
+
+Although in principle single-image depth estimation \cite{arampatzakis2023monocular} requires an even simpler acquisition setup, its ill-posed nature leads to scale ambiguity and perspective illusion issues that stereo methods inherently overcome through well-established geometric multi-view constraints.
+
+However, despite significant advances through deep learning \cite{laga2020survey,poggi2021synergies}, stereo models still face two main challenges: (i) limited generalization across different scenarios, and (ii) critical conditions that hinder matching or proper depth triangulation.
+Regarding (i), despite the initial success of synthetic datasets in enabling deep learning for stereo, their limited variety and simplified nature poorly reflect real-world complexity, and the scarcity of real training data further hinders the ability to handle heterogeneous scenarios. As for (ii), large textureless regions common in indoor environments make pixel matching highly ambiguous, while occlusions and non-Lambertian surfaces \cite{zamaramirez2022booster,zamaramirez2024booster,wen2024layeredflow} violate the fundamental assumptions linking pixel correspondences to 3D geometry.
+
+We argue that both challenges are rooted in the underlying limitations of stereo training data. Indeed, while data has scaled up to millions - or even billions - for several computer vision tasks, stereo datasets are still constrained in quantity and variety. 
+This is particularly evident for non-Lambertian surfaces, which are severely underrepresented in existing datasets as their material properties prevent reliable depth measurements from active sensors (e.g. LiDAR).
+
+
+In contrast, single-image depth estimation has recently witnessed a significant scale-up in data availability, reaching the order of \textit{millions} of samples and enabling the emergence of Vision Foundation Models (VFMs) \cite{depth_anything_v1,depth_anything_v2,ke2023repurposing,fu2024geowizard}. Such data abundance has influenced these models in different ways, either through direct training on large-scale depth datasets  \cite{depth_anything_v1,depth_anything_v2} or indirectly by leveraging networks pre-trained on \textit{billions} of images for diverse tasks \cite{ke2023repurposing,fu2024geowizard}. 
+Since these models rely on contextual cues for depth estimation, they show better capability in handling textureless regions and non-Lambertian materials \cite{roberts2021,Ramirez_2023_CVPR,Ramirez2024,zamaramirez2024tricky} while being inherently immune to occlusions.
+
+Modern graphics engines have further accelerated this progress, enabling rapid generation of high-quality synthetic data with dense depth annotations. However, although synthetic datasets featuring non-Lambertian surfaces like HyperSim \cite{roberts2021} have proven effective for monocular depth estimation \cite{Ramirez_2023_CVPR,Ramirez2024,zamaramirez2024tricky}, this data abundance has not translated to stereo. Despite efforts in generating stereo pairs via novel view synthesis \cite{Tosi_2023_CVPR,gjerde2024nerf,ling2024self}, available data remains insufficient for robust stereo matching.
+
+In this paper, rather than focusing on costly real-world data collection or generating additional synthetic datasets, we propose to bridge this gap by leveraging existing VFMs for single-view depth estimation.
+To this end, we develop a novel dual-branch deep architecture that combines stereo matching principles with monocular depth cues.
+Specifically, while one branch of the proposed network constructs a cost volume from learned stereo image features, the other branch processes depth predictions from the VFM on both left and right images to build a second cost volume that incorporates depth priors to guide the disparity estimation process. These complementary signals are then iteratively combined \cite{lipson2021raft}, along with novel augmentation strategies applied to both cost volumes, to predict the final disparity map. Through this design, our network achieves robust performance on challenging cases like textureless regions, occlusions, and non-Lambertian surfaces, while requiring minimal synthetic stereo data. Importantly, while leveraging monocular cues, our approach preserves stereo matching geometric guarantees, effectively handling scenarios where monocular depth estimation typically fails, such as in the presence of perspective illusions. We validate this through our novel dataset of optical illusions, comprising 26 scenes with ground-truth depth maps. 
+
+We dub our framework \textit{\method}, highlighting its ability to overcome the individual limitations of stereo and monocular approaches, as depicted in Fig. \ref{fig:teaser}. To summarize, our main contributions are:
+
+\begin{itemize}
+    \item A novel deep stereo architecture leveraging monocular depth VFMs to achieve strong generalization capabilities and robustness to challenging conditions.
+    \item Novel data augmentation strategies designed to enhance the robustness of our model to textureless regions and non-Lambertian surfaces. 
+    \item A challenging dataset with optical illusion, which is particularly challenging for monocular depth with VFMs. 
+    \item Extensive experiments showing \method's superior generalization and robustness to conditions critical for either stereo or monocular approaches.
+\end{itemize}

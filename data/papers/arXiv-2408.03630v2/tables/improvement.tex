@@ -1,0 +1,18 @@
+\begin{table}[]
+\caption{Results of proposed framework and corresponding baseline models. Best results are represented in bold.
+}
+\label{tab:improve}
+\centering
+\scalebox{0.9}{
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Model}} & \textbf{XOR}    & \textbf{OR}     & \textbf{AND}    \\ \hline
+ChatGPT                              & 0.4459          & 0.0672          & 0.1284          \\ \hline
+Llama2 fine-tuned                    & 0.5539          & 0.0900          & 0.3979          \\ \hline
+self-refined ChatGPT                 & 0.5085          & 0.2487          & 0.4081          \\ \hline
+self-refined Llama2                 & \textbf{0.5814} & \textbf{0.2983} & \textbf{0.4511} \\ \hline
+\end{tabular}
+\vspace{-0.3cm}
+}
+\end{table}
+

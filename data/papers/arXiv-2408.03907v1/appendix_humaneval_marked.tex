@@ -1,0 +1,101 @@
+% This file is a part of the larger document and should be included, not processed separately
+
+
+
+% \label{appendix-humaneval}
+
+\begin{figure}[h]
+    \zsavepos{figure-1}
+    \centering
+    % \includegraphics[width=1.95\columnwidth, scale=0.6]
+    \includegraphics[scale=0.4]{figures/human_eval1.png}
+    \zsavepos{figure-2}
+
+    
+    \zsavepos{figurecap-1}\caption{Human Evaluation - AMT Task 1 Description}\zsavepos{figurecap-2}
+    \label{fig:human_eval1}
+
+    \zlabel{figure}
+\end{figure}
+
+
+\begin{figure}[h]
+    \zsavepos{figure-1}
+    \centering
+    % \includegraphics[width=1.95\columnwidth, scale=0.6]
+    \includegraphics[scale=0.2]{figures/human_eval2.png}
+    \zsavepos{figure-2}
+
+    
+    \zsavepos{figurecap-1}\caption{Human Evaluation - AMT Task Description (2)}\zsavepos{figurecap-2}
+    \label{fig:human_eval2}
+
+    \zlabel{figure}
+\end{figure}
+
+
+\begin{figure}[h]
+    \zsavepos{figure-1}
+    \centering
+    % \includegraphics[width=1.95\columnwidth, scale=0.6]
+    \includegraphics[scale=0.2]{figures/human_eval3.png}
+    \zsavepos{figure-2}
+
+    
+    \zsavepos{figurecap-1}\caption{Human Evaluation - AMT Task Description (3)}\zsavepos{figurecap-2}
+    \label{fig:human_eval3}
+
+    \zlabel{figure}
+\end{figure}
+
+
+
+\begin{table}[h!]
+
+    \centering
+    \scalebox{0.75}{
+\zsavepos{table-1}
+    \begin{tabular}{|c|c|c|c|c|c|}
+
+        \hline
+        % &&&\multicolumn{2}{|c|}{Human Eval} \\ \hline
+    \textbf{Target LLM} &\makecell{\textbf{Identity}\\\textbf{Attack (M/F)}} & \makecell{\textbf{Insult (M/F)}} & \makecell{\textbf{Toxicity (M/F)}} & \makecell{ \textbf{Sentiment (M/F)}} & \textbf{Bias (M/F)} \\
+   \hline
+   Llama2-7b-chat & (0.012/0.025)  & (0.015/0.022) & (0.01/0.023) &  (0.088/0.1)  & (0.896/0.95)\\  \hline
+   Llama2-13b-chat & (0.003/0.004) & (0.01/0.009) & (0.009/0.01)  & (0.076/0.051)  & (0.8/0.70)\\ \hline
+   Llama2-70b-chat & (0.007/0.0043) & (0.011/0.01) & (0.019/0.0064) & (0.042/0.078)   & (0.91/0.72)\\  \hline
+   % Mixtral  &  &  &  &    & \\  \hline
+   % Mistral &  &  &  &    & \\  \hline
+   GPT-4 & (0.006/0.002) & (0.004/0.001) & (0.005/0.002) &  (0.040/0.041)  & (0.858/0.77) \\  \hline
+     		
+        \hline
+\zsavepos{table-2}
+    \end{tabular}
+    }
+  \zsavepos{tablecap-1}\caption{Human Evaluation on AMT Task 1: Individual Gendered Prompt Pair Analysis \zsavepos{tablecap-2}}
+  \label{tab:overallbias}
+
+    \zlabel{table}
+\end{table}
+
+
+
+% \begin{figure}[htbp]
+    \zsavepos{figure*-1}
+%     \centering
+%     \includegraphics[width=0.45\textwidth]{EMNLP_Industry_AISafety/figures/human_eval2.png}
+    \zsavepos{figure*-2}
+
+%     \hspace{0.05\textwidth}
+%     \includegraphics[width=0.45\textwidth]{EMNLP_Industry_AISafety/figures/human_eval3.png}
+%     
+    \zsavepos{figurecap*-1}\caption{Caption for both images}\zsavepos{figurecap*-2}
+% 
+    \zlabel{figure*}
+\end{figure}
+
+
+
+
+
+

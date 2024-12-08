@@ -1,0 +1,138 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "14-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          54.14173889160156,
+          115.02276611328125
+        ],
+        [
+          300.4329528808594,
+          187.01071166992188
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "15-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          95.799072265625,
+          263.13722229003906
+        ],
+        [
+          258.77561950683594,
+          300.0959167480469
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "16-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          101.00407409667969,
+          341.2224578857422
+        ],
+        [
+          253.57061767578125,
+          368.9254608154297
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "17-header",
+      "label": "Heading",
+      "points": [
+        [
+          318.43968200683594,
+          161.05633544921875
+        ],
+        [
+          478.62158203125,
+          179.434326171875
+        ]
+      ],
+      "group_id": 4,
+      "parent_id": null,
+      "shape_id": "S_4",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "18-header",
+      "label": "Heading",
+      "points": [
+        [
+          318.43968200683594,
+          334.2964324951172
+        ],
+        [
+          436.7116241455078,
+          352.6854248046875
+        ]
+      ],
+      "group_id": 5,
+      "parent_id": null,
+      "shape_id": "S_5",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "19-header",
+      "label": "Heading",
+      "points": [
+        [
+          318.43968200683594,
+          422.53651428222656
+        ],
+        [
+          450.21070861816406,
+          447.1013946533203
+        ]
+      ],
+      "group_id": 6,
+      "parent_id": null,
+      "shape_id": "S_6",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "20-header",
+      "label": "Heading",
+      "points": [
+        [
+          318.43968200683594,
+          649.4245910644531
+        ],
+        [
+          395.7668762207031,
+          673.9894866943359
+        ]
+      ],
+      "group_id": 7,
+      "parent_id": null,
+      "shape_id": "S_7",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

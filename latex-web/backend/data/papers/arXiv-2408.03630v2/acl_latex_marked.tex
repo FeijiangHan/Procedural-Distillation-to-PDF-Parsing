@@ -1,0 +1,115 @@
+%
+\pdfoutput=1
+%
+\documentclass[11pt]{article}
+
+\usepackage{acl}
+
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage[T1]{fontenc}
+%
+\usepackage[utf8]{inputenc}
+
+\usepackage{microtype}
+\usepackage{inconsolata}
+
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{multirow}
+%
+\usepackage{utfsym}
+\usepackage{amsthm,amsmath,amssymb}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{soul}
+\usepackage{color, xcolor}
+
+\usepackage{subfigure}
+\usepackage{pifont}
+%
+\usepackage{enumitem}
+\usepackage{zref-savepos}
+\usepackage{zref-user}
+\usepackage{layouts}
+\setenumerate[1]{itemsep=0pt,parsep=0pt,topsep=0pt}
+\setitemize[1]{itemsep=5pt,parsep=0pt,topsep=5pt,leftmargin=8pt}
+\setlength{\abovetopsep}{5pt}
+\setlength{\belowrulesep}{5pt}
+
+\setlength{\abovecaptionskip}{5pt plus 1pt minus 1pt}
+\setlength{\belowcaptionskip}{5pt plus 1pt minus 1pt}
+\setlength{\intextsep}{5pt plus 1pt minus 1pt}
+\setlength{\dbltextfloatsep}{5pt plus 1pt minus 1pt}
+\setlength{\dblfloatsep}{5pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{5pt plus 1pt minus 1pt}
+\setlength{\floatsep}{5pt plus 1pt minus 1pt}
+\setlength{\parskip}{3pt}
+\setlength{\itemsep}{3pt}
+%
+\newcommand{\benchmark}{\texttt{PAGED}\xspace}
+\soulregister{\cite}7 %
+\soulregister{\citep}7 %
+\soulregister{\citet}7 %
+\soulregister{\ref}7 %
+\soulregister{\pageref}7 %
+%
+\newcommand{\liang}[1]{\sethlcolor{yellow}\hl{#1}}
+
+\setlength\titlebox{5cm}
+%
+\title{\textbf{\benchmark}: A Benchmark for Procedural Graphs Extraction from Documents}
+
+\author{
+{Weihong Du\textsuperscript{1}\textsuperscript{2}\quad Wenrui Liao\textsuperscript{1}\textsuperscript{2}\quad Hongru Liang\textsuperscript{1}\textsuperscript{2}\thanks{\quad Corresponding author}\quad Wenqiang Lei\textsuperscript{1}\textsuperscript{2}}
+\\
+{\textsuperscript{1}College of Computer Science, Sichuan University, China} \\
+{\textsuperscript{2}Engineering Research Center of Machine Learning and Industry Intelligence,} \\
+{Ministry of Education, China} \\
+\texttt{\{duweihong, liaowenrui\}@stu.scu.edu.cn}\\
+\texttt{\{lianghongru, wenqianglei\}@scu.edu.cn}
+}
+
+
+
+
+\makeatletter
+\protected@write\@auxout{}{%
+    \string\newlabel{columnwidth}{{\the\columnwidth}}
+}
+\protected@write\@auxout{}{%
+    \string\newlabel{textwidth}{{\the\textwidth}}
+}
+\protected@write\@auxout{}{%
+    \string\newlabel{lineheight}{{\the\baselineskip}}
+}
+\protected@write\@auxout{}{%
+    \string\newlabel{linewidth}{{\the\linewidth}}
+}
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+\input{Chapters/abstract}
+\input{Chapters/intro}
+%
+\input{Chapters/related}
+
+\input{Chapters/dataset}
+
+\input{Chapters/experiments}
+
+\input{Chapters/conclusion}
+
+\input{Chapters/ethic}
+\input{Chapters/limitation}
+
+\bibliography{anthology}
+
+\clearpage
+\input{Chapters/appendix}
+
+\end{document}

@@ -1,0 +1,43 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "106-figure*",
+      "label": "Figure",
+      "points": [
+        [
+          58.71937561035156,
+          105.02175903320312
+        ],
+        [
+          555.5756225585938,
+          662.13671875
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "107-figurecap*",
+      "label": "FigureCaption",
+      "points": [
+        [
+          58.71937561035156,
+          662.13671875
+        ],
+        [
+          555.5756225585938,
+          683.13671875
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

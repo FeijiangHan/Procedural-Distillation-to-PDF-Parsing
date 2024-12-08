@@ -1,0 +1,157 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "77-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          336.1645965576172
+        ],
+        [
+          241.04429626464844,
+          357.9972229003906
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "74-table*",
+      "label": "Table",
+      "points": [
+        [
+          58.71937561035156,
+          69.1131591796875
+        ],
+        [
+          555.5756225585938,
+          137.17825317382812
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "73-tablecap*",
+      "label": "TableCaption",
+      "points": [
+        [
+          58.71937561035156,
+          132.60061645507812
+        ],
+        [
+          555.5756225585938,
+          164.60061645507812
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "75-figure*",
+      "label": "Figure",
+      "points": [
+        [
+          58.71937561035156,
+          176.31393432617188
+        ],
+        [
+          555.5756225585938,
+          310.3773956298828
+        ]
+      ],
+      "group_id": 4,
+      "parent_id": null,
+      "shape_id": "S_4",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "76-figurecap*",
+      "label": "FigureCaption",
+      "points": [
+        [
+          58.71937561035156,
+          310.3773956298828
+        ],
+        [
+          555.5756225585938,
+          331.3773956298828
+        ]
+      ],
+      "group_id": 5,
+      "parent_id": null,
+      "shape_id": "S_5",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "78-figure*",
+      "label": "Figure",
+      "points": [
+        [
+          58.71937561035156,
+          419.14634704589844
+        ],
+        [
+          555.5756225585938,
+          555.7835998535156
+        ]
+      ],
+      "group_id": 6,
+      "parent_id": null,
+      "shape_id": "S_6",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "79-figurecap*",
+      "label": "FigureCaption",
+      "points": [
+        [
+          58.71937561035156,
+          555.7835998535156
+        ],
+        [
+          555.5756225585938,
+          576.7835998535156
+        ]
+      ],
+      "group_id": 7,
+      "parent_id": null,
+      "shape_id": "S_7",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "80-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          587.0912475585938
+        ],
+        [
+          282.6903076171875,
+          603.2385101318359
+        ]
+      ],
+      "group_id": 8,
+      "parent_id": null,
+      "shape_id": "S_8",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

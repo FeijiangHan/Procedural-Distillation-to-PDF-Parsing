@@ -1,0 +1,138 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "7-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          67.55421447753906
+        ],
+        [
+          162.7945556640625,
+          84.8092041015625
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "8-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          275.4697265625
+        ],
+        [
+          167.0033416748047,
+          289.8860778808594
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "9-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          468.5720672607422
+        ],
+        [
+          223.84033203125,
+          485.0784149169922
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "10-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          59.141754150390625,
+          663.6994323730469
+        ],
+        [
+          283.7730407714844,
+          705.9317626953125
+        ]
+      ],
+      "group_id": 4,
+      "parent_id": null,
+      "shape_id": "S_4",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "11-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          319.7565155029297,
+          126.433349609375
+        ],
+        [
+          554.2588043212891,
+          175.87600708007812
+        ]
+      ],
+      "group_id": 5,
+      "parent_id": null,
+      "shape_id": "S_5",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "12-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          340.10862731933594,
+          289.0067443847656
+        ],
+        [
+          533.9066925048828,
+          326.09449768066406
+        ]
+      ],
+      "group_id": 6,
+      "parent_id": null,
+      "shape_id": "S_6",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "13-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          360.9004364013672,
+          596.7339172363281
+        ],
+        [
+          513.1148834228516,
+          621.9317626953125
+        ]
+      ],
+      "group_id": 7,
+      "parent_id": null,
+      "shape_id": "S_7",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: latex_marker
+Version: 0.1
+Summary: LaTeX position marker inserter
+Author: Feijhan Han
+Author-email: feijhanhan@gmail.com
+Keywords: latex,marker,position
+Requires-Python: >=3.6

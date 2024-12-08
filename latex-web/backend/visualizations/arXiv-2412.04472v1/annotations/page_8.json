@@ -1,0 +1,138 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "35-table*",
+      "label": "Table",
+      "points": [
+        [
+          58.71937561035156,
+          69.1131591796875
+        ],
+        [
+          555.5756225585938,
+          207.53854370117188
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "34-tablecap*",
+      "label": "TableCaption",
+      "points": [
+        [
+          58.71937561035156,
+          202.96090698242188
+        ],
+        [
+          555.5756225585938,
+          223.96090698242188
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "36-figure*",
+      "label": "Figure",
+      "points": [
+        [
+          58.71937561035156,
+          235.96090698242188
+        ],
+        [
+          555.5756225585938,
+          357.7169952392578
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "37-figurecap*",
+      "label": "FigureCaption",
+      "points": [
+        [
+          58.71937561035156,
+          357.7169952392578
+        ],
+        [
+          555.5756225585938,
+          378.7169952392578
+        ]
+      ],
+      "group_id": 4,
+      "parent_id": null,
+      "shape_id": "S_4",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "39-table",
+      "label": "Table",
+      "points": [
+        [
+          58.71937561035156,
+          390.18109130859375
+        ],
+        [
+          288.21937561035156,
+          479.87806701660156
+        ]
+      ],
+      "group_id": 5,
+      "parent_id": null,
+      "shape_id": "S_5",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "38-tablecap",
+      "label": "TableCaption",
+      "points": [
+        [
+          58.71937561035156,
+          475.30043029785156
+        ],
+        [
+          288.21937561035156,
+          529.3004302978516
+        ]
+      ],
+      "group_id": 6,
+      "parent_id": null,
+      "shape_id": "S_6",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "40-header",
+      "label": "Heading",
+      "points": [
+        [
+          318.43968200683594,
+          384.07757568359375
+        ],
+        [
+          445.962646484375,
+          405.9102020263672
+        ]
+      ],
+      "group_id": 7,
+      "parent_id": null,
+      "shape_id": "S_7",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "39-header",
+      "label": "Heading",
+      "points": [
+        [
+          71.13188171386719,
+          170.33041381835938
+        ],
+        [
+          143.80320739746094,
+          193.35476684570312
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

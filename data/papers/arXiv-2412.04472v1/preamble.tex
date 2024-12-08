@@ -1,0 +1,27 @@
+%
+% --- inline annotations
+%
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\todo}[1]{{\color{red}#1}}
+\newcommand{\TODO}[1]{\textbf{\color{red}[TODO: #1]}}
+% --- disable by uncommenting  
+% \renewcommand{\TODO}[1]{}
+% \renewcommand{\todo}[1]{#1}
+
+\newcommand{\method}[0]{Stereo Anywhere\xspace}
+\newcommand{\dataset}[0]{MonoTrap\xspace}
+
+\usepackage{colortbl}
+\usepackage{multirow}
+
+\definecolor{firstcolor}{HTML}{BDE6CD}%{8EE574}
+\definecolor{secondcolor}{HTML}{E2EEBC}%{FCFF91}
+\definecolor{thirdcolor}{HTML}{FFF8C5}%{FFC5BF}
+
+\newcommand{\fst}[1]{\cellcolor{firstcolor}\bfseries #1}
+\newcommand{\snd}[1]{\cellcolor{secondcolor} #1}
+\newcommand{\trd}[1]{\cellcolor{thirdcolor}#1}
+
+
+\usepackage{overpic}
+\usepackage{pifont}

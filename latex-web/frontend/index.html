@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTeX Web Viewer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Prism.js for LaTeX syntax highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-latex.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 文件选择器 -->
+        <div class="toolbar">
+            <select id="paperSelect" disabled>
+                <option value="">Loading papers...</option>
+            </select>
+            <button id="processBtn" disabled>Process</button>
+            <button id="exportBtn" disabled>Export Annotations</button>
+            <div id="loadingIndicator" class="loading-indicator hidden">
+                <div class="processing-steps">
+                    <div class="step pending" data-step="LaTeX Marking">
+                        <span class="step-icon">○</span>
+                        <span class="step-name">LaTeX Marking</span>
+                    </div>
+                    <div class="step pending" data-step="PDF Compilation">
+                        <span class="step-icon">○</span>
+                        <span class="step-name">PDF Compilation</span>
+                    </div>
+                    <div class="step pending" data-step="Structure Analysis">
+                        <span class="step-icon">○</span>
+                        <span class="step-name">Structure Analysis</span>
+                    </div>
+                    <div class="step pending" data-step="Coordinate Extraction">
+                        <span class="step-icon">○</span>
+                        <span class="step-name">Coordinate Extraction</span>
+                    </div>
+                    <div class="step pending" data-step="Bounding Box Calculation">
+                        <span class="step-icon">○</span>
+                        <span class="step-name">Bounding Box Calculation</span>
+                    </div>
+                    <div class="step pending" data-step="PDF Visualization">
+                        <span class="step-icon">○</span>
+                        <span class="step-name">PDF Visualization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 双栏布局 -->
+        <div class="panels">
+            <!-- TeX查看器 -->
+            <div class="panel">
+                <h3>LaTeX Source</h3>
+                <div id="texEditor" class="editor-container"></div>
+            </div>
+
+            <!-- 标注PDF查看器 -->
+            <div class="panel">
+                <h3>Marked PDF</h3>
+                <div id="markedPdfViewer" class="viewer-container">
+                    <div class="marked-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 错误提示 -->
+    <div id="errorToast" class="toast hidden"></div>
+
+    <!-- JavaScript -->
+    <script src="js/api.js"></script>
+    <script src="js/texEditor.js"></script>
+    <script src="js/markedViewer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

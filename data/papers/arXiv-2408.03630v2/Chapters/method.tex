@@ -1,0 +1,34 @@
+
+\zsavepos{header-1}
+
+\zsavepos{header-1}\section{Method\zsavepos{header-2\zsavepos{header-2}}
+\zsavepos{header-3}\zlabel{header}
+}\zsavepos{header-3}\zlabel{header}
+
+Understand the complex branches in the procedures and use correct gateways to represent them is challenging for traditional methods and even the large language models.
+To alleviate this defect, inspired by the ``dual process'' theories~\citep{evans2003two}, we design a two-system based self-refine framework to verify the extracted graphs of the model and provide external feedback to refine the model's extractions.
+
+\zsavepos{header-1}
+
+\zsavepos{header-1}\subsection{Overview of Proposed Framework\zsavepos{header-2\zsavepos{header-2}}
+\zsavepos{header-3}\zlabel{header}
+}\zsavepos{header-3}\zlabel{header}
+
+As shown in Figure~\ref{fig:method}, we adopt the large language model~(LLM) as ``System1'' to extract the procedural graphs from the documents. Then we design two verifiers as ``System2'' to verify the correctness of the extracted graphs and provide feedback to the model for further refinement if needed.
+Because each procedural graph is composed of nodes~(e.g., actions and gateways) and edges~(e.g., sequential edges used to connect different actions and gateways),
+we use a dot language~\citep{gansner2006drawing} based graph representation in the form of ``Node -> (condition) Node'' to represent extracted graphs.
+For simplicity, we use ``XOR'', ``OR'' and ``AND'' as abbreviations for exclusive, inclusive and parallel gateways respectively. And we use numbers as suffixes to distinguish multiple gateways of the same type on the graph.
+Additionally, we require the model to output the actors of corresponding extracted actions for actors predictions. See appendix~\ref{app:ProposedMethod} for more details.
+
+\zsavepos{header-1}\paragraph{Condition Verifier\zsavepos{header-2}}\zsavepos{header-3}\zlabel{header}
+
+The model often fails to distinguish between exclusive and inclusive gateways.
+After careful analysis, we find that the essential difference between exclusive and inclusive gateways lies in whether there exists conflict between the conditions need to be satisfied.
+Inspired by this, we design a simple and effective verifier to detect the conflict between the conditions of the extracted exclusive and inclusive gateways with off-the-shelf Natural Language Inference model, and provide the feedback to the model if: (1) a conflict is detected for inclusive gateways or (2) no conflict is detected for exclusive gateways.
+For example, the model extracts an exclusive gateway with conditions ``need dishes'' and ``need drinks'' that are not conflicted, and the verifier then provides feedback to the model for correcting the gateway type.
+
+\zsavepos{header-1}\paragraph{Parallel Verifier\zsavepos{header-2}}\zsavepos{header-3}\zlabel{header}
+
+We find that different actions can be executed in parallel only when the objects of these actions are different. On the contrary, if several actions are executed on a same object, they cannot be executed in parallel.
+Inspired by this, we design a verifier to verify the objects difference for parallel actions through semantic parsing. Additionally, we further explore the actions executed in sequence but on different objects, especially for those that meet the special syntactic pattern of ``same predicate with different objects'', which are capable of the potential for parallel execution and often neglected by the model.
+For example, two sequential actions ``prepare the meal'' and ``prepare the tableware'' have same predicate ``prepare'' and different objects, and the verifier then provides feedback to the model for extracting this potential parallel gateway.

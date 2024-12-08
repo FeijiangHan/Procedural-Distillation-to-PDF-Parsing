@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{Experimental results of ablation study. ``w/o Condition Verifier'' and ``w/o Parallel Verifier'' mean not providing feedback from condition verifier and parallel verifier to the model respectively.}
+\label{ablation}
+\centering
+\scalebox{0.7}{
+\begin{tabular}{l|cccc}
+\hline
+\multicolumn{1}{c|}{Model} & XOR     & OR      & AND     & NodeTotal \\ \hline
+Self-refine ChatGPT              & 0.5085  & 0.2487  & 0.4081  & 0.6335      \\
+- w/o Condition Verifier     & -0.0425 & -0.0589 & -0.0038 & -0.0007     \\
+- w/o Parallel Verifier      & -0.0072 & 0.0011  & -0.0237 & -0.0026     \\ \hline
+Self-refine Llama2               & 0.5814  & 0.2983  & 0.4511  & 0.6964      \\
+- w/o Condition Verifier     & -0.0356 & -0.209  & -0.0017 & -0.0102     \\
+- w/o Parallel Verifier      & -0.0024 & -0.0042 & -0.0492 & -0.0080    
+\end{tabular}
+}
+\end{table}
+

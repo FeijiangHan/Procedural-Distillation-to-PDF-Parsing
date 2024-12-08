@@ -1,0 +1,10 @@
+\begin{table}[]
+\begin{tabular}{ccccccccccccccc}
+\multirow{3}{*}{method} & \multicolumn{4}{c}{Automated Evaluation}            & \multicolumn{10}{c}{Human Evaluation}                                                                                                                                 \\
+                        & \multicolumn{2}{c}{FINE} & \multicolumn{2}{c}{ESA}  & \multicolumn{2}{c}{Understandable} & \multicolumn{2}{c}{Adequacy} & \multicolumn{2}{c}{Hallucination} & \multicolumn{2}{c}{Coherence} & \multicolumn{2}{c}{Humanness} \\
+                        & omission & hallucination & omission & hallucination & score            & ICC             & score         & ICC          & score            & ICC            & score          & ICC          & score          & ICC          \\
+DT                      & -        & -             & -        & -             & 4.13             & 0.91            & 4.15          & 0.92         & 4.41             & 0.92           & 3.25           & 0.9          & 3.11           & 0.92         \\
+DT+chatgpt              & 0.8842   & 0.8838        & 0.9663   & 0.9573        & 4.45             & 0.9             & 4.48          & 0.92         & 4.48             & 0.89           & 4.4            & 0.89         & 4.37           & 0.93         \\
+ours                    & 0.9049   & 0.9103        & 0.9707   & 0.9648        & 4.51             & 0.93            & 4.57          & 0.94         & 4.59             & 0.92           & 4.49           & 0.9          & 4.43           & 0.92        
+\end{tabular}
+\end{table}

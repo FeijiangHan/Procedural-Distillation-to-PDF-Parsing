@@ -1,0 +1,17 @@
+\begin{table}[t]
+\caption{Automatic evaluation results of the generated documents. 
+``pipeline'' refers to generated documents processed by the full three-stage pipeline, and ``direct rephrasing'' refers to generated documents that are directly rephrased by ChatGPT without grouping, ordering and aggregating process. 
+}
+\label{dataset_eva}
+\centering
+\scalebox{0.85}{
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Metric}} & pipeline & direct rephrasing \\ \hline
+FINE-omission                         & 0.9049            & 0.8842            \\ \hline
+FINE-hallucination                    & 0.9103            & 0.8838            \\ \hline
+ESA-entity                            & 0.9707            & 0.9663            \\ \hline
+ESA-action                            & 0.9648            & 0.9573            \\ \hline
+\end{tabular}
+}
+\end{table}

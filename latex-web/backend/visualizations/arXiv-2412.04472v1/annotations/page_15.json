@@ -1,0 +1,100 @@
+{
+  "flags": {},
+  "shapes": [
+    {
+      "description": "44-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          299.2656555175781
+        ],
+        [
+          263.52125549316406,
+          323.6095428466797
+        ]
+      ],
+      "group_id": 1,
+      "parent_id": null,
+      "shape_id": "S_1",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "45-header",
+      "label": "Heading",
+      "points": [
+        [
+          58.71937561035156,
+          348.83734130859375
+        ],
+        [
+          225.76536560058594,
+          367.1352996826172
+        ]
+      ],
+      "group_id": 2,
+      "parent_id": null,
+      "shape_id": "S_2",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "46-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          170.645751953125,
+          453.1197052001953
+        ],
+        [
+          443.6492614746094,
+          483.8436584472656
+        ]
+      ],
+      "group_id": 3,
+      "parent_id": null,
+      "shape_id": "S_3",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "47-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          136.72743225097656,
+          562.3701629638672
+        ],
+        [
+          477.5675811767578,
+          597.0442657470703
+        ]
+      ],
+      "group_id": 4,
+      "parent_id": null,
+      "shape_id": "S_4",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "description": "48-math",
+      "label": "MathBlock",
+      "points": [
+        [
+          195.4366912841797,
+          638.2564392089844
+        ],
+        [
+          418.8583068847656,
+          665.9302825927734
+        ]
+      ],
+      "group_id": 5,
+      "parent_id": null,
+      "shape_id": "S_5",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ]
+}

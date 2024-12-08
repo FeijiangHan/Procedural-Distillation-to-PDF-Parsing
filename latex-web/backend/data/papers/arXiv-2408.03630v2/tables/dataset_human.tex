@@ -1,0 +1,20 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\caption{Human evaluation results of the generated procedural documents.
+}
+\label{dataset_human}
+\centering
+\scalebox{0.75}{
+\begin{tabular}{|l|cc|cc|cc|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Criterion}}} & \multicolumn{2}{c|}{pipeline}     & \multicolumn{2}{c|}{direct rephrasing} & \multicolumn{2}{c|}{direct concatenating} \\ \cline{2-7} 
+\multicolumn{1}{|c|}{}                                    & \multicolumn{1}{c|}{Score} & ICC  & \multicolumn{1}{c|}{Score}    & ICC    & \multicolumn{1}{c|}{Score}     & ICC      \\ \hline
+Understandable                                            & \multicolumn{1}{c|}{4.51}  & 0.93 & \multicolumn{1}{c|}{4.33}     & 0.89   & \multicolumn{1}{c|}{3.59}      & 0.92     \\ \hline
+Adequacy                                                  & \multicolumn{1}{c|}{4.57}  & 0.94 & \multicolumn{1}{c|}{4.37}     & 0.91   & \multicolumn{1}{c|}{4.02}      & 0.89     \\ \hline
+Hallucination                                             & \multicolumn{1}{c|}{4.59}  & 0.92 & \multicolumn{1}{c|}{4.47}     & 0.89   & \multicolumn{1}{c|}{4.11}      & 0.93     \\ \hline
+Coherence                                                 & \multicolumn{1}{c|}{4.49}  & 0.90 & \multicolumn{1}{c|}{4.05}     & 0.90   & \multicolumn{1}{c|}{3.17}      & 0.89     \\ \hline
+Humanness                                                 & \multicolumn{1}{c|}{4.43}  & 0.92 & \multicolumn{1}{c|}{4.31}     & 0.92   & \multicolumn{1}{c|}{2.86}      & 0.90     \\ \hline
+\end{tabular}
+}
+\end{table}

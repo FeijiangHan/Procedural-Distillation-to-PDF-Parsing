@@ -1,0 +1,16 @@
+# Web Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# PDF Processing
+PyMuPDF==1.23.7  # For PDF handling
+
+# Utilities
+pathlib==1.0.1
+typing-extensions==4.8.0
+
+# Development Tools
+python-dotenv==1.0.0  # For environment variables
+pytest==7.4.2  # For testing
+black==23.9.1  # For code formatting 

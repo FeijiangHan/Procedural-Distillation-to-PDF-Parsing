@@ -1,0 +1,430 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Aky{\"{u}}rek et~al.(2022)Aky{\"{u}}rek, Kocyigit, Paik, and
+  Wijaya}]{DBLP:journals/corr/abs-2205-11601}
+Afra~Feyza Aky{\"{u}}rek, Muhammed~Yusuf Kocyigit, Sejin Paik, and Derry
+  Wijaya. 2022.
+\newblock \href {https://doi.org/10.48550/ARXIV.2205.11601} {Challenges in
+  measuring bias via open-ended language generation}.
+\newblock \emph{CoRR}, abs/2205.11601.
+
+\bibitem[{Basta et~al.(2019)Basta, Costa-jussà, and
+  Casas}]{basta2019evaluating}
+Christine Basta, Marta~R. Costa-jussà, and Noe Casas. 2019.
+\newblock \href {https://arxiv.org/abs/1904.08783} {Evaluating the underlying
+  gender bias in contextualized word embeddings}.
+\newblock \emph{Preprint}, arXiv:1904.08783.
+
+\bibitem[{Bender et~al.(2021)Bender, Gebru, McMillan-Major, and
+  Shmitchell}]{10.1145/3442188.3445922}
+Emily~M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+  Shmitchell. 2021.
+\newblock \href {https://doi.org/10.1145/3442188.3445922} {On the dangers of
+  stochastic parrots: Can language models be too big?}
+\newblock In \emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, FAccT '21, page 610–623, New York, NY,
+  USA. Association for Computing Machinery.
+
+\bibitem[{Blodgett et~al.(2021{\natexlab{a}})Blodgett, Lopez, Olteanu, Sim, and
+  Wallach}]{blodgett-etal-2021-stereotyping}
+Su~Lin Blodgett, Gilsinia Lopez, Alexandra Olteanu, Robert Sim, and Hanna
+  Wallach. 2021{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.81} {Stereotyping
+  {N}orwegian salmon: An inventory of pitfalls in fairness benchmark datasets}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 1004--1015,
+  Online. Association for Computational Linguistics.
+
+\bibitem[{Blodgett et~al.(2021{\natexlab{b}})Blodgett, Lopez, Olteanu, Sim, and
+  Wallach}]{DBLP:conf/acl/BlodgettLOSW20}
+Su~Lin Blodgett, Gilsinia Lopez, Alexandra Olteanu, Robert Sim, and Hanna~M.
+  Wallach. 2021{\natexlab{b}}.
+\newblock \href {https://doi.org/10.18653/V1/2021.ACL-LONG.81} {Stereotyping
+  norwegian salmon: An inventory of pitfalls in fairness benchmark datasets}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing, {ACL/IJCNLP} 2021, (Volume 1: Long Papers),
+  Virtual Event, August 1-6, 2021}, pages 1004--1015. Association for
+  Computational Linguistics.
+
+\bibitem[{Cao et~al.(2022)Cao, Pruksachatkun, Chang, Gupta, Kumar, Dhamala, and
+  Galstyan}]{DBLP:conf/acl/CaoPCGKDG22}
+Yang~Trista Cao, Yada Pruksachatkun, Kai{-}Wei Chang, Rahul Gupta, Varun Kumar,
+  Jwala Dhamala, and Aram Galstyan. 2022.
+\newblock \href {https://doi.org/10.18653/V1/2022.ACL-SHORT.62} {On the
+  intrinsic and extrinsic fairness evaluation metrics for contextualized
+  language representations}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers), {ACL} 2022, Dublin,
+  Ireland, May 22-27, 2022}, pages 561--570. Association for Computational
+  Linguistics.
+
+\bibitem[{Delobelle et~al.(2022)Delobelle, Tokpo, Calders, and
+  Berendt}]{DBLP:conf/naacl/DelobelleTCB22}
+Pieter Delobelle, Ewoenam~Kwaku Tokpo, Toon Calders, and Bettina Berendt. 2022.
+\newblock \href {https://doi.org/10.18653/V1/2022.NAACL-MAIN.122} {Measuring
+  fairness with biased rulers: {A} comparative study on bias metrics for
+  pre-trained language models}.
+\newblock In \emph{Proceedings of the 2022 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, {NAACL} 2022, Seattle, WA, United States, July 10-15, 2022},
+  pages 1693--1706. Association for Computational Linguistics.
+
+\bibitem[{Devinney et~al.(2022)Devinney, Björklund, and
+  Björklund}]{devinney2022theories}
+Hannah Devinney, Jenny Björklund, and Henrik Björklund. 2022.
+\newblock \href {https://arxiv.org/abs/2205.02526} {Theories of "gender" in nlp
+  bias research}.
+\newblock \emph{Preprint}, arXiv:2205.02526.
+
+\bibitem[{Dhamala et~al.(2021)Dhamala, Sun, Kumar, Krishna, Pruksachatkun,
+  Chang, and Gupta}]{Dhamala_2021}
+Jwala Dhamala, Tony Sun, Varun Kumar, Satyapriya Krishna, Yada Pruksachatkun,
+  Kai-Wei Chang, and Rahul Gupta. 2021.
+\newblock \href {https://doi.org/10.1145/3442188.3445924} {Bold: Dataset and
+  metrics for measuring biases in open-ended language generation}.
+\newblock In \emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, FAccT ’21. ACM.
+
+\bibitem[{Ferrara(2023)}]{ferrara2023fairness}
+Emilio Ferrara. 2023.
+\newblock Fairness and bias in artificial intelligence: A brief survey of
+  sources, impacts, and mitigation strategies.
+\newblock \emph{Sci}, 6(1):3.
+
+\bibitem[{Gallegos et~al.(2023)Gallegos, Rossi, Barrow, Tanjim, Kim,
+  Dernoncourt, Yu, Zhang, and Ahmed}]{DBLP:journals/corr/abs-2309-00770}
+Isabel~O. Gallegos, Ryan~A. Rossi, Joe Barrow, Md.~Mehrab Tanjim, Sungchul Kim,
+  Franck Dernoncourt, Tong Yu, Ruiyi Zhang, and Nesreen~K. Ahmed. 2023.
+\newblock \href {https://doi.org/10.48550/ARXIV.2309.00770} {Bias and fairness
+  in large language models: {A} survey}.
+\newblock \emph{CoRR}, abs/2309.00770.
+
+\bibitem[{Gehman et~al.(2020)Gehman, Gururangan, Sap, Choi, and
+  Smith}]{DBLP:conf/emnlp/GehmanGSCS20}
+Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah~A. Smith.
+  2020.
+\newblock \href {https://doi.org/10.18653/V1/2020.FINDINGS-EMNLP.301}
+  {Realtoxicityprompts: Evaluating neural toxic degeneration in language
+  models}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  {EMNLP} 2020, Online Event, 16-20 November 2020}, volume {EMNLP} 2020 of
+  \emph{Findings of {ACL}}, pages 3356--3369. Association for Computational
+  Linguistics.
+
+\bibitem[{Gilardi et~al.(2023)Gilardi, Alizadeh, and
+  Kubli}]{gilardi2023chatgpt}
+Fabrizio Gilardi, Meysam Alizadeh, and Ma{\"e}l Kubli. 2023.
+\newblock Chatgpt outperforms crowd workers for text-annotation tasks.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  120(30):e2305016120.
+
+\bibitem[{Hartvigsen et~al.(2022)Hartvigsen, Gabriel, Palangi, Sap, Ray, and
+  Kamar}]{hartvigsen-etal-2022-toxigen}
+Thomas Hartvigsen, Saadia Gabriel, Hamid Palangi, Maarten Sap, Dipankar Ray,
+  and Ece Kamar. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.acl-long.234} {{T}oxi{G}en: A
+  large-scale machine-generated dataset for adversarial and implicit hate
+  speech detection}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 3309--3326,
+  Dublin, Ireland. Association for Computational Linguistics.
+
+\bibitem[{Hu et~al.(2022)Hu, Shen, Wallis, Allen{-}Zhu, Li, Wang, Wang, and
+  Chen}]{DBLP:conf/iclr/HuSWALWWC22}
+Edward~J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen{-}Zhu, Yuanzhi Li,
+  Shean Wang, Lu~Wang, and Weizhu Chen. 2022.
+\newblock \href {https://openreview.net/forum?id=nZeVKeeFYf9} {Lora: Low-rank
+  adaptation of large language models}.
+\newblock In \emph{The Tenth International Conference on Learning
+  Representations, {ICLR} 2022, Virtual Event, April 25-29, 2022}.
+  OpenReview.net.
+
+\bibitem[{Huang et~al.(2023)Huang, Kwak, and An}]{huang2023chatgpt}
+Fan Huang, Haewoon Kwak, and Jisun An. 2023.
+\newblock Is chatgpt better than human annotators? potential and limitations of
+  chatgpt in explaining implicit hate speech.
+\newblock In \emph{Companion proceedings of the ACM web conference 2023}, pages
+  294--297.
+
+\bibitem[{Hutto and Gilbert(2014)}]{Hutto2014VADERAP}
+Clayton~J. Hutto and Eric Gilbert. 2014.
+\newblock \href {https://api.semanticscholar.org/CorpusID:12233345} {Vader: A
+  parsimonious rule-based model for sentiment analysis of social media text}.
+\newblock \emph{Proceedings of the International AAAI Conference on Web and
+  Social Media}.
+
+\bibitem[{Kim et~al.(2023)Kim, Shin, Cho, Jang, Longpre, Lee, Yun, Shin, Kim,
+  Thorne et~al.}]{kim2023prometheus}
+Seungone Kim, Jamin Shin, Yejin Cho, Joel Jang, Shayne Longpre, Hwaran Lee,
+  Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, et~al. 2023.
+\newblock Prometheus: Inducing fine-grained evaluation capability in language
+  models.
+\newblock \emph{arXiv preprint arXiv:2310.08491}.
+
+\bibitem[{Kotek et~al.(2023)Kotek, Dockum, and Sun}]{10.1145/3582269.3615599}
+Hadas Kotek, Rikker Dockum, and David Sun. 2023.
+\newblock \href {https://doi.org/10.1145/3582269.3615599} {Gender bias and
+  stereotypes in large language models}.
+\newblock In \emph{Proceedings of The ACM Collective Intelligence Conference},
+  CI '23, page 12–24, New York, NY, USA. Association for Computing Machinery.
+
+\bibitem[{Li et~al.(2023)Li, Sun, Yuan, Fan, Liu et~al.}]{li2023generative}
+Junlong Li, Shichao Sun, Weizhe Yuan, Run-Ze Fan, Pengfei Liu, et~al. 2023.
+\newblock Generative judge for evaluating alignment.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Liang et~al.(2023)Liang, Bommasani, Lee, Tsipras, Soylu, Yasunaga,
+  Zhang, Narayanan, Wu, Kumar, Newman, Yuan, Yan, Zhang, Cosgrove, Manning,
+  Ré, Acosta-Navas, Hudson, Zelikman, Durmus, Ladhak, Rong, Ren, Yao, Wang,
+  Santhanam, Orr, Zheng, Yuksekgonul, Suzgun, Kim, Guha, Chatterji, Khattab,
+  Henderson, Huang, Chi, Xie, Santurkar, Ganguli, Hashimoto, Icard, Zhang,
+  Chaudhary, Wang, Li, Mai, Zhang, and Koreeda}]{liang2023holistic}
+Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu,
+  Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar,
+  Benjamin Newman, Binhang Yuan, Bobby Yan, Ce~Zhang, Christian Cosgrove,
+  Christopher~D. Manning, Christopher Ré, Diana Acosta-Navas, Drew~A. Hudson,
+  Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu
+  Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul,
+  Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter
+  Henderson, Qian Huang, Ryan Chi, Sang~Michael Xie, Shibani Santurkar, Surya
+  Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary,
+  William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, and Yuta Koreeda. 2023.
+\newblock \href {https://arxiv.org/abs/2211.09110} {Holistic evaluation of
+  language models}.
+\newblock \emph{Preprint}, arXiv:2211.09110.
+
+\bibitem[{Liu et~al.(2023)Liu, Yang, Huang, Zhang, Huang, Wei, Deng, Sun, and
+  Zhang}]{liu2023calibrating}
+Yuxuan Liu, Tianchi Yang, Shaohan Huang, Zihan Zhang, Haizhen Huang, Furu Wei,
+  Weiwei Deng, Feng Sun, and Qi~Zhang. 2023.
+\newblock Calibrating llm-based evaluator.
+\newblock \emph{arXiv preprint arXiv:2309.13308}.
+
+\bibitem[{Lu et~al.(2020)Lu, Mardziel, Wu, Amancharla, and
+  Datta}]{lu2020gender}
+Kaiji Lu, Piotr Mardziel, Fangjing Wu, Preetam Amancharla, and Anupam Datta.
+  2020.
+\newblock Gender bias in neural natural language processing.
+\newblock \emph{Logic, language, and security: essays dedicated to Andre
+  Scedrov on the occasion of his 65th birthday}, pages 189--202.
+
+\bibitem[{Nadeem et~al.(2021)Nadeem, Bethke, and
+  Reddy}]{nadeem-etal-2021-stereoset}
+Moin Nadeem, Anna Bethke, and Siva Reddy. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.416} {{S}tereo{S}et:
+  Measuring stereotypical bias in pretrained language models}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 5356--5371,
+  Online. Association for Computational Linguistics.
+
+\bibitem[{Nangia et~al.(2020)Nangia, Vania, Bhalerao, and
+  Bowman}]{DBLP:conf/emnlp/NangiaVBB20}
+Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel~R. Bowman. 2020.
+\newblock \href {https://doi.org/10.18653/V1/2020.EMNLP-MAIN.154} {Crows-pairs:
+  {A} challenge dataset for measuring social biases in masked language models}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing, {EMNLP} 2020, Online, November 16-20, 2020},
+  pages 1953--1967. Association for Computational Linguistics.
+
+\bibitem[{Nozza et~al.(2022)Nozza, Bianchi, and
+  Hovy}]{nozza-etal-2022-pipelines}
+Debora Nozza, Federico Bianchi, and Dirk Hovy. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.bigscience-1.6} {Pipelines
+  for social bias testing of large language models}.
+\newblock In \emph{Proceedings of BigScience Episode {\#}5 -- Workshop on
+  Challenges {\&} Perspectives in Creating Large Language Models}, pages
+  68--74, virtual+Dublin. Association for Computational Linguistics.
+
+\bibitem[{Parrish et~al.(2022)Parrish, Chen, Nangia, Padmakumar, Phang,
+  Thompson, Htut, and Bowman}]{parrish2022bbq}
+Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang,
+  Jana Thompson, Phu~Mon Htut, and Samuel~R. Bowman. 2022.
+\newblock \href {https://arxiv.org/abs/2110.08193} {Bbq: A hand-built bias
+  benchmark for question answering}.
+\newblock \emph{Preprint}, arXiv:2110.08193.
+
+\bibitem[{Perez et~al.(2022)Perez, Huang, Song, Cai, Ring, Aslanides, Glaese,
+  McAleese, and Irving}]{perez-etal-2022-red}
+Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John
+  Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.emnlp-main.225} {Red teaming
+  language models with language models}.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3419--3448, Abu Dhabi, United Arab
+  Emirates. Association for Computational Linguistics.
+
+\bibitem[{Schwartz et~al.(2022)Schwartz, Schwartz, Vassilev, Greene, Perine,
+  Burt, and Hall}]{schwartz2022towards}
+Reva Schwartz, Reva Schwartz, Apostol Vassilev, Kristen Greene, Lori Perine,
+  Andrew Burt, and Patrick Hall. 2022.
+\newblock \emph{Towards a standard for identifying and managing bias in
+  artificial intelligence}, volume~3.
+\newblock US Department of Commerce, National Institute of Standards and
+  Technology.
+
+\bibitem[{Shayegani et~al.(2023)Shayegani, Mamun, Fu, Zaree, Dong, and
+  Abu-Ghazaleh}]{shayegani2023survey}
+Erfan Shayegani, Md~Abdullah~Al Mamun, Yu~Fu, Pedram Zaree, Yue Dong, and Nael
+  Abu-Ghazaleh. 2023.
+\newblock \href {https://arxiv.org/abs/2310.10844} {Survey of vulnerabilities
+  in large language models revealed by adversarial attacks}.
+\newblock \emph{Preprint}, arXiv:2310.10844.
+
+\bibitem[{Sheng et~al.(2019)Sheng, Chang, Natarajan, and
+  Peng}]{sheng-etal-2019-woman}
+Emily Sheng, Kai-Wei Chang, Premkumar Natarajan, and Nanyun Peng. 2019.
+\newblock \href {https://doi.org/10.18653/v1/D19-1339} {The woman worked as a
+  babysitter: On biases in language generation}.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 3407--3412, Hong Kong,
+  China. Association for Computational Linguistics.
+
+\bibitem[{Smith et~al.(2022)Smith, Hall, Kambadur, Presani, and
+  Williams}]{smith-etal-2022-im}
+Eric~Michael Smith, Melissa Hall, Melanie Kambadur, Eleonora Presani, and Adina
+  Williams. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.emnlp-main.625} {{``}{I}{'}m
+  sorry to hear that{''}: Finding new biases in language models with a holistic
+  descriptor dataset}.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, pages 9180--9211, Abu Dhabi, United Arab
+  Emirates. Association for Computational Linguistics.
+
+\bibitem[{Stanovsky et~al.(2019)Stanovsky, Smith, and
+  Zettlemoyer}]{stanovsky-etal-2019-evaluating}
+Gabriel Stanovsky, Noah~A. Smith, and Luke Zettlemoyer. 2019.
+\newblock \href {https://doi.org/10.18653/v1/P19-1164} {Evaluating gender bias
+  in machine translation}.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1679--1684, Florence, Italy.
+  Association for Computational Linguistics.
+
+\bibitem[{Su et~al.(2023)Su, Cheng, Farn, Kumar, Sahay, Chen, and
+  Lee}]{DBLP:journals/corr/abs-2310-11079}
+Hsuan Su, Cheng{-}Chu Cheng, Hua Farn, Shachi~H. Kumar, Saurav Sahay,
+  Shang{-}Tse Chen, and Hung{-}yi Lee. 2023.
+\newblock \href {https://doi.org/10.48550/ARXIV.2310.11079} {Learning from red
+  teaming: Gender bias provocation and mitigation in large language models}.
+\newblock \emph{CoRR}, abs/2310.11079.
+
+\bibitem[{Sun et~al.(2019)Sun, Gaut, Tang, Huang, ElSherief, Zhao, Mirza,
+  Belding, Chang, and Wang}]{sun-etal-2019-mitigating}
+Tony Sun, Andrew Gaut, Shirlyn Tang, Yuxin Huang, Mai ElSherief, Jieyu Zhao,
+  Diba Mirza, Elizabeth Belding, Kai-Wei Chang, and William~Yang Wang. 2019.
+\newblock \href {https://doi.org/10.18653/v1/P19-1159} {Mitigating gender bias
+  in natural language processing: Literature review}.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1630--1640, Florence, Italy.
+  Association for Computational Linguistics.
+
+\bibitem[{Vidgen et~al.(2024)Vidgen, Agrawal, Ahmed, Akinwande, Al{-}Nuaimi,
+  Alfaraj, Alhajjar, Aroyo, Bavalatti, Blili{-}Hamelin, Bollacker, Bomassani,
+  Boston, Campos, Chakra, Chen, Coleman, Coudert, Derczynski, Dutta, Eisenberg,
+  Ezick, Frase, Fuller, Gandikota, Gangavarapu, Gangavarapu, Gealy, Ghosh,
+  Goel, Gohar, Goswami, Hale, Hutiri, Imperial, Jandial, Judd, Juefei{-}Xu,
+  Khomh, Kailkhura, Kirk, Klyman, Knotz, Kuchnik, Kumar, Lengerich, Li, Liao,
+  Long, Lu, Mai, Mammen, Manyeki, McGregor, Mehta, Mohammed, Moss, Nachman,
+  Naganna, Nikanjam, Nushi, Oala, Orr, Parrish, Patlak, Pietri,
+  Poursabzi{-}Sangdeh, Presani, Puletti, R{\"{o}}ttger, Sahay, Santos,
+  Scherrer, Sebag, Schramowski, Shahbazi, Sharma, Shen, Sistla, Tang,
+  Testuggine, Thangarasa, Watkins, Weiss, Welty, Wilbers, Williams, Wu, Yadav,
+  Yang, Zeng, Zhang, Zhdanov, Zhu, Liang, Mattson, and
+  Vanschoren}]{DBLP:journals/corr/abs-2404-12241}
+Bertie Vidgen, Adarsh Agrawal, Ahmed~M. Ahmed, Victor Akinwande, Namir
+  Al{-}Nuaimi, Najla Alfaraj, Elie Alhajjar, Lora Aroyo, Trupti Bavalatti,
+  Borhane Blili{-}Hamelin, Kurt~D. Bollacker, Rishi Bomassani, Marisa~Ferrara
+  Boston, Sim{\'{e}}on Campos, Kal Chakra, Canyu Chen, Cody Coleman,
+  Zacharie~Delpierre Coudert, Leon Derczynski, Debojyoti Dutta, Ian Eisenberg,
+  James Ezick, Heather Frase, Brian Fuller, Ram Gandikota, Agasthya
+  Gangavarapu, Ananya Gangavarapu, James Gealy, Rajat Ghosh, James Goel, Usman
+  Gohar, Subhra~S. Goswami, Scott~A. Hale, Wiebke Hutiri, Joseph~Marvin
+  Imperial, Surgan Jandial, Nick Judd, Felix Juefei{-}Xu, Foutse Khomh, Bhavya
+  Kailkhura, Hannah~Rose Kirk, Kevin Klyman, Chris Knotz, Michael Kuchnik,
+  Shachi~H. Kumar, Chris Lengerich, Bo~Li, Zeyi Liao, Eileen~Peters Long,
+  Victor Lu, Yifan Mai, Priyanka~Mary Mammen, Kelvin Manyeki, Sean McGregor,
+  Virendra Mehta, Shafee Mohammed, Emanuel Moss, Lama Nachman,
+  Dinesh~Jinenhally Naganna, Amin Nikanjam, Besmira Nushi, Luis Oala, Iftach
+  Orr, Alicia Parrish, Cigdem Patlak, William Pietri, Forough
+  Poursabzi{-}Sangdeh, Eleonora Presani, Fabrizio Puletti, Paul R{\"{o}}ttger,
+  Saurav Sahay, Tim Santos, Nino Scherrer, Alice~Schoenauer Sebag, Patrick
+  Schramowski, Abolfazl Shahbazi, Vin Sharma, Xudong Shen, Vamsi Sistla,
+  Leonard Tang, Davide Testuggine, Vithursan Thangarasa, Elizabeth~Anne
+  Watkins, Rebecca Weiss, Chris Welty, Tyler Wilbers, Adina Williams,
+  Carole{-}Jean Wu, Poonam Yadav, Xianjun Yang, Yi~Zeng, Wenhui Zhang, Fedor
+  Zhdanov, Jiacheng Zhu, Percy Liang, Peter Mattson, and Joaquin Vanschoren.
+  2024.
+\newblock \href {https://doi.org/10.48550/ARXIV.2404.12241} {Introducing v0.5
+  of the {AI} safety benchmark from mlcommons}.
+\newblock \emph{CoRR}, abs/2404.12241.
+
+\bibitem[{Wan et~al.(2023)Wan, Pu, Sun, Garimella, Chang, and
+  Peng}]{wan-etal-2023-kelly}
+Yixin Wan, George Pu, Jiao Sun, Aparna Garimella, Kai-Wei Chang, and Nanyun
+  Peng. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-emnlp.243}
+  {{``}kelly is a warm person, joseph is a role model{''}: Gender biases in
+  {LLM}-generated reference letters}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, pages 3730--3748, Singapore. Association for Computational
+  Linguistics.
+
+\bibitem[{Wang et~al.(2024)Wang, Chen, Pei, Xie, Kang, Zhang, Xu, Xiong, Dutta,
+  Schaeffer, Truong, Arora, Mazeika, Hendrycks, Lin, Cheng, Koyejo, Song, and
+  Li}]{wang2024decodingtrust}
+Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang,
+  Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, Sang~T. Truong, Simran
+  Arora, Mantas Mazeika, Dan Hendrycks, Zinan Lin, Yu~Cheng, Sanmi Koyejo, Dawn
+  Song, and Bo~Li. 2024.
+\newblock \href {https://arxiv.org/abs/2306.11698} {Decodingtrust: A
+  comprehensive assessment of trustworthiness in gpt models}.
+\newblock \emph{Preprint}, arXiv:2306.11698.
+
+\bibitem[{Zhao et~al.(2018{\natexlab{a}})Zhao, Wang, Yatskar, Ordonez, and
+  Chang}]{zhao2018gender}
+Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang.
+  2018{\natexlab{a}}.
+\newblock \href {https://arxiv.org/abs/1804.06876} {Gender bias in coreference
+  resolution: Evaluation and debiasing methods}.
+\newblock \emph{Preprint}, arXiv:1804.06876.
+
+\bibitem[{Zhao et~al.(2018{\natexlab{b}})Zhao, Zhou, Li, Wang, and
+  Chang}]{zhao-etal-2018-learning}
+Jieyu Zhao, Yichao Zhou, Zeyu Li, Wei Wang, and Kai-Wei Chang.
+  2018{\natexlab{b}}.
+\newblock \href {https://doi.org/10.18653/v1/D18-1521} {Learning gender-neutral
+  word embeddings}.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 4847--4853, Brussels, Belgium.
+  Association for Computational Linguistics.
+
+\bibitem[{Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li,
+  Li, Xing, Zhang, Gonzalez, and Stoica}]{zheng2023judging}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao
+  Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E.
+  Gonzalez, and Ion Stoica. 2023.
+\newblock \href {https://arxiv.org/abs/2306.05685} {Judging llm-as-a-judge with
+  mt-bench and chatbot arena}.
+\newblock \emph{Preprint}, arXiv:2306.05685.
+
+\bibitem[{Zhu et~al.(2023)Zhu, Wang, and Wang}]{zhu2023judgelm}
+Lianghui Zhu, Xinggang Wang, and Xinlong Wang. 2023.
+\newblock Judgelm: Fine-tuned large language models are scalable judges.
+\newblock \emph{arXiv preprint arXiv:2310.17631}.
+
+\bibitem[{Zmigrod et~al.(2019)Zmigrod, Mielke, Wallach, and
+  Cotterell}]{zmigrod-etal-2019-counterfactual}
+Ran Zmigrod, Sabrina~J. Mielke, Hanna Wallach, and Ryan Cotterell. 2019.
+\newblock \href {https://doi.org/10.18653/v1/P19-1161} {Counterfactual data
+  augmentation for mitigating gender stereotypes in languages with rich
+  morphology}.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1651--1661, Florence, Italy.
+  Association for Computational Linguistics.
+
+\end{thebibliography}
